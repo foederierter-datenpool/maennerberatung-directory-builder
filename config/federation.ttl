@@ -1,0 +1,313 @@
+@prefix :       <https://civic-data.de/pipeline#> .
+@prefix cdf:    <https://civic-data.de/federated-directory#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix ft:     <http://publications.europa.eu/resource/authority/file-type/> .
+
+# ---- Federation ---------------------------------------------------------
+
+# Federated directory of German men's-counselling and violence-protection services.
+# Sibling to sosuse-directory-builder; separate because these are nationwide lists
+# with no PLZ gate. Three tiers: Träger (operating organisation), Beratungsstelle
+# (counselling centre), Angebot (service).
+:federation a :Federation ;
+    rdfs:label       "Federated directory of men's counselling services in Germany" ;
+    :hasSource       :maennerberatungsnetzSource, :maennergewaltschutzSource, :echteMaennerRedenSource ;
+    :hasTargetSchema :traegerSchema, :beratungsstelleSchema, :angebotSchema ;
+    :hasMatchRule    :traegerMatch, :beratungsstelleMatch, :angebotMatch ;
+    :hasResolveRule  :resolve ;
+    :repository      "https://github.com/foederierter-datenpool/maennerberatung-directory-builder" .
+
+# ---- Vocabulary ---------------------------------------------------------
+
+cdf:CounselingCentre a rdfs:Class ;
+    rdfs:subClassOf schema:Organization ;
+    rdfs:label "Beratungsstelle"@de, "Counselling centre"@en .
+
+# ---- Target schemas -----------------------------------------------------
+
+:traegerSchema a :TargetSchema ;
+    :targetClass schema:Organization ;
+    rdfs:label "Träger"@de ;
+    :hasTargetField :t-identifier, :t-name, :t-alternateName, :t-description,
+                    :t-streetAddress, :t-postalCode, :t-locality, :t-country,
+                    :t-telephone, :t-email, :t-homepage, :t-detailUrl,
+                    :t-parentOrganization,
+                    :t-harvestedAt, :t-sourceCreated, :t-sourceModified, :t-sourceReviewed .
+
+:beratungsstelleSchema a :TargetSchema ;
+    :targetClass cdf:CounselingCentre ;
+    rdfs:label "Beratungsstelle"@de ;
+    :hasTargetField :t-identifier, :t-name, :t-alternateName, :t-description,
+                    :t-streetAddress, :t-postalCode, :t-locality, :t-country, :t-areaServed,
+                    :t-telephone, :t-email, :t-homepage, :t-detailUrl,
+                    :t-category, :t-availableService, :t-audience, :t-accessibilitySummary,
+                    :t-openingHours, :t-parentOrganization, :t-parentOrgClassification,
+                    :t-harvestedAt, :t-sourceCreated, :t-sourceModified, :t-sourceReviewed .
+
+:angebotSchema a :TargetSchema ;
+    :targetClass schema:Service ;
+    rdfs:label "Angebot"@de ;
+    :hasTargetField :t-identifier, :t-name, :t-category, :t-codeValue, :t-audience,
+                    :t-areaServed, :t-detailUrl, :t-provider, :t-description, :t-email .
+
+# :multiValued — one value per source is expected; the Merge view won't flag these as conflicts.
+:t-identifier           a :TargetField ; :targetPredicate schema:identifier ; :multiValued true .
+:t-name                 a :TargetField ; :targetPredicate schema:name .
+:t-alternateName        a :TargetField ; :targetPredicate schema:alternateName .
+:t-description          a :TargetField ; :targetPredicate schema:description .
+
+:t-streetAddress        a :TargetField ; :targetPredicate schema:streetAddress .
+:t-postalCode           a :TargetField ; :targetPredicate schema:postalCode .
+:t-locality             a :TargetField ; :targetPredicate schema:addressLocality .
+:t-country              a :TargetField ; :targetPredicate schema:addressCountry .
+:t-areaServed           a :TargetField ; :targetPredicate schema:areaServed .
+
+:t-telephone            a :TargetField ; :targetPredicate schema:telephone ; :multiValued true .
+:t-email                a :TargetField ; :targetPredicate schema:email .
+:t-homepage             a :TargetField ; :targetPredicate foaf:homepage .
+:t-detailUrl            a :TargetField ; :targetPredicate schema:mainEntityOfPage .
+
+:t-category             a :TargetField ; :targetPredicate schema:category ; :multiValued true .
+:t-availableService     a :TargetField ; :targetPredicate schema:availableService ; :multiValued true .
+:t-audience             a :TargetField ; :targetPredicate schema:audience .
+:t-accessibilitySummary a :TargetField ; :targetPredicate schema:accessibilitySummary .
+:t-openingHours         a :TargetField ; :targetPredicate schema:openingHours .
+:t-parentOrganization   a :TargetField ; :targetPredicate schema:parentOrganization .
+:t-provider             a :TargetField ; :targetPredicate schema:provider .
+:t-codeValue            a :TargetField ; :targetPredicate schema:codeValue .
+:t-parentOrgClassification a :TargetField ; :targetPredicate cdf:parentOrgClassification .
+
+# Temporal fields, unmapped.
+:t-harvestedAt          a :TargetField ; :targetPredicate prov:generatedAtTime .
+:t-sourceCreated        a :TargetField ; :targetPredicate dct:created .
+:t-sourceModified       a :TargetField ; :targetPredicate dct:modified .
+:t-sourceReviewed       a :TargetField ; :targetPredicate schema:lastReviewed .
+
+# ---- Sources ------------------------------------------------------------
+
+# maennerberatungsnetz.de — men's counselling network. Static .xlsx. The
+# default fetch copies static/; clean.sparql skolemises on the post id and lifts the
+# traeger column into its own Träger entity.
+:maennerberatungsnetzSource a :Source ;
+    rdfs:label    "Männerberatungsnetz" ;
+    skos:notation "mbn" ;
+    # Stable post ids per centre → no fuzzy self-merge; in-source dups get a curated owl:sameAs.
+    :dedupWithinSource false ;
+    :retrieval    "Files" ;
+    :format       ft:XLSX ;
+    :hasField :mbn-id, :mbn-name, :mbn-adresse, :mbn-telefon, :mbn-email,
+              :mbn-website, :mbn-beratungsarten, :mbn-bundeslaender, :mbn-land,
+              :mbn-permalink, :mbn-beschreibung .
+
+# Each column is xyz:<fieldPath>; :iriSource marks the id column the IRI is minted from.
+# The traeger column becomes its own Träger entity in clean, not a target-mapped field.
+:mbn-id             a :SourceField ; :fieldPath "id"             ; :iriSource true .
+:mbn-name           a :SourceField ; :fieldPath "name"           .
+:mbn-adresse        a :SourceField ; :fieldPath "adresse"        .
+:mbn-telefon        a :SourceField ; :fieldPath "telefon"        .
+:mbn-email          a :SourceField ; :fieldPath "email"          .
+:mbn-website        a :SourceField ; :fieldPath "website"        .
+:mbn-beratungsarten a :SourceField ; :fieldPath "beratungsarten" .
+:mbn-bundeslaender  a :SourceField ; :fieldPath "bundeslaender"  .
+:mbn-land           a :SourceField ; :fieldPath "land"           .
+:mbn-permalink      a :SourceField ; :fieldPath "permalink"      .
+:mbn-beschreibung   a :SourceField ; :fieldPath "beschreibung"   .
+
+# -------------------------------------------------------------------------
+
+# maennergewaltschutz.de — men's protection facilities, one HTML page of schema.org
+# microdata. clean.sparql skolemises on the post id, routes each facility by its
+# Angebotstyp (Schutzwohnung → Angebot, else Beratungsstelle) and lifts the
+# parentOrganization into its own Träger entity.
+:maennergewaltschutzSource a :Source ;
+    rdfs:label    "Männergewaltschutz" ;
+    skos:notation "mgs" ;
+    # Stable post ids per facility → no fuzzy self-merge.
+    :dedupWithinSource false ;
+    :fetchUrl     "https://www.maennergewaltschutz.de/beratungsangebote/maennerschutzeinrichtungen/" ;
+    :retrieval    "API" ;
+    :format       ft:HTML ;
+    :hasLiftParam [ :name "selector" ; :value "html" ] ;
+    :hasField :mgs-id, :mgs-name, :mgs-angebotstyp, :mgs-strasse,
+              :mgs-plz, :mgs-ort, :mgs-telefon, :mgs-email, :mgs-website,
+              :mgs-beschreibung .
+
+:mgs-id           a :SourceField ; :fieldPath "id"                 .
+:mgs-name         a :SourceField ; :fieldPath "name"               .
+:mgs-angebotstyp  a :SourceField ; :fieldPath "angebotstyp"        .
+:mgs-strasse      a :SourceField ; :fieldPath "streetAddress"      .
+:mgs-plz          a :SourceField ; :fieldPath "postalCode"         .
+:mgs-ort          a :SourceField ; :fieldPath "addressLocality"    .
+:mgs-telefon      a :SourceField ; :fieldPath "telephone"          .
+:mgs-email        a :SourceField ; :fieldPath "email"              .
+:mgs-website      a :SourceField ; :fieldPath "url"                .
+:mgs-beschreibung a :SourceField ; :fieldPath "description"        .
+
+# -------------------------------------------------------------------------
+
+# echte-maenner-reden.de — the SKM Bundesverband's counselor directory, a Blazor app
+# with no static data; fetch.js drives a headless browser (Playwright/Firefox) and
+# emits one JSON record per counselor. clean.sparql splits each into an Angebot (the
+# counselor) and a Träger (their organisation).
+:echteMaennerRedenSource a :Source ;
+    rdfs:label    "Echte Männer reden" ;
+    skos:notation "emr" ;
+    # Stable per-counselor key → no fuzzy self-merge.
+    :dedupWithinSource false ;
+    :fetchUrl     "https://echte-maenner-reden.de/OnSite" ;
+    :retrieval    "API" ;
+    :format       ft:JSON ;
+    :hasField :emr-id, :emr-person, :emr-org, :emr-street, :emr-plz, :emr-locality,
+              :emr-phone, :emr-email, :emr-website, :emr-category, :emr-description .
+
+# fetch.js shapes the JSON; qualifications become one :emr-category each.
+:emr-id          a :SourceField ; :fieldPath "id"          .
+:emr-person      a :SourceField ; :fieldPath "person"      .
+:emr-org         a :SourceField ; :fieldPath "org"         .
+:emr-street      a :SourceField ; :fieldPath "street"      .
+:emr-plz         a :SourceField ; :fieldPath "postalCode"  .
+:emr-locality    a :SourceField ; :fieldPath "locality"    .
+:emr-phone       a :SourceField ; :fieldPath "phone"       .
+:emr-email       a :SourceField ; :fieldPath "email"       .
+:emr-website     a :SourceField ; :fieldPath "website"     .
+:emr-category    a :SourceField ; :fieldPath "category"    .
+:emr-description a :SourceField ; :fieldPath "description" .
+
+# ---- Mappings -----------------------------------------------------------
+
+# Counselling centres; the combined address string is split via the address transform.
+:maennerberatungsnetz-beratungsstelle-mapping a :Mapping ;
+    :fromSource :maennerberatungsnetzSource ;
+    :toTarget   :beratungsstelleSchema ;
+    :hasFieldMapping
+        [ :from :mbn-id             ; :to :t-identifier                                ] ,
+        [ :from :mbn-name           ; :to :t-name                                      ] ,
+        [ :from :mbn-telefon        ; :to :t-telephone                                 ] ,
+        [ :from :mbn-email          ; :to :t-email                                     ] ,
+        [ :from :mbn-website        ; :to :t-homepage                                  ] ,
+        [ :from :mbn-beratungsarten ; :to :t-availableService ; :via "services"        ] ,
+        [ :from :mbn-bundeslaender  ; :to :t-areaServed                                ] ,
+        [ :from :mbn-land           ; :to :t-country                                   ] ,
+        [ :from :mbn-permalink      ; :to :t-detailUrl                                 ] ,
+        [ :from :mbn-beschreibung   ; :to :t-description                               ] ,
+        [ :from :mbn-adresse        ; :to :t-streetAddress, :t-postalCode, :t-locality ; :via "address" ] ;
+    :hasRelationship
+        [ :sourcePredicate :hasParent ; :toTargetField :t-parentOrganization ; :toTargetSchema :traegerSchema ] .
+
+# Träger lifted from the traeger column.
+:maennerberatungsnetz-traeger-mapping a :Mapping ;
+    :fromSource :maennerberatungsnetzSource ;
+    :toTarget   :traegerSchema ;
+    :hasFieldMapping
+        [ :from :mbn-name ; :to :t-name ] .
+
+# maennergewaltschutz splits across all three tiers by Angebotstyp — the split is in
+# clean.sparql, which tags each subject with cdp:targetSchema for the map step to route.
+
+# Beratungsstelle facilities → counselling centres; Träger linked via cdp:hasParent.
+:maennergewaltschutz-beratungsstelle-mapping a :Mapping ;
+    :fromSource :maennergewaltschutzSource ;
+    :toTarget   :beratungsstelleSchema ;
+    :hasFieldMapping
+        [ :from :mgs-id           ; :to :t-identifier    ] ,
+        [ :from :mgs-name         ; :to :t-name          ] ,
+        [ :from :mgs-angebotstyp  ; :to :t-category      ] ,
+        [ :from :mgs-strasse      ; :to :t-streetAddress ] ,
+        [ :from :mgs-plz          ; :to :t-postalCode    ] ,
+        [ :from :mgs-ort          ; :to :t-locality      ] ,
+        [ :from :mgs-telefon      ; :to :t-telephone     ] ,
+        [ :from :mgs-email        ; :to :t-email         ] ,
+        [ :from :mgs-website      ; :to :t-homepage      ] ,
+        [ :from :mgs-beschreibung ; :to :t-description   ] ;
+    :hasRelationship
+        [ :sourcePredicate :hasParent ; :toTargetField :t-parentOrganization ; :toTargetSchema :traegerSchema ] .
+
+# Schutzwohnung facilities → services; offering type is the category, Träger the provider.
+:maennergewaltschutz-angebot-mapping a :Mapping ;
+    :fromSource :maennergewaltschutzSource ;
+    :toTarget   :angebotSchema ;
+    :hasFieldMapping
+        [ :from :mgs-id          ; :to :t-identifier ] ,
+        [ :from :mgs-name        ; :to :t-name       ] ,
+        [ :from :mgs-angebotstyp ; :to :t-category   ] ,
+        [ :from :mgs-website     ; :to :t-detailUrl  ] ;
+    :hasRelationship
+        [ :sourcePredicate :providedBy ; :toTargetField :t-provider ; :toTargetSchema :traegerSchema ] .
+
+# Träger lifted from each facility's parentOrganization.
+:maennergewaltschutz-traeger-mapping a :Mapping ;
+    :fromSource :maennergewaltschutzSource ;
+    :toTarget   :traegerSchema ;
+    :hasFieldMapping
+        [ :from :mgs-name ; :to :t-name ] .
+
+# Each counselor → an Angebot, provided by their Träger.
+:echte-maenner-reden-angebot-mapping a :Mapping ;
+    :fromSource :echteMaennerRedenSource ;
+    :toTarget   :angebotSchema ;
+    :hasFieldMapping
+        [ :from :emr-id          ; :to :t-identifier  ] ,
+        [ :from :emr-person      ; :to :t-name        ] ,
+        [ :from :emr-category    ; :to :t-category    ] ,
+        [ :from :emr-description ; :to :t-description ] ,
+        [ :from :emr-email       ; :to :t-email       ] ;
+    :hasRelationship
+        [ :sourcePredicate :providedBy ; :toTargetField :t-provider ; :toTargetSchema :traegerSchema ] .
+
+# …and the organisation behind the counselor → a Träger.
+:echte-maenner-reden-traeger-mapping a :Mapping ;
+    :fromSource :echteMaennerRedenSource ;
+    :toTarget   :traegerSchema ;
+    :hasFieldMapping
+        [ :from :emr-org      ; :to :t-name          ] ,
+        [ :from :emr-street   ; :to :t-streetAddress ] ,
+        [ :from :emr-plz      ; :to :t-postalCode    ] ,
+        [ :from :emr-locality ; :to :t-locality      ] ,
+        [ :from :emr-phone    ; :to :t-telephone     ] ,
+        [ :from :emr-website  ; :to :t-homepage      ] .
+
+# ---- Match --------------------------------------------------------------
+
+:beratungsstelleMatch a :MatchRule ;
+    :forTarget           :beratungsstelleSchema ;
+    :targetNamespace     "https://civic-data.de/federated-directory#" ;
+    :mintedSubjectPrefix "org-" ;
+    :hasHardCriterion     [ :on schema:postalCode ] ;
+    :minScore             0.55 ;
+    :hasWeightedCriterion
+        [ :on schema:name          ; :weight 0.5 ] ,
+        [ :on schema:streetAddress ; :weight 0.2 ; :minSimilarity 0.7 ] .
+
+# Träger have no shared hard field; the test is a high name-similarity match on
+# :matchString, clean's normalised matching surface (so cross-source spelling variants
+# land equal). :matchAlgorithm "ratio" (edit distance) stops a bare "skm" from
+# subset-matching every city chapter the way the default token-set would. Cases the
+# names can't reach are curated in match-knowledge.ttl.
+:traegerMatch a :MatchRule ;
+    :forTarget           :traegerSchema ;
+    :targetNamespace     "https://civic-data.de/federated-directory#" ;
+    :mintedSubjectPrefix "traeger-" ;
+    :matchAlgorithm      "ratio" ;
+    :minScore            0.95 ;
+    :hasWeightedCriterion [ :on :matchString ; :weight 1.0 ] .
+
+:angebotMatch a :MatchRule ;
+    :forTarget           :angebotSchema ;
+    :targetNamespace     "https://civic-data.de/federated-directory#" ;
+    :mintedSubjectPrefix "service-" ;
+    :hasHardCriterion     [ :on schema:provider ] ;
+    :minScore             0.85 ;
+    :hasWeightedCriterion [ :on schema:name ; :weight 1.0 ] .
+
+# ---- Resolve ------------------------------------------------------------
+
+:resolve a :ResolveRule ;
+    :defaultStrategy :alphabeticFirst ;
+    :hasOverride     [ :on schema:availableService ; :strategy :keepAll ] ,
+                     [ :on schema:category         ; :strategy :keepAll ] ,
+                     [ :on schema:telephone        ; :strategy :keepAll ] .

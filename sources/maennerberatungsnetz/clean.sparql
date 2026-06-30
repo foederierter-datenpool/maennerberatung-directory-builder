@@ -1,0 +1,39 @@
+# Flat spreadsheet, one Beratungsstelle per row. Skolemise each row from its id, copy
+# its scalar fields, tag it cdp:beratungsstelleSchema, and lift the traeger column into
+# its own Träger entity linked via cdp:hasParent (→ schema:parentOrganization).
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+
+CONSTRUCT {
+    ?record cdp:fromSource    cdp:maennerberatungsnetzSource ;
+            cdp:targetSchema  cdp:beratungsstelleSchema ;
+            ?p                ?oOut ;
+            cdp:hasParent     ?traegerIri .
+
+    ?traegerIri cdp:fromSource   cdp:maennerberatungsnetzSource ;
+                cdp:targetSchema cdp:traegerSchema ;
+                cdp:matchString  ?traegerNorm ;
+                xyz:name         ?traeger .
+} WHERE {
+    ?node xyz:id ?id ;
+          ?p ?o .
+    FILTER(isLiteral(?o))
+    FILTER(?p != xyz:traeger)          # the traeger column becomes its own entity, below
+    BIND(IRI(CONCAT(STR(cdp:), "maennerberatungsnetz-", ENCODE_FOR_URI(STR(?id)))) AS ?record)
+    # Normalise phone numbers to digits (keep a leading +) so separator variants of one
+    # number ("02151 841226", "02151-841226") collapse; other fields pass through as-is.
+    BIND(IF(?p = xyz:telefon, REPLACE(STR(?o), "[^0-9+]", ""), ?o) AS ?oOut)
+
+    # Träger from the traeger column. ?traegerNorm (cdp:matchString) is the normalised
+    # name: it mints the IRI — collapsing within-source spelling variants — and is the
+    # match step's cross-source comparison surface.
+    OPTIONAL {
+        ?node xyz:traeger ?traeger .
+        FILTER(isLiteral(?traeger) && ?traeger != "")
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(STR(?traeger)), "ä","ae"), "ö","oe"), "ü","ue"), "ß","ss") AS ?tDia)
+        BIND(REPLACE(REPLACE(?tDia, "caritasverband","caritas"), "e\\.\\s*v\\.?", " ") AS ?tAbbr)
+        BIND(REPLACE(REPLACE(?tAbbr, "[^a-z0-9]+"," "), "^ +| +$","") AS ?traegerNorm)
+        BIND(IRI(CONCAT(STR(cdp:), "maennerberatungsnetz-traeger-", ENCODE_FOR_URI(?traegerNorm))) AS ?traegerIri)
+    }
+}

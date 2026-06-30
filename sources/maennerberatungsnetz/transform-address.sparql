@@ -1,0 +1,33 @@
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+PREFIX schema: <http://schema.org/>
+PREFIX cdp:    <https://civic-data.de/pipeline#>
+
+# Männerberatungsnetz ships one combined address string per record, e.g.
+#   "Schultesstraße 21, 97421 Schweinfurt, Germany"
+# Split it into street / postal code / locality (country is its own field, so we
+# ignore the trailing part). Records without a recognisable 5-digit PLZ are left
+# unsplit — better no address than a wrong one (PLZ is the match key). Splitting
+# on ", " and " " keeps the parts whitespace-clean (SPARQL has no TRIM).
+INSERT {
+    GRAPH <urn:mapped> {
+        ?org
+            cdp:fromSource         cdp:maennerberatungsnetzSource ;
+            schema:streetAddress   ?street     ;
+            schema:postalCode      ?postalCode ;
+            schema:addressLocality ?locality   .
+    }
+} WHERE {
+    GRAPH <urn:source:maennerberatungsnetz> {
+        ?org cdp:fromSource cdp:maennerberatungsnetzSource ;
+             xyz:adresse    ?adresse .
+    }
+    FILTER(REGEX(?adresse, "\\d{5}"))                          # has a postal code
+    BIND(STRBEFORE(?adresse, ",") AS ?streetRaw)              # "Schultesstraße 21"
+    # normalise the street suffix to the long form so "Talstr." matches "Talstraße"
+    BIND(REPLACE(REPLACE(REPLACE(REPLACE(?streetRaw,"Str\\.","Straße"),"str\\.","straße"),"Strasse","Straße"),"strasse","straße") AS ?street)
+    BIND(STRAFTER(?adresse, ", ") AS ?rest)                   # "97421 Schweinfurt, Germany"
+    BIND(IF(CONTAINS(?rest, ","), STRBEFORE(?rest, ","), ?rest) AS ?plzCity)   # "97421 Schweinfurt"
+    BIND(STRBEFORE(?plzCity, " ") AS ?postalCode)             # "97421"
+    BIND(STRAFTER(?plzCity, " ") AS ?locality)                # "Schweinfurt"
+    FILTER(REGEX(?postalCode, "^\\d{5}$"))                    # extracted PLZ is well-formed
+}

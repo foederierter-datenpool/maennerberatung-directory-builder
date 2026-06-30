@@ -1,0 +1,30 @@
+# beratungsarten is a "|"-delimited list of counselling types (up to 8 in the
+# data) — one schema:availableService per type. SPARQL 1.1 has no split-to-rows,
+# so we enumerate segment indices and pull the i-th "|"-segment with a regex whose
+# skip-count is built from the index. Bounded at 10 (headroom over the observed
+# max of 8); any further segments would be dropped, but none exist.
+
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+PREFIX schema: <http://schema.org/>
+PREFIX cdp:    <https://civic-data.de/pipeline#>
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?org cdp:fromSource cdp:maennerberatungsnetzSource ;
+             schema:availableService ?service .
+    }
+} WHERE {
+    GRAPH <urn:source:maennerberatungsnetz> {
+        ?org cdp:fromSource cdp:maennerberatungsnetzSource ;
+             xyz:beratungsarten ?arten .
+        FILTER(isLiteral(?arten) && ?arten != "")
+    }
+    # segment count − 1 = number of "|" separators
+    BIND(STRLEN(?arten) - STRLEN(REPLACE(?arten, "\\|", "")) AS ?pipes)
+    VALUES ?i { 0 1 2 3 4 5 6 7 8 9 }
+    FILTER(?i <= ?pipes)
+    # the (i+1)-th segment: skip i "<seg>|" groups, capture the next run of non-"|"
+    BIND(REPLACE(?arten, CONCAT("^([^|]*\\|){", STR(?i), "}([^|]*).*$"), "$2") AS ?seg)
+    BIND(REPLACE(?seg, "^\\s+|\\s+$", "") AS ?service)   # trim
+    FILTER(?service != "")
+}

@@ -1,0 +1,57 @@
+# One JSON record per counselor (fetch.js emits already-split fields). Each becomes two
+# entities: the counselor → an Angebot (name, one schema:category per qualification,
+# description, email), the organisation behind them → a Träger (name, split address,
+# phone, homepage). Linked via cdp:providedBy (→ schema:provider).
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+CONSTRUCT {
+    ?angebot cdp:fromSource   cdp:echteMaennerRedenSource ;
+             cdp:targetSchema cdp:angebotSchema ;
+             xyz:id           ?id ;
+             xyz:person       ?person ;
+             xyz:description  ?description ;
+             xyz:email        ?email ;
+             xyz:category     ?qual ;
+             cdp:providedBy   ?traeger .
+
+    ?traeger cdp:fromSource   cdp:echteMaennerRedenSource ;
+             cdp:targetSchema cdp:traegerSchema ;
+             cdp:matchString  ?orgNorm ;
+             xyz:org          ?org ;
+             xyz:street       ?street ;
+             xyz:postalCode   ?plz ;
+             xyz:locality     ?locality ;
+             xyz:phone        ?phone ;
+             xyz:website      ?website .
+} WHERE {
+    ?record xyz:id ?id ; xyz:person ?person ; xyz:org ?org .
+    BIND(IRI(CONCAT(STR(cdp:), "emr-", ?id)) AS ?angebot)
+    # ?orgNorm (cdp:matchString) is the normalised name: it mints the Träger IRI —
+    # collapsing within-source spelling variants — and is the match step's cross-source
+    # comparison surface.
+    BIND(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(STR(?org)), "ä","ae"), "ö","oe"), "ü","ue"), "ß","ss") AS ?oDia)
+    BIND(REPLACE(REPLACE(?oDia, "caritasverband","caritas"), "e\\.\\s*v\\.?", " ") AS ?oAbbr)
+    BIND(REPLACE(REPLACE(?oAbbr, "[^a-z0-9]+"," "), "^ +| +$","") AS ?orgNorm)
+    BIND(IRI(CONCAT(STR(cdp:), "emr-traeger-", ENCODE_FOR_URI(?orgNorm))) AS ?traeger)
+
+    OPTIONAL { ?record xyz:description ?description }
+    OPTIONAL { ?record xyz:email       ?email }
+    # normalise the street suffix to the long form ("Talstr." → "Talstraße") so
+    # abbreviation variants of one address match (street is a match criterion)
+    OPTIONAL { ?record xyz:street ?streetRaw .
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(?streetRaw,"Str\\.","Straße"),"str\\.","straße"),"Strasse","Straße"),"strasse","straße") AS ?street) }
+    OPTIONAL { ?record xyz:postalCode  ?plz }
+    OPTIONAL { ?record xyz:locality    ?locality }
+    # phone normalised to digits (keep a leading +) so separator variants collapse
+    OPTIONAL { ?record xyz:phone ?phoneRaw . BIND(REPLACE(STR(?phoneRaw), "[^0-9+]", "") AS ?phone) }
+    OPTIONAL { ?record xyz:website     ?website }
+    # one schema:category per qualification (a JSON array → rdf:_N members)
+    OPTIONAL {
+        ?record xyz:qualifications ?qarr .
+        ?qarr ?qseq ?qual .
+        FILTER(STRSTARTS(STR(?qseq), STR(rdf:_)))
+    }
+}

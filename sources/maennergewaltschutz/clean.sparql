@@ -1,0 +1,89 @@
+# Each facility is schema.org microdata in <div itemtype=LocalBusiness id="mse-…-<postId>">.
+# Skolemise on the post id and copy every leaf itemprop (name, split address, telephone,
+# email, url, description). Two non-trivial steps:
+#  * Tier by Angebotstyp: the wrapper div's class (filtered-angebotstyp-1/-3 = Schutzwohnung
+#    → Angebot, -2 → Beratungsstelle) sets cdp:targetSchema; the headline's first <small>
+#    eyebrow is the schema:category label.
+#  * Lift the parentOrganization itemprop into its own Träger entity, linked via
+#    cdp:providedBy (Angebot) / cdp:hasParent (Beratungsstelle).
+# The address is pre-split; the <h3> name is its bare text node (innerText prepends the eyebrow).
+
+PREFIX xhtml: <http://www.w3.org/1999/xhtml#>
+PREFIX html:  <https://html.spec.whatwg.org/#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX cdp:   <https://civic-data.de/pipeline#>
+
+CONSTRUCT {
+    ?org cdp:fromSource    cdp:maennergewaltschutzSource ;
+         cdp:targetSchema  ?schema ;
+         xyz:id            ?postId ;
+         xyz:angebotstyp   ?angebotstyp ;
+         ?predicate        ?valueOut ;
+         ?linkPred         ?traegerIri .
+
+    ?traegerIri cdp:fromSource   cdp:maennergewaltschutzSource ;
+                cdp:targetSchema cdp:traegerSchema ;
+                cdp:matchString  ?traegerNorm ;
+                xyz:name         ?traeger .
+} WHERE {
+    ?entry xhtml:itemtype "https://schema.org/LocalBusiness" ;
+           xhtml:id ?idAttr .
+    FILTER(REGEX(?idAttr, "-[0-9]+$"))
+    BIND(REPLACE(?idAttr, "^.*-([0-9]+)$", "$1") AS ?postId)
+    BIND(IRI(CONCAT(STR(cdp:), "maennergewaltschutz-", ?postId)) AS ?org)
+
+    # Tier by the wrapper div's class, which carries the site's offering-type code:
+    # filtered-angebotstyp-2 = Beratungsstelle → counselling centre; -1/-3 = the two
+    # Schutzwohnung types → schema:Service. The site's own authoritative signal.
+    ?entry xhtml:class ?cls .
+    BIND(IF(CONTAINS(?cls, "filtered-angebotstyp-2"),
+            cdp:beratungsstelleSchema, cdp:angebotSchema) AS ?schema)
+
+    # The headline's first <small> eyebrow is the human-readable offering type, kept
+    # for schema:category; ?h3 is also the source of the bare name text node below.
+    ?entry (!<urn:_>)+ ?h3 .
+    ?h3 xhtml:itemprop "name" ; rdf:_1 ?typeSmall .
+    ?typeSmall a xhtml:small ; rdf:_1 ?angebotstyp .
+
+    # Träger from the parentOrganization itemprop. ?traegerNorm (cdp:matchString) is the
+    # normalised name: it mints the IRI — collapsing within-source spelling variants — and
+    # is the match step's cross-source comparison surface. Optional; some entries carry none.
+    OPTIONAL {
+        ?entry (!<urn:_>)+ ?tLeaf .
+        ?tLeaf xhtml:itemprop "parentOrganization" ; html:innerText ?traeger .
+        FILTER(STRLEN(?traeger) > 0)
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(STR(?traeger)), "ä","ae"), "ö","oe"), "ü","ue"), "ß","ss") AS ?tDia)
+        BIND(REPLACE(REPLACE(?tDia, "caritasverband","caritas"), "e\\.\\s*v\\.?", " ") AS ?tAbbr)
+        BIND(REPLACE(REPLACE(?tAbbr, "[^a-z0-9]+"," "), "^ +| +$","") AS ?traegerNorm)
+        BIND(IRI(CONCAT(STR(cdp:), "maennergewaltschutz-traeger-", ENCODE_FOR_URI(?traegerNorm))) AS ?traegerIri)
+    }
+    # providedBy for an Angebot, hasParent for a Beratungsstelle.
+    BIND(IF(?schema = cdp:angebotSchema, cdp:providedBy, cdp:hasParent) AS ?linkPred)
+
+    {
+        # every leaf itemprop EXCEPT the <h3> name (eyebrow, handled below), the
+        # address wrapper (a nested PostalAddress container, not a leaf value), and
+        # parentOrganization (now its own Träger entity, above)
+        ?entry (!<urn:_>)+ ?leaf .
+        ?leaf xhtml:itemprop ?prop ; html:innerText ?value .
+        FILTER(?prop != "name")
+        FILTER(?prop != "address")
+        FILTER(?prop != "parentOrganization")
+        FILTER(STRLEN(?value) > 0)
+        BIND(IRI(CONCAT(STR(xyz:), ?prop)) AS ?predicate)
+        # Normalise phone numbers to digits (keep a leading +) and street suffixes to the
+        # long form ("Talstr." → "Talstraße"); other itemprops pass through unchanged.
+        BIND(IF(?prop = "telephone", REPLACE(?value, "[^0-9+]", ""),
+             IF(?prop = "streetAddress", REPLACE(REPLACE(REPLACE(REPLACE(?value,"Str\\.","Straße"),"str\\.","straße"),"Strasse","Straße"),"strasse","straße"),
+             ?value)) AS ?valueOut)
+    } UNION {
+        # name: the <h3>'s bare text-node child — the real name without the
+        # <small> eyebrow that innerText would prepend
+        ?h3 ?seq ?value .
+        FILTER(isLiteral(?value))                        # the text node, not the <small>/<br> elements
+        FILTER(STRSTARTS(STR(?seq), STR(rdf:_)))         # a sequence child, not innerText/innerHTML/attrs
+        BIND(xyz:name AS ?predicate)
+        BIND(?value AS ?valueOut)
+    }
+}

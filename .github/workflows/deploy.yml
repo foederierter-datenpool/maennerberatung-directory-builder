@@ -1,0 +1,66 @@
+name: Deploy webapp
+
+on:
+    push:
+        branches: [main]
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              # Full history: the ingest engine runs `git log` to date static
+              # sources into the ingest log. A shallow clone has no parent to
+              # diff against, so git would misattribute the add to the
+              # HEAD/deploy commit instead of the real one.
+              with:
+                  fetch-depth: 0
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - uses: actions/setup-java@v4
+              with:
+                  distribution: temurin
+                  java-version: 21
+
+            - name: Cache sparql-anything jar
+              uses: actions/cache@v4
+              with:
+                  path: tools
+                  # The jar version is pinned in the core engine, so a core
+                  # dependency bump is what can change it.
+                  key: sparql-anything-${{ hashFiles('package.json') }}
+
+            - run: npm install
+
+            # echte-maenner-reden's fetch.js drives a headless Firefox (Playwright).
+            # Cache the browser binary so it only downloads once; the key tracks the
+            # pinned playwright version in package.json.
+            - name: Cache Playwright browsers
+              uses: actions/cache@v4
+              with:
+                  path: ~/.cache/ms-playwright
+                  key: playwright-${{ hashFiles('package.json') }}
+
+            # --with-deps adds the system libraries the headless browser needs on the
+            # runner (apt; not cached, but quick). On a cache hit the browser download
+            # is skipped.
+            - run: npx playwright install --with-deps firefox
+
+            - run: npm run pipeline
+
+            # webapp:build stages config/, data/ and webapp/{content,exporters}/
+            # into webapp/dist/ alongside the bundle — the complete site.
+            - run: npm run webapp:build
+
+            - uses: peaceiris/actions-gh-pages@v4
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./webapp/dist
+                  force_orphan: true
