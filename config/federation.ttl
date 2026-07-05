@@ -104,9 +104,9 @@ cdf:CounselingCentre a rdfs:Class ;
               :mbn-website, :mbn-beratungsarten, :mbn-bundeslaender, :mbn-land,
               :mbn-permalink, :mbn-beschreibung .
 
-# Each column is xyz:<fieldPath>; :iriSource marks the id column the IRI is minted from.
-# The traeger column becomes its own Träger entity in clean, not a target-mapped field.
-:mbn-id             a :SourceField ; :fieldPath "id"             ; :iriSource true .
+# Each column is xyz:<fieldPath>. clean.sparql mints each record's IRI from the id
+# column and lifts the traeger column into its own Träger entity, not a target-mapped field.
+:mbn-id             a :SourceField ; :fieldPath "id"             .
 :mbn-name           a :SourceField ; :fieldPath "name"           .
 :mbn-adresse        a :SourceField ; :fieldPath "adresse"        .
 :mbn-telefon        a :SourceField ; :fieldPath "telefon"        .
