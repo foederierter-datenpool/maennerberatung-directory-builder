@@ -18,8 +18,6 @@
     rdfs:label       "Federated directory of men's counselling services in Germany" ;
     :hasSource       :maennerberatungsnetzSource, :maennergewaltschutzSource, :echteMaennerRedenSource ;
     :hasTargetSchema :traegerSchema, :beratungsstelleSchema, :angebotSchema ;
-    :hasMatchRule    :traegerMatch, :beratungsstelleMatch, :angebotMatch ;
-    :hasResolveRule  :resolve ;
     :repository      "https://github.com/foederierter-datenpool/maennerberatung-directory-builder" .
 
 # ---- Vocabulary ---------------------------------------------------------
