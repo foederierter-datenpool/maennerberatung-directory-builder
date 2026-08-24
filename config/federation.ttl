@@ -34,7 +34,6 @@ cdf:CounselingCentre a rdfs:Class ;
     :hasTargetField :t-identifier, :t-name, :t-alternateName, :t-description,
                     :t-streetAddress, :t-postalCode, :t-locality, :t-country,
                     :t-telephone, :t-email, :t-homepage, :t-detailUrl,
-                    :t-parentOrganization,
                     :t-harvestedAt, :t-sourceCreated, :t-sourceModified, :t-sourceReviewed .
 
 :beratungsstelleSchema a :TargetSchema ;
