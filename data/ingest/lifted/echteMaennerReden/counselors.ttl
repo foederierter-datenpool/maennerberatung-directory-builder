@@ -1,0 +1,621 @@
+PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+
+[ rdf:type  fx:root;
+  rdf:_1    [ xyz:city            "MONHEIM AM RHEIN";
+              xyz:description     "Ich bin Johannes Anderski. Ich arbeite als Berater in der Väter- und Männerberatung beim SKFM Monheim am Rhein e.V. Meine Schwerpunkte liegen in der Begleitung von Männern in Krisen und bei Gewalt (ausübend und erlebend).";
+              xyz:email           "johannes.anderski@skfm-monheim.de";
+              xyz:id              "johannes-anderski-skfm-monheim-am-rhein-e-v";
+              xyz:locality        "Monheim am Rhein";
+              xyz:org             "SKFM Monheim am Rhein e.V.";
+              xyz:person          "Johannes Anderski";
+              xyz:phone           "02173956980";
+              xyz:postalCode      "40789";
+              xyz:qualifications  [ rdf:_1  "Psychologe";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "Ernst-Reuter-Platz 2";
+              xyz:website         "https://www.skfm-monheim.de/maennerberatung/"
+            ];
+  rdf:_10   [ xyz:city            "LINGEN";
+              xyz:description     "Ich heiße Nils Freckmann und bin Sozialarbeiter und Sozialpädagoge beim SKM Lingen in der Abteilung ambulante Familienhilfe. Zu meinen Aufgaben gehört auch das Schlichten von Konflikten (Täter-Opfer-Ausgleich/TOA).";
+              xyz:email           "Nils.freckmann@skm-lingen.de";
+              xyz:id              "nils-freckmann-skm-lingen-e-v";
+              xyz:locality        "Lingen";
+              xyz:org             "SKM Lingen e.V.";
+              xyz:person          "Nils Freckmann";
+              xyz:phone           "0591 9124616";
+              xyz:postalCode      "49808";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Lindenstraße 13";
+              xyz:website         "https://skm-lingen.de/jungen-maennerberatung/"
+            ];
+  rdf:_11   [ xyz:city            "BIELEFELD";
+              xyz:description     "Mein Name ist Andreas Haase. Die therapeutische und politische Männerarbeit liegt mir am Herzen. Ich habe meine ehrenamtliche Tätigkeit als Coach und Deeskalationstrainer für Jungen und Männer zum Beruf gemacht und bin bei der man-o-mann Männerberatung in Bielefeld tätig.";
+              xyz:email           "haase@man-o-mann.de";
+              xyz:id              "andreas-haase-man-o-mann-ma-nnerberatung-im-vsgb-e-v";
+              xyz:locality        "Bielefeld";
+              xyz:org             "Man-o-mann Männerberatung im VSGB e.V.";
+              xyz:person          "Andreas Haase";
+              xyz:phone           "0521 68676";
+              xyz:postalCode      "33607";
+              xyz:qualifications  [ rdf:_1  "Gestalttherapeut";
+                                    rdf:_2  "Paartherapeut"
+                                  ];
+              xyz:street          "Teutoburger Straße 106";
+              xyz:website         "https://www.man-o-mann.de"
+            ];
+  rdf:_12   [ xyz:city            "HERTEN";
+              xyz:description     "Ich bin Jan Hammelmann. Der Schwerpunkt meiner Arbeit liegt in der Jungen- und Männerberatung. Ich komme aus verschiedenen Bereichen der Familien- und Jugendhilfe. Seit 2018 bin ich für den Caritasverband Herten als Krisen- und Gewaltberater für Männer tätig.";
+              xyz:email           "j.hammelmann@caritas-herten.de";
+              xyz:id              "jan-hammelmann-caritasverband-herten";
+              xyz:locality        "Herten";
+              xyz:org             "Caritasverband Herten";
+              xyz:person          "Jan Hammelmann";
+              xyz:phone           "0151 25343444";
+              xyz:postalCode      "45699";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialarbeiter";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Hospitalstraße 11";
+              xyz:website         "https://www.caritas-herten.de/"
+            ];
+  rdf:_13   [ xyz:city            "DÜSSELDORF";
+              xyz:description     "Mein Name ist Manfred Höges. Ich habe Sozialarbeit und Sozialwirtschaft studiert und in der Ausbildungs- und Beschäftigungsförderung, in der Jugendhilfe und in den Eingliederungshilfen für Menschen mit psychischen und Suchterkrankungen gearbeitet. Heute berate ich beim SKM Männer, die mit persönlichen Krisen oder gewalttätigem Verhalten zu kämpfen haben.";
+              xyz:email           "Manfred.hoeges@skmd.de";
+              xyz:id              "manfred-ho-ges-skm-ggmbh-du-sseldorf";
+              xyz:locality        "Düsseldorf";
+              xyz:org             "SKM gGmbH Düsseldorf";
+              xyz:person          "Manfred Höges";
+              xyz:phone           "0178 2320820";
+              xyz:postalCode      "40479";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Sternstraße 71-73";
+              xyz:website         "https://www.skmd.de/maennerberatung-2/"
+            ];
+  rdf:_14   [ xyz:city            "ERKELENZ";
+              xyz:description     "Mein Name ist Moritz Iber. Ich bin Sozialarbeiter und arbeite seit 2022 für den Sozialdienst katholischer Frauen und Männer e.V. Region Heinsberg im Training zur Vermeidung häuslicher Gewalt.";
+              xyz:email           "m.iber@skfm-region-hs.de";
+              xyz:id              "moritz-iber-skfm-e-v-region-heinsberg";
+              xyz:locality        "Erkelenz";
+              xyz:org             "SKFM e.V. Region Heinsberg";
+              xyz:person          "Moritz Iber";
+              xyz:phone           "02431 960014";
+              xyz:postalCode      "41812";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "Theodor-Heuss-Straße 15";
+              xyz:website         "https://www.skfm-region-hs.de/index.php/skfm-bereiche/maennerberatung"
+            ];
+  rdf:_15   [ xyz:city            "BERLIN";
+              xyz:description     "Ich bin Achim Jägers. Ich arbeite als Diplom Sozialarbeiter, Sexualpädagoge und zertifizierter Männerberater mit Jugendlichen und Erwachsenen. Meine Schwerpunkte sind: Beratung von jungen als auch älteren Männern/Vätern, die sich in Krisen befinden; allgemeine Beratung rund um das Thema Sexualität; Begleitung bei Missbrauchserfahrungen; Präventionskonzepte.";
+              xyz:email           "acjaegers@gmx.de";
+              xyz:id              "achim-ja-gers-fundamentes-mobile-ma-nnerberatung-berlin";
+              xyz:locality        "Berlin";
+              xyz:org             "Fundamentes – Mobile Männerberatung Berlin";
+              xyz:person          "Achim Jägers";
+              xyz:phone           "0171 2254940";
+              xyz:postalCode      "10623";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter/Sozialpädagoge";
+                                    rdf:_2  "Sexualpädagoge"
+                                  ];
+              xyz:street          "Bleibtreustraße 8";
+              xyz:website         xyz:null
+            ];
+  rdf:_16   [ xyz:city            "BADEN-BADEN";
+              xyz:description     "Ich heiße Ekkehard Janson und arbeite als Sozialpädagoge in der Männerberatung. Meine Schwerpunkte liegen in der Krisen- und Gewaltberatung sowie in Beziehungsthemen.";
+              xyz:email           "post@j-bb.de";
+              xyz:id              "ekkehard-janson-janson-beratung-begleitung";
+              xyz:locality        "Baden-Baden";
+              xyz:org             "JANSON Beratung & Begleitung";
+              xyz:person          "Ekkehard Janson";
+              xyz:phone           "07221 7790306";
+              xyz:postalCode      "76534";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialpädagoge";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "Maximilianstraße 98";
+              xyz:website         "https://www.j-bb.de"
+            ];
+  rdf:_17   [ xyz:city            "GELDERN";
+              xyz:description     "Mein Name ist Stefan Kisters-Teuwsen. Ich bin Sozialpädagoge und berate Männer. Ich unterstütze Väter und biete Vater-Kind-Aktionen an. Außerdem berate ich Familien, auch bei Erziehungsfragen.";
+              xyz:email           "Stefan.Kisters-Teuwsen@caritas-geldern.de";
+              xyz:id              "stefan-kisters-teuwsen-caritasverband-geldern-kevelaer-e-v";
+              xyz:locality        "Geldern";
+              xyz:org             "Caritasverband Geldern-Kevelaer e.V.";
+              xyz:person          "Stefan Kisters-Teuwsen";
+              xyz:phone           "02831 9102348";
+              xyz:postalCode      "47608";
+              xyz:qualifications  [ rdf:_1  "Sozialpädagoge";
+                                    rdf:_2  "Psychosozialer Prozessbegleiter"
+                                  ];
+              xyz:street          "Südwall 52";
+              xyz:website         "https://www.caritas-geldern.de/beratung/maennerberatung/maennerberatung"
+            ];
+  rdf:_18   [ xyz:city            "STEINFURT";
+              xyz:description     "Mein Name ist Timo Krasemann. Ich bin Heilerziehungspfleger und studierte Soziale Arbeit sowie Netzwerkmanagement in der Sozialen Arbeit. Seit 2021 berate ich bei Tectum Caritas Steinfurt vor allem Männer mit Behinderung.";
+              xyz:email           "timo.krasemann@caritas-steinfurt.de";
+              xyz:id              "timo-krasemann-familienunterstu-tzender-dienst-fud";
+              xyz:locality        "Steinfurt";
+              xyz:org             "Familienunterstützender Dienst (FuD)";
+              xyz:person          "Timo Krasemann";
+              xyz:phone           "0170 6742348";
+              xyz:postalCode      "48565";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Heilerziehungspfleger"
+                                  ];
+              xyz:street          "Münsterstraße 1";
+              xyz:website         "https://www.caritasverband-steinfurt.de/hilfe-beratung/hilfe-und-beratung/maennerberatung"
+            ];
+  rdf:_19   [ xyz:city            "KÖLN";
+              xyz:description     "Mein Name ist Tobias Latz. Ich bin als Sozialpädagoge in der Männerberatung. Meine Schwerpunkte liegen im Thema Gewaltberatung (Betroffene/Opfer von Gewalt) und Krisenberatung von Männern und Vätern.";
+              xyz:email           "Tobias.Latz@skm-koeln.de";
+              xyz:id              "tobias-latz-skm-ko-ln-sozialdienst-katholischer-ma-nner-e-v";
+              xyz:locality        "Köln";
+              xyz:org             "SKM Köln – Sozialdienst Katholischer Männer e.V.";
+              xyz:person          "Tobias Latz";
+              xyz:phone           "0221 2074 153";
+              xyz:postalCode      "50676";
+              xyz:qualifications  [ rdf:_1  "Sozialpädagoge";
+                                    rdf:_2  "Sexualpädagoge"
+                                  ];
+              xyz:street          "Große Telegraphenstraße 31";
+              xyz:website         "https://www.skm-koeln.de/maennerberatung/#toggle-id-2"
+            ];
+  rdf:_2    [ xyz:city            "SIEGBURG";
+              xyz:description     "Ich bin Daniel Beck und ich arbeite als Sozialarbeiter in der Jungen-, Männer- und Väterberatung beim SKM Siegburg. Berufliche Erfahrungen habe ich außerdem in der Gerichtshilfe, der Schuldnerberatung und in der Wohnungslosenhilfe.";
+              xyz:email           "Daniel.beck@skm-rhein-sieg.de";
+              xyz:id              "daniel-beck-skm-siegburg";
+              xyz:locality        "Siegburg";
+              xyz:org             "SKM Siegburg";
+              xyz:person          "Daniel Beck";
+              xyz:phone           "02241 1778 41";
+              xyz:postalCode      "53721";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Bahnhofstraße 27";
+              xyz:website         "https://caritas.erzbistum-koeln.de/rheinsieg-skm/unsere-hilfen/Beratung-fuer-Maenner-und-Jungen/"
+            ];
+  rdf:_20   [ xyz:city            "MÜNSTER";
+              xyz:description     "Mein Name ist Jonas Lemli. Ich bin Sozialarbeiter bei der Caritas Münster in der Krisen- und Gewaltberatung.";
+              xyz:email           "Jonas.lemli@caritas-ms.de";
+              xyz:id              "jonas-lemli-caritasverband-stadt-mu-nster-e-v";
+              xyz:locality        "Münster";
+              xyz:org             "Caritasverband Stadt Münster e.V.";
+              xyz:person          "Jonas Lemli";
+              xyz:phone           "0251 53009343";
+              xyz:postalCode      "48151";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Krisen- und Gewaltberater"
+                                  ];
+              xyz:street          "Josefstraße 2";
+              xyz:website         "https://www.caritas-ms.de/"
+            ];
+  rdf:_21   [ xyz:city            "HERFORD";
+              xyz:description     "Mein Name ist Detlef Lis. Ich bin Sozialarbeiter und in den Bereichen rechtliche Betreuung und Beratung sowie Begleitung ehrenamtlicher Betreuer und ambulant betreutes Wohnen für chronisch Suchtkranke tätig.";
+              xyz:email           "Detlef.lis@skm-herford.de";
+              xyz:id              "detlef-lis-skm-katholischer-verein-fu-r-soziale-dienste-herford";
+              xyz:locality        "Herford";
+              xyz:org             "SKM katholischer Verein für soziale Dienste Herford";
+              xyz:person          "Detlef Lis";
+              xyz:phone           "05221 2777810";
+              xyz:postalCode      "32052";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Krisen- und Gewaltberater"
+                                  ];
+              xyz:street          "Lockhauserstraße 68";
+              xyz:website         "https://skm-herford.de/beratung/jungen-und-maennerberatung/"
+            ];
+  rdf:_22   [ xyz:city            "TRIER";
+              xyz:description     "Ich bin Peter Machetanz. Ich arbeite als Diplom-Pädagoge und männerfokussierter Berater in der Jungen- und Männerarbeit. Meine Schwerpunkte liegen in der Beratung von gewaltbetroffenen Jungen und Männern sowie der allgemeinen Lebens- und Krisenberatung.";
+              xyz:email           "machetanz@skm-trier.de";
+              xyz:id              "peter-machetanz-skm-trier-e-v";
+              xyz:locality        "Trier";
+              xyz:org             "SKM Trier e.V.";
+              xyz:person          "Peter Machetanz";
+              xyz:phone           "0651 1478819";
+              xyz:postalCode      "54292";
+              xyz:qualifications  [ rdf:_1  "Diplom-Pädagoge";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "Röntgenstraße 4";
+              xyz:website         "http://skm-trier.de/jungen-und-maennerberatung/"
+            ];
+  rdf:_23   [ xyz:city            "REMCHINGEN";
+              xyz:description     "Ich bin Tommi Meister. Ich arbeite als christl. Lebensberater und Traumatherapeut im Lebenshaus Herrgard e.V. Mein Schwerpunkt ist die Beratung von Männern in unterschiedlichen Fragestellungen die es im Leben geben kann. Zum Beispiel: Depression und Burn out, Gewalterfahrung, Suchtproblematik, Fragen zur eigenen Sexualität. Partnerschaft und vieles andere.";
+              xyz:email           "pastor-tom@meisterfamilie.de";
+              xyz:id              "thomas-meister-lebenshaus-herrgard-e-v";
+              xyz:locality        "Remchingen";
+              xyz:org             "Lebenshaus Herrgard e.V.";
+              xyz:person          "Thomas Meister";
+              xyz:phone           "07232 314 713";
+              xyz:postalCode      "75196";
+              xyz:qualifications  [ rdf:_1  "Chr. Lebensberater und Theologe";
+                                    rdf:_2  "Traumatherapeut"
+                                  ];
+              xyz:street          "Friedrich-Ebert-Straße 1";
+              xyz:website         "https://www.lebenshaus-herrgard.de"
+            ];
+  rdf:_24   [ xyz:city            "KREFELD";
+              xyz:description     "Mein Name ist Jan Mokros, ich bin Sozialwissenschaftler (MA) und Männerfokussierter Berater. Meine Beratungsschwerpunkte sind Krisenberatung und Täterarbeit bei (häuslicher) Gewalt.";
+              xyz:email           "jan-mokros@skm-krefeld.de";
+              xyz:id              "jan-mokros-skm-krefeld";
+              xyz:locality        "Krefeld";
+              xyz:org             "SKM Krefeld";
+              xyz:person          "Jan Mokros";
+              xyz:phone           "02151 841226";
+              xyz:postalCode      "47798";
+              xyz:qualifications  [ rdf:_1  "Sozialwissenschaftler";
+                                    rdf:_2  "Männer- und Gewaltberater"
+                                  ];
+              xyz:street          "Hubertusstraße 97";
+              xyz:website         "https://skm-krefeld.de/hilfen-angebote/maennerarbeit/"
+            ];
+  rdf:_25   [ xyz:city            "EMMENDINGEN";
+              xyz:description     "Ich bin Jonas Muth. Ich arbeite als Diplom Pädagoge, Jungen,- Männer- und Gewaltberater sowie systemischer Berater in der Jungen- und Männerarbeit für den Caritasverband für den Landkreis Emmendingen e.V. Meine Schwerpunkte liegen in der Täterberatung. Selbstständig biete ich zusätzlich Beratung für alle Männer in Krisen an.";
+              xyz:email           "jonas.muth@caritas-emmendingen.de";
+              xyz:id              "jonas-muth-caritasverband-fu-r-den-landkreis-emmendingen-e-v";
+              xyz:locality        "Emmendingen";
+              xyz:org             "Caritasverband für den Landkreis Emmendingen e.V.";
+              xyz:person          "Jonas Muth";
+              xyz:phone           "07641 1088";
+              xyz:postalCode      "79312";
+              xyz:qualifications  [ rdf:_1  "Diplom-Pädagoge";
+                                    rdf:_2  "Systemischer Berater (DGSF)"
+                                  ];
+              xyz:street          "Lessingstraße 36/1";
+              xyz:website         "https://www.caritas-emmendingen.de/hilfe-beratung/beratung-fuer-gewaltbereite-jungen-und-maenner"
+            ];
+  rdf:_26   [ xyz:city            "GELSENKIRCHEN";
+              xyz:description     "Ich bin Daniel Niehaus. Ich arbeite als Sozialarbeiter und männerfokussierter Berater in der Jungen- und Männerberatungsstelle des Caritasverbandes für die Stadt Gelsenkirchen e.V. Meine Schwerpunkte liegen in der Krisen- und Gewaltberatung.";
+              xyz:email           "daniel.niehaus@caritas-gelsenkirchen.de";
+              xyz:id              "daniel-niehaus-caritasverband-fu-r-die-stadt-gelsenkirchen-e-v";
+              xyz:locality        "Gelsenkirchen";
+              xyz:org             "Caritasverband für die Stadt Gelsenkirchen e.V.";
+              xyz:person          "Daniel Niehaus";
+              xyz:phone           "0174 3980 131";
+              xyz:postalCode      "45879";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "Kirchstraße 51";
+              xyz:website         "https://www.caritas-gelsenkirchen.de"
+            ];
+  rdf:_27   [ xyz:city            "SIEGBURG";
+              xyz:description     "Mein Name ist Marc Odenbrett. Ich habe Soziale Arbeit und Sozialpädagogik studiert und arbeite seit Oktober 2024 in der Beratungsstelle für Männer und Jungen des SKM Rhein-Sieg. Mein beruflicher Schwerpunkt liegt in der Krisenberatung von Männern und Jungen ab 14 Jahren.";
+              xyz:email           "marc.odenbrett@skm-rhein-sieg.de";
+              xyz:id              "marc-odenbrett-skm-rhein-sieg";
+              xyz:locality        "Siegburg";
+              xyz:org             "SKM Rhein-Sieg";
+              xyz:person          "Marc Odenbrett";
+              xyz:phone           "02241 1778-42";
+              xyz:postalCode      "53721";
+              xyz:qualifications  [ rdf:_1  "Sozialpädagoge & Sozialarbeiter";
+                                    rdf:_2  "Systemischer Berater"
+                                  ];
+              xyz:street          "Bahnhofstraße 27";
+              xyz:website         "https://caritas.erzbistum-koeln.de/rheinsieg-skm/unsere-hilfen/Beratung-fuer-Maenner-und-Jungen/"
+            ];
+  rdf:_28   [ xyz:city            "OSNABRÜCK";
+              xyz:description     "Ich bin Werner Oenning. Ich arbeite als Diplom Sozialpädagoge, Systemischer Supervisor sowie Männer- und Väterberater. Meine Schwerpunkte liegen in der Beratung von männlichen Gewaltopfern und Vätern, die in Trennung leben sowie Männern in verschiedenen Lebenskrisen. Ich begleite Männer und Väter, die sich zum Austausch in Gruppen treffen.";
+              xyz:email           "w.oenning@skm-osnabrueck.de";
+              xyz:id              "werner-oenning-skm-osnabru-ck-e-v";
+              xyz:locality        "Osnabrück";
+              xyz:org             "SKM-Osnabrück e.V.";
+              xyz:person          "Werner Oenning";
+              xyz:phone           "0541 3314471";
+              xyz:postalCode      "49074";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialpädagoge";
+                                    rdf:_2  "Systemischer Supervisor"
+                                  ];
+              xyz:street          "Kolpingstraße 5";
+              xyz:website         "https://www.skm-osnabrueck.de/maennerberatung"
+            ];
+  rdf:_29   [ xyz:city            "ARNSBERG";
+              xyz:description     "Ich bin Norbert Plaßwilm und arbeite als Heilpädagoge in der Familien- und Erziehungsberatungsstelle. Hier arbeite ich auch als Männerberater. Meine Schwerpunkte in der Väter- und Männerberatung sind: Täter und Opferberatung. Männer in Krisen nach Jobverlust, Trennung und Scheidung und alle anderen Problemlagen in denen Männer Unterstützung bedürfen.";
+              xyz:email           "Eb.arnsberg@skf-hochsauerland.de";
+              xyz:id              "norbert-pla-wilm-skf-hochsauerland";
+              xyz:locality        "Arnsberg";
+              xyz:org             "SkF Hochsauerland";
+              xyz:person          "Norbert Plaßwilm";
+              xyz:phone           "02932 9393 111";
+              xyz:postalCode      "59821";
+              xyz:qualifications  [ rdf:_1  "Heilpädagoge";
+                                    rdf:_2  "Systemischer Familienberater"
+                                  ];
+              xyz:street          "Ringlebstraße 10";
+              xyz:website         "https://www.skf-hochsauerland.de/hilfsangebote/beratung/maennerberatung/"
+            ];
+  rdf:_3    [ xyz:city            "BOCHOLT";
+              xyz:description     "Ich bin Andreas Böggering. Seit 2000 arbeite ich beim SKM Bocholt, erst in der Familienberatung, dann in der Suchtberatung. Seit 2015 berate ich Jungen- und Männer in schwierigen Lebenssituationen.";
+              xyz:email           "coaching.boeggering@gmail.com";
+              xyz:id              "andreas-bo-ggering-skm-katholischer-verein-fu-r-soziale-dienste-bocholt-e-v";
+              xyz:locality        "Bocholt";
+              xyz:org             "SKM – Katholischer Verein für soziale Dienste Bocholt e.V.";
+              xyz:person          "Andreas Böggering";
+              xyz:phone           "02871-8891";
+              xyz:postalCode      "46395";
+              xyz:qualifications  [ rdf:_1  "Phaemoberater®";
+                                    rdf:_2  "Suchttherapeut"
+                                  ];
+              xyz:street          "Friesenstraße 5";
+              xyz:website         "https://www.skm-bocholt.de/beratung-hilfe/jungen-und-maennerarbeit/"
+            ];
+  rdf:_30   [ xyz:city            "ESSEN";
+              xyz:description     "Mein Name ist Marc Pomplun. Ich bin Diplom-Sozialarbeiter und arbeite als Männerberater bei der Männerberatung Ruhr. Ich biete Einzel- und Gruppengespräche für Männer an, die sich in einer Krise befinden, die belastende Erfahrungen gemacht haben oder die ihre Persönlichkeit als Mann oder Vater weiterentwickeln wollen.";
+              xyz:email           "kontakt@maennerberatung.ruhr";
+              xyz:id              "marc-pomplun-ma-nnerberatung-ruhr";
+              xyz:locality        "Essen";
+              xyz:org             "Männerberatung Ruhr";
+              xyz:person          "Marc Pomplun";
+              xyz:phone           "015773461031";
+              xyz:postalCode      "45130";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialarbeiter";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "Dorotheenstraße 15";
+              xyz:website         "https://www.maennerberatung.ruhr"
+            ];
+  rdf:_31   [ xyz:city            "BIELEFELD";
+              xyz:description     "Mein Name ist Helge Rettig. Ich bin Sozialpädagoge und Gestalttherapeut. Seit 1998 arbeite ich in der Männerberatung und berate vor allem Täter häuslicher Gewalt.";
+              xyz:email           "rettig@man-o-mann.de";
+              xyz:id              "helge-rettig-man-o-mann-ma-nnerberatung";
+              xyz:locality        "Bielefeld";
+              xyz:org             "man-o-mann Männerberatung";
+              xyz:person          "Helge Rettig";
+              xyz:phone           "0521 68676";
+              xyz:postalCode      "33607";
+              xyz:qualifications  [ rdf:_1  "Sozialpädagoge";
+                                    rdf:_2  "Gestalttherapeut"
+                                  ];
+              xyz:street          "Teutoburger Straße 106";
+              xyz:website         "https://www.man-o-mann.de"
+            ];
+  rdf:_32   [ xyz:city            "KÖLN";
+              xyz:description     "Mein Name ist Klaus Schmitz und ich arbeite als Männer-, Krisen- und Anti- Gewaltberater in der Fachstelle für Jungen und Männer beim SKM Köln. Meine Schwerpunkte sind in der Beratung von Gewalterfahrungen und Verlusterfahrungen bei Männern. Weitere Beratungsfelder sind Krisen jeglicher Art sowie auch ausübenden Gewalt im häuslichen und auch öffentlichen Bereich.";
+              xyz:email           "Klaus.schmitz@skm-koeln.de";
+              xyz:id              "klaus-schmitz-skm-ko-ln";
+              xyz:locality        "Köln";
+              xyz:org             "SKM Köln";
+              xyz:person          "Klaus Schmitz";
+              xyz:phone           "0176 15067623";
+              xyz:postalCode      "50676";
+              xyz:qualifications  [ rdf:_1  "Krisen- und Gewaltberater";
+                                    rdf:_2  "Opfer- und Verlustberater"
+                                  ];
+              xyz:street          "Große Telegraphenstraße 31";
+              xyz:website         "https://www.skm-koeln.de/maennerberatung/"
+            ];
+  rdf:_33   [ xyz:city            "SIGMARINGEN";
+              xyz:description     "Ich bin Sebastian Schneider. Ich arbeite als Diplom-Pädagoge und systemischer Therapeut in der Männerberatung. Meine Schwerpunkte liegen in der Lebens- und Krisenberatung.";
+              xyz:email           "maennerberatung@skm-sigmaringen.de";
+              xyz:id              "sebastian-schneider-skm-ma-nnerberatung-sigmaringen";
+              xyz:locality        "Sigmaringen";
+              xyz:org             "SKM Männerberatung Sigmaringen";
+              xyz:person          "Sebastian Schneider";
+              xyz:phone           "07571 72892 29";
+              xyz:postalCode      "72488";
+              xyz:qualifications  [ rdf:_1  "Diplom-Pädagoge";
+                                    rdf:_2  "Systemischer Therapeut (SG)"
+                                  ];
+              xyz:street          "Fidelisstraße 6";
+              xyz:website         "https://sigmaringen.skmdivfreiburg.de/informationen/maennerberatung/"
+            ];
+  rdf:_34   [ xyz:city            "DÜSSELDORF";
+              xyz:description     "Mein Name ist Julian Schröer. Ich bin Sozialarbeiter und männerfokussierter Berater mit Schwerpunkten in der Krisen- und Gewaltberatung. Ich berate vor allem Männer, die Gewalt im häuslichen Umfeld erlebt haben, und unterstütze sie dabei, Wege zu einem sicheren und selbstbestimmten Leben zu finden.";
+              xyz:email           "Julian.Schroeer@skmd.de";
+              xyz:id              "julian-schro-er-skm-ggmbh-du-sseldorf";
+              xyz:locality        "Düsseldorf";
+              xyz:org             "SKM gGmbH Düsseldorf";
+              xyz:person          "Julian Schröer";
+              xyz:phone           "0211 233 948 58";
+              xyz:postalCode      "40479";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "Sternstraße 71-73";
+              xyz:website         "https://www.skmd.de/maennerberatung-2/"
+            ];
+  rdf:_35   [ xyz:city            "OLPE";
+              xyz:description     "Ich bin Daniel Schulte. Ich arbeite als Berater in der Krisen- und Gewaltberatung für Jungen und Männer in Olpe.";
+              xyz:email           "d.schulte@ksd-olpe.de";
+              xyz:id              "daniel-schulte-kath-sozialdienst-olpe";
+              xyz:locality        "Olpe";
+              xyz:org             "Kath. Sozialdienst Olpe";
+              xyz:person          "Daniel Schulte";
+              xyz:phone           "0152 3181 8887";
+              xyz:postalCode      "57462";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialarbeiter";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Mühlenstraße 5";
+              xyz:website         "https://www.ksd-olpe.de/angebote/echte-maenner-reden/"
+            ];
+  rdf:_36   [ xyz:city            "WARENDORF";
+              xyz:description     "Mein Name ist Carsten Spindler. Ich bin seit 2002 als Diplom-Sozialarbeiter beim SKM Warendorf beschäftigt. Ich arbeite als Mediator in Strafsachen (Täter-Opfer-Ausgleich) und seit 2014 auch als Krisen- und Gewaltberater.";
+              xyz:email           "spindler@skm-warendorf.de";
+              xyz:id              "carsten-spindler-skm-warendorf-e-v";
+              xyz:locality        "Warendorf";
+              xyz:org             "SKM Warendorf e. V.";
+              xyz:person          "Carsten Spindler";
+              xyz:phone           "02522 83434720";
+              xyz:postalCode      "48231";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialarbeiter";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Kirchstraße 5";
+              xyz:website         "https://skm-warendorf.de/fachbereiche/krisen-und-gewaltberatung/maennerberatung/"
+            ];
+  rdf:_37   [ xyz:city            "BONN";
+              xyz:description     "Mein Name ist Michael Steiner. Ich bin systemischer Coach sowie Krisenberater für Jungen und Männer. Zudem arbeite ich seit vielen Jahren als Trainer für gewaltfreie Kommunikation und als Kursleiter für konstruktive Konfliktbearbeitung. Für verschiedene Weiterbildungsträger verantworte ich Workshop- und Kursangebote zu vielfältigen Themen der Persönlichkeitsentwicklung.";
+              xyz:email           "info@beratung-mit-weitsinn.de";
+              xyz:id              "michael-steiner-weitsinn";
+              xyz:locality        "Bonn";
+              xyz:org             "WeitSinn";
+              xyz:person          "Michael Steiner";
+              xyz:phone           "01749818948";
+              xyz:postalCode      "53227";
+              xyz:qualifications  [ rdf:_1  "Phaemoberater®";
+                                    rdf:_2  "Coach System und Spiritualität"
+                                  ];
+              xyz:street          "Gallusstraße 17";
+              xyz:website         "https://Beratung-mit-WeitSinn.de"
+            ];
+  rdf:_38   [ xyz:city            "IBBENBÜREN";
+              xyz:description     "Mein Name ist Markus Temmen. Ich bin Sozialpädagoge und arbeite seit 2011 als Systemischer Familienberater in der ambulanten Jugendhilfe. Ich berate Jungen und Männer, die sich in schwierigen oder konfliktbeladenen Lebenslagen befinden.";
+              xyz:email           "gewaltberatung@caritas-ibbenbueren.de";
+              xyz:id              "markus-temmen-caritasverband-tecklenburger-land-e-v";
+              xyz:locality        "Ibbenbüren";
+              xyz:org             "Caritasverband Tecklenburger Land e.V.";
+              xyz:person          "Markus Temmen";
+              xyz:phone           "0171 3010652";
+              xyz:postalCode      "49477";
+              xyz:qualifications  [ rdf:_1  "Sozialpädagoge";
+                                    rdf:_2  "Systemischer Familienberater"
+                                  ];
+              xyz:street          "Klosterstraße 19";
+              xyz:website         "https://www.caritas-ibbenbueren.de/wir-beraten-und-helfen/krisen-und-gewaltberatung"
+            ];
+  rdf:_39   [ xyz:city            "BIELEFELD";
+              xyz:description     "Mein Name ist Detlef Vetter. Ich bin psychologischer Psychotherapeut und ausgebildeter Sexualtherapeut (DGfS). Ich berate Männer und Väter, die unter sexuellen Störungen, Pornosucht oder Depression leiden. Außerdem unterstütze ich Männer im Umgang mit den Folgen von Traumata.";
+              xyz:email           "vetter@man-o-mann.de";
+              xyz:id              "detlef-vetter-man-o-mann-ma-nnerberatung";
+              xyz:locality        "Bielefeld";
+              xyz:org             "Man-o-mann Männerberatung";
+              xyz:person          "Detlef Vetter";
+              xyz:phone           "0521 68676";
+              xyz:postalCode      "33607";
+              xyz:qualifications  [ rdf:_1  "Psychologischer Psychotherapeut";
+                                    rdf:_2  "Sexualtherapeut (DGfS)"
+                                  ];
+              xyz:street          "Teutoburger Straße 106";
+              xyz:website         "https://www.man-o-mann.de"
+            ];
+  rdf:_4    [ xyz:city            "HAMM";
+              xyz:description     "Ich bin Markus Brauckmann. Ich arbeite als Krisen- und Gewaltberater in der Männerberatung. Darin liegt auch der Schwerpunkt meiner Arbeit.";
+              xyz:email           "brauckmann@ksd-sozial.de";
+              xyz:id              "markus-brauckmann-katholischer-sozialdienst-e-v";
+              xyz:locality        "Hamm";
+              xyz:org             "Katholischer Sozialdienst e.V.";
+              xyz:person          "Markus Brauckmann";
+              xyz:phone           "02381 9245146";
+              xyz:postalCode      "59065";
+              xyz:qualifications  [ rdf:_1  "Volljurist";
+                                    rdf:_2  "Gewaltberater"
+                                  ];
+              xyz:street          "Stadthausstraße 2";
+              xyz:website         "https://ksd-sozial.de/familien/gewaltberatung-fuer-maenner/"
+            ];
+  rdf:_40   [ xyz:city            "KÖLN";
+              xyz:description     "Ich bin Michael Zeihen. Ich arbeite als Dipl. Sozialpädagoge und zertifizierter Krisen- und Anti-Gewaltberater für Männer in der Männer- und Jungenberatung. Mein Schwerpunkt liegt in der Beratung von Männern und Jungen, die von häuslicher/partnerschaftlicher Gewalt betroffen sind.";
+              xyz:email           "michael.zeihen@skm-koeln.de";
+              xyz:id              "michael-zeihen-skm-ko-ln";
+              xyz:locality        "Köln";
+              xyz:org             "SKM Köln";
+              xyz:person          "Michael Zeihen";
+              xyz:phone           "0221 2074 344";
+              xyz:postalCode      "50676";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialpädagoge";
+                                    rdf:_2  "Krisen- und Gewaltberater"
+                                  ];
+              xyz:street          "Große Telegraphenstraße 31";
+              xyz:website         "https://www.skm-koeln.de/maennerberatung/"
+            ];
+  rdf:_41   [ xyz:city            "KREFELD";
+              xyz:description     "Mein Name ist Marcus Ziemes. Ich bin Sozialpädagoge (B.A.) und arbeite seit 2011 im Ambulant betreuten Wohnen des SKM Krefeld e.V.. Seit Oktober 2024 bin ich auch in der Jungen- und Männerarbeit tätig und habe die Weiterbildung Männerfokussierte Beratung begonnen.";
+              xyz:email           "m.ziemes@skm-krefeld.de";
+              xyz:id              "marcus-ziemes-skm-krefeld-e-v";
+              xyz:locality        "Krefeld";
+              xyz:org             "SKM Krefeld e.V.";
+              xyz:person          "Marcus Ziemes";
+              xyz:phone           "02151841226";
+              xyz:postalCode      "47798";
+              xyz:qualifications  [ rdf:_1  "Sozialpädagoge";
+                                    rdf:_2  "Männerfokussierter Berater i.A."
+                                  ];
+              xyz:street          "Hubertusstraße 97";
+              xyz:website         "https://skm-krefeld.de/hilfen-angebote/maennerarbeit/"
+            ];
+  rdf:_5    [ xyz:city            "WARENDORF";
+              xyz:description     "Ich bin Marc Brunsmann. Ich arbeite als Diplom Sozialpädagoge sowie Krisen-, Gewalt- und Männerberater in der Jungen- und Männerarbeit. Meine Schwerpunkte liegen in der Krisen- und Gewaltberatung sowie die Arbeit im Männergewaltschutzprojekt „Freiraum“.";
+              xyz:email           "brunsmann@skm-warendorf.de";
+              xyz:id              "marc-brunsmann-skm-warendorf-e-v";
+              xyz:locality        "Warendorf";
+              xyz:org             "SKM Warendorf e. V.";
+              xyz:person          "Marc Brunsmann";
+              xyz:phone           "02581 9410116";
+              xyz:postalCode      "48231";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialpädagoge";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Kirchstraße 5";
+              xyz:website         "https://skm-warendorf.de/fachbereiche/krisen-und-gewaltberatung/maennerberatung/"
+            ];
+  rdf:_6    [ xyz:city            "AACHEN";
+              xyz:description     "Ich bin Andrea Crombach. Ich bin Dipl. Sozialarbeiterin und zertifizierte systemische Beraterin. Ich berate Männer, die gegenüber ihrer (Ex-) Partnerin gewalttätig geworden sind oder befürchten, dass es dazu kommen könnte. Ich unterstütze Männer dabei, ihre Konflikte ohne Gewalt zu lösen.";
+              xyz:email           "info@skm-aachen.de";
+              xyz:id              "andrea-crombach-skm-katholischer-verein-fu-r-soziale-dienste-in-aachen-e-v";
+              xyz:locality        "Aachen";
+              xyz:org             "SKM – Katholischer Verein für soziale Dienste in Aachen e.V.";
+              xyz:person          "Andrea Crombach";
+              xyz:phone           "0241 413 555 – 00";
+              xyz:postalCode      "52062";
+              xyz:qualifications  [ rdf:_1  "Systemische Therapeutin (DGSF)";
+                                    rdf:_2  "Fachkraft Täterarbeit (BAG TäHG)"
+                                  ];
+              xyz:street          "Heinrichsallee 56";
+              xyz:website         "https://www.skm-aachen.de/hilfe-beratung/projekt-gewaltlos-stark/"
+            ];
+  rdf:_7    [ xyz:city            "MÜNCHEN";
+              xyz:description     "Ich heiße Michael Diemer. Mein Schwerpunkt liegt in der Beratung traumatisierte Männer. Ich arbeite im Moment in eigener Beratungsstelle.";
+              xyz:email           "md@health-coaching-academy.de";
+              xyz:id              "michael-diemer-health-coaching-academy";
+              xyz:locality        "München";
+              xyz:org             "Health Coaching Academy";
+              xyz:person          "Michael Diemer";
+              xyz:phone           "0160 5556817";
+              xyz:postalCode      "81677";
+              xyz:qualifications  [ rdf:_1  "Traumafachberater";
+                                    rdf:_2  "Physiotherapeut"
+                                  ];
+              xyz:street          "Richard-Strauss-Straße 11";
+              xyz:website         "https://www.health-coaching-academy.de/maennerarbeit-muenchen.html"
+            ];
+  rdf:_8    [ xyz:city            "ESSEN";
+              xyz:description     "Ich bin Dietmar Fleischer. Als Sozialarbeiter bin ich seit über 10 Jahren in der Männerarbeit tätig. Seit vielen Jahren bin ich als Referent und Dozent nebenberuflich tätig. Seit 2024 biete ich selbstständig Männerberatung an.";
+              xyz:email           "maennerkraft@gmx.de";
+              xyz:id              "dietmar-fleischer-tawitko-ma-nnerberatung";
+              xyz:locality        "Essen";
+              xyz:org             "TAWITKO Männerberatung";
+              xyz:person          "Dietmar Fleischer";
+              xyz:phone           "0157 33127474";
+              xyz:postalCode      "45327";
+              xyz:qualifications  [ rdf:_1  "Sozialarbeiter";
+                                    rdf:_2  "Männerfokussierter Berater"
+                                  ];
+              xyz:street          "August Schmidt Straße 7";
+              xyz:website         "http://www.tawitko.de/Profil.html"
+            ];
+  rdf:_9    [ xyz:city            "MÖNCHENGLADBACH";
+              xyz:description     "Ich bin Christoph Föhles. Ich arbeite als Diplom Sozialarbeiter und zertifizierter Gewaltberater in der Jungen-und Männerarbeit. Meine Schwerpunkte liegen in der Krisen und Gewaltberatung für Männer.";
+              xyz:email           "c.foehles@skm-mg.de";
+              xyz:id              "christoph-fo-hles-skm-kath-verein-fu-r-soziale-dienste-mo-nchengladbach-e-v";
+              xyz:locality        "Mönchengladbach";
+              xyz:org             "SKM – Kath. Verein für soziale Dienste Mönchengladbach e.V.";
+              xyz:person          "Christoph Föhles";
+              xyz:phone           "02166 1309730";
+              xyz:postalCode      "41236";
+              xyz:qualifications  [ rdf:_1  "Diplom-Sozialarbeiter";
+                                    rdf:_2  "Phaemoberater®"
+                                  ];
+              xyz:street          "Waisenhausstraße 22c";
+              xyz:website         "https://skm-mg.de/"
+            ]
+] .

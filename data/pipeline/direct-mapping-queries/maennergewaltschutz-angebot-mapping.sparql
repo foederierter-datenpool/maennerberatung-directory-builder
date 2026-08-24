@@ -1,0 +1,26 @@
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX cdf: <https://civic-data.de/federated-directory#>
+PREFIX schema: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?entity a schema:Service ; cdp:fromSource cdp:maennergewaltschutzSource .
+        ?entity schema:identifier ?id .
+        ?entity schema:name ?name .
+        ?entity schema:mainEntityOfPage ?url .
+        ?entity schema:category ?angebotstyp .
+    }
+} WHERE {
+    GRAPH <urn:source:maennergewaltschutz> {
+        ?entity cdp:fromSource cdp:maennergewaltschutzSource .
+        OPTIONAL { ?entity cdp:targetSchema ?_ts }
+        FILTER(!bound(?_ts) || ?_ts = cdp:angebotSchema)
+        OPTIONAL { ?entity xyz:id ?id . FILTER(isLiteral(?id) && REPLACE(STR(?id), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:name ?name . FILTER(isLiteral(?name) && REPLACE(STR(?name), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:url ?url . FILTER(isLiteral(?url) && REPLACE(STR(?url), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:angebotstyp ?angebotstyp . FILTER(isLiteral(?angebotstyp) && REPLACE(STR(?angebotstyp), "\\s+", "") != "") }
+    }
+}

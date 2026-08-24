@@ -1,0 +1,2955 @@
+@prefix cdp: <https://civic-data.de/pipeline#>.
+@prefix cdf: <https://civic-data.de/federated-directory#>.
+@prefix schema: <http://schema.org/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+
+cdf:org-0071ad0d40a0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9156.
+cdf:org-00fe22435565 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-427.
+cdf:org-0147416d8f87 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-439.
+cdf:org-018170e6830e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-550.
+cdf:org-02e4217c748c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7057.
+cdf:org-02f2d3461ed4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-477.
+cdf:org-032ad0e3072d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7281.
+cdf:org-03d68316c2d1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-597.
+cdf:org-03dd598bc121 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14914, cdp:maennergewaltschutz-12409;
+    cdp:hasMatchEvidence _:n3-248.
+cdf:org-0469ae140bf6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-268.
+cdf:org-04fbba288b26 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8584.
+cdf:org-05af3d14d942 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8793.
+cdf:org-0620ffef484c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-563.
+cdf:org-06343bfb7d24 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-535.
+cdf:org-064e569f91a1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1893.
+cdf:org-06f4f656058a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-10919.
+cdf:org-072790499fa7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-505.
+cdf:org-08769c22fd14 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-389.
+cdf:org-08a84233d43f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-414.
+cdf:org-0a40ce67abc8 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-238.
+cdf:org-0a62ce11ded4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7185.
+cdf:org-0ae01cfab65a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-324.
+cdf:org-0b5c3c4f7a9d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-531.
+cdf:org-0b6849d93274 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-452.
+cdf:org-0b80a5b18f8e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-280.
+cdf:org-0cadf8f3e351 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7632.
+cdf:org-0cf5f1190113 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7413.
+cdf:org-0d02626586a7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7739.
+cdf:org-0d293152ed8e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7776.
+cdf:org-0d80579d68a5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-585, cdp:maennergewaltschutz-9058;
+    cdp:hasMatchEvidence _:n3-308.
+cdf:org-0f5fcc5fa41b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-523.
+cdf:org-0f639f903ce7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-373.
+cdf:org-0f7306f052ad a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9007.
+cdf:org-0faf1e9c0737 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-257.
+cdf:org-0fd4ca813f2b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12652.
+cdf:org-10ddf32ce0d2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14673, cdp:maennergewaltschutz-12416;
+    cdp:hasMatchEvidence _:n3-233.
+cdf:org-10e914676dcd a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8615.
+cdf:org-116e80f28ee1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9054.
+cdf:org-11d23c47d3e7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-547.
+cdf:org-1264e0714b1d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-484.
+cdf:org-12ad17cb4ae5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9057.
+cdf:org-130357356423 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-442.
+cdf:org-1409a533b4c5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-529.
+cdf:org-147b84bccdd5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-579, cdp:maennergewaltschutz-8634;
+    cdp:hasMatchEvidence _:n3-305.
+cdf:org-147f2c8f6fcf a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8792.
+cdf:org-14e0edf17906 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9017.
+cdf:org-1531b80633ea a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8292.
+cdf:org-1588c4f685fd a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-6596.
+cdf:org-168dd34f3a92 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7629, cdp:maennergewaltschutz-7042;
+    cdp:hasMatchEvidence _:n3-329.
+cdf:org-16a7b1ab62fb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7045.
+cdf:org-171d70dc73f0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-421.
+cdf:org-17232db4502e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9577.
+cdf:org-183c7da65df6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-453.
+cdf:org-1862147a9d6c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7019.
+cdf:org-18f4442d3bfc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-430.
+cdf:org-19080381fd8f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1858.
+cdf:org-19322b2bcafa a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-11323.
+cdf:org-194c5c5ba0c9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-596, cdp:maennergewaltschutz-8627;
+    cdp:hasMatchEvidence _:n3-323.
+cdf:org-19fffcdf2646 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-406, cdp:maennergewaltschutz-6964;
+    cdp:hasMatchEvidence _:n3-287.
+cdf:org-1a10f806727a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1536.
+cdf:org-1a18e22c7463 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-288.
+cdf:org-1a461595ddf1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-353.
+cdf:org-1d0dbb2aa6bb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-543.
+cdf:org-1d23073d89d3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-289.
+cdf:org-1edd2eb76670 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-450.
+cdf:org-1f145e25f0c1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7864.
+cdf:org-1f7df4383646 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-12481.
+cdf:org-1f91c2f693c2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-412.
+cdf:org-1fe94653251d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1537.
+cdf:org-2084e269bd12 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-370.
+cdf:org-20edfb34c6b8 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-15351.
+cdf:org-213470a20e64 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-316.
+cdf:org-21599c4cc161 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7049.
+cdf:org-22354e31c391 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7640.
+cdf:org-2253076ba8f9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7050.
+cdf:org-2266222fdffa a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-469.
+cdf:org-22c7f4603b5a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-294.
+cdf:org-23c1e8e7281c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-598.
+cdf:org-23c77e7e9725 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-259.
+cdf:org-245578ddee5b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1846, cdp:maennergewaltschutz-6956;
+    cdp:hasMatchEvidence _:n3-251.
+cdf:org-247c59e2dd8d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-594.
+cdf:org-24b7f3136719 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-299.
+cdf:org-255217c45ac2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-382.
+cdf:org-283c9bd29dad a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-278.
+cdf:org-28d011438294 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-365.
+cdf:org-2910df1cc586 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-573.
+cdf:org-2bfcbb1d0d07 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-358.
+cdf:org-2c153c9485d7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-405.
+cdf:org-2c310c3489e7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-436.
+cdf:org-2cf6d54e2921 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-11279.
+cdf:org-2cfb9e640552 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-270.
+cdf:org-2d3ea5f5a83d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8808.
+cdf:org-2d95bdcfc589 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8287.
+cdf:org-2e9734c3752f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-438.
+cdf:org-2f7348610fca a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-557.
+cdf:org-305974a29996 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-276.
+cdf:org-30bbcdaedb65 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-6953.
+cdf:org-31e7df82d578 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-350.
+cdf:org-32200a21ea39 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-10379.
+cdf:org-329f83ca6390 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7021.
+cdf:org-32be4dce40c5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8585.
+cdf:org-334aae178498 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-287.
+cdf:org-335767f90ec1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-520.
+cdf:org-34583f8fd07a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8993.
+cdf:org-367f7f1a4c4c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-244.
+cdf:org-3689f923ad38 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-580.
+cdf:org-376cda0b6a8d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-385.
+cdf:org-384ce0276f07 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-3411.
+cdf:org-38c70a4ffb0b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-364.
+cdf:org-396c9925015b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-419.
+cdf:org-3a2165ccb7de a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-342.
+cdf:org-3a91c6d6805b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-266.
+cdf:org-3b364c28ce5c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-11576.
+cdf:org-3be962ec8356 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2800.
+cdf:org-3c8dd5caf0fa a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-445.
+cdf:org-3cb5326ff62d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-512.
+cdf:org-3d41d7ea6bb3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-422.
+cdf:org-3e3ee40c1b15 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-556.
+cdf:org-3e550f880048 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-524.
+cdf:org-3ec2f29f4387 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-569.
+cdf:org-3f3919af98ec a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-247.
+cdf:org-415a27f2dea9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-516.
+cdf:org-41b3fbac5ac5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-371.
+cdf:org-4298b2869e10 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-290.
+cdf:org-431a5e51911a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-323, cdp:maennergewaltschutz-8598;
+    cdp:hasMatchEvidence _:n3-278.
+cdf:org-43218133a1d0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-355.
+cdf:org-436d00db3374 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-533.
+cdf:org-446a71710e10 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9000.
+cdf:org-44a49042d766 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-258.
+cdf:org-462094df16a4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-8049.
+cdf:org-47703e15dd14 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-369.
+cdf:org-479b5c105f20 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-458.
+cdf:org-47c2973169fb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7952.
+cdf:org-47d9fdcf46ec a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7040.
+cdf:org-47e4fe5ee60b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2724.
+cdf:org-48b7e71e176c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-461.
+cdf:org-48c62ff0ae8d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-311.
+cdf:org-4932e06dc343 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-592.
+cdf:org-4985cc0d50cb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1535.
+cdf:org-4a2a4ea01d18 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-559.
+cdf:org-4a52bd30a920 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-457.
+cdf:org-4ab1930ed83b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7439.
+cdf:org-4ca667a75605 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9052.
+cdf:org-4ddb6e4e67e1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8582.
+cdf:org-4de60db48abe a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-588, cdp:maennergewaltschutz-8595;
+    cdp:hasMatchEvidence _:n3-317.
+cdf:org-4e3d0915c3b7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1540.
+cdf:org-4f2563fed25a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-398.
+cdf:org-51f2e8cf55c1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-593.
+cdf:org-5229d9df3fd5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-576, cdp:maennergewaltschutz-9547;
+    cdp:hasMatchEvidence _:n3-302.
+cdf:org-5274209ce505 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-495.
+cdf:org-53bc8e080868 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-571.
+cdf:org-54a49825393c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-570.
+cdf:org-54b45dd64fc9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7404.
+cdf:org-55151982d94c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-530.
+cdf:org-5521f8bec8b2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7723.
+cdf:org-55c3eb70902a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-541.
+cdf:org-55c69530858c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-10670.
+cdf:org-56e9bc6827e2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-296.
+cdf:org-57004018117c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-305, cdp:maennergewaltschutz-6958;
+    cdp:hasMatchEvidence _:n3-275.
+cdf:org-57ad57a56e2b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-390.
+cdf:org-581311157974 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9010.
+cdf:org-585ad2e4da80 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8803.
+cdf:org-587729448211 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-235.
+cdf:org-59007d7143e2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-491.
+cdf:org-5935f2bab9b1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1534.
+cdf:org-595b7d7cfb6b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7010.
+cdf:org-59628794315f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8797.
+cdf:org-5a79e078ee54 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-496.
+cdf:org-5aa1eb4a4bdf a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-334.
+cdf:org-5ad6da977793 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-384.
+cdf:org-5baf5a4703ef a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-297.
+cdf:org-5c3d256f0e53 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-567.
+cdf:org-5c46987fd5f7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-562.
+cdf:org-5c546261d676 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-411.
+cdf:org-5cc143fc7e6c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-12502.
+cdf:org-5e2cdec889e3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-490.
+cdf:org-5f0511018676 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-449.
+cdf:org-5f3f8b348670 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-356.
+cdf:org-5f98e8101893 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-379.
+cdf:org-60385b2edd30 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-333.
+cdf:org-60aa2f051deb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-526.
+cdf:org-60df7f4197a3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-420.
+cdf:org-61aeabdf9dc1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8794.
+cdf:org-61c6061a8b4d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-314.
+cdf:org-62eabef65b9d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12420.
+cdf:org-62ef365b5d77 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-418.
+cdf:org-637850549fc9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-544.
+cdf:org-63ec1a71a5bb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-448.
+cdf:org-642940fe0bfc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-281.
+cdf:org-64c0c2b90b50 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-6960.
+cdf:org-64e19e102f40 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-595.
+cdf:org-661551d1fd89 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-11282.
+cdf:org-66cfd03912ee a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-582.
+cdf:org-678a83999985 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-255.
+cdf:org-685c7db3c539 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-366.
+cdf:org-688610addc80 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-11786.
+cdf:org-688789d5c903 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-10452.
+cdf:org-68b5f3aa4713 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-272.
+cdf:org-691398c8a972 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8596.
+cdf:org-69ab83005fbd a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-502.
+cdf:org-6a2aa5e8bf39 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8594.
+cdf:org-6ac549b6172d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-537.
+cdf:org-6b36528eba5f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-253.
+cdf:org-6b3e4f116c05 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-399.
+cdf:org-6bb33fbf9da3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-538.
+cdf:org-6caef5d613aa a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-341.
+cdf:org-6cd4184509b7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-528.
+cdf:org-6d44c53f7eeb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-454.
+cdf:org-6d68f4b9d870 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-394.
+cdf:org-6e177f466d29 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9061.
+cdf:org-6e237f444baa a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-312.
+cdf:org-6e6466bed1e5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-303, cdp:maennergewaltschutz-9055;
+    cdp:hasMatchEvidence _:n3-272.
+cdf:org-6e7ccdff6687 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-331.
+cdf:org-6ee86c39293e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-409.
+cdf:org-6f4835baffd3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-10674.
+cdf:org-6ff9944bfaf0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-328.
+cdf:org-703135ebdc8e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8802.
+cdf:org-70677f49e669 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14811, cdp:maennergewaltschutz-12412;
+    cdp:hasMatchEvidence _:n3-245.
+cdf:org-70ac803f2e4b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12648.
+cdf:org-70c98ee290c0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-275.
+cdf:org-72057461ebc8 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14748, cdp:maennergewaltschutz-12407;
+    cdp:hasMatchEvidence _:n3-239.
+cdf:org-7221e94d854e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14166.
+cdf:org-729555a28e3a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-444.
+cdf:org-73464e678809 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-599, cdp:maennergewaltschutz-12395;
+    cdp:hasMatchEvidence _:n3-326.
+cdf:org-73eabbcafe4b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-546, cdp:maennergewaltschutz-6842;
+    cdp:hasMatchEvidence _:n3-290.
+cdf:org-74054f36358f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-241.
+cdf:org-74578c233314 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8801.
+cdf:org-746c157c54ed a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-279, cdp:maennergewaltschutz-8586;
+    cdp:hasMatchEvidence _:n3-269.
+cdf:org-7486b425ca2c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7716.
+cdf:org-7578380eadae a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7588.
+cdf:org-767ba7b87735 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-221.
+cdf:org-76ae60e1ddcc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-435.
+cdf:org-76c687ca96b4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-499, cdp:maennergewaltschutz-7018;
+    cdp:hasMatchEvidence _:n3-299.
+cdf:org-7702cd0c07be a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-425.
+cdf:org-771c16247815 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8592.
+cdf:org-77d490e67e65 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7631.
+cdf:org-784ad98388b0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7740.
+cdf:org-78f5b5315a69 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-252.
+cdf:org-7b1aa3b9cc50 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-9049.
+cdf:org-7baa03190a15 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8798.
+cdf:org-7c047be4fb87 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-433.
+cdf:org-7cc51b2518fa a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-10781.
+cdf:org-7d29acd94bce a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-532.
+cdf:org-7dceec5a0527 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-336.
+cdf:org-7df8cdec1db9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7718.
+cdf:org-7e1126f2dd92 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-321.
+cdf:org-7e32a8375035 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-566.
+cdf:org-7f3a67ba960b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12651.
+cdf:org-7f809a22c167 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-536.
+cdf:org-7fc3546721e3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-301.
+cdf:org-7fc3f52bffc1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-265.
+cdf:org-809b5a0f8e27 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-250.
+cdf:org-811226bd1d04 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8992.
+cdf:org-81e0c0aeb581 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-346.
+cdf:org-8281c9468f27 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-480.
+cdf:org-82fe37037704 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8581.
+cdf:org-834bbf4af143 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8804.
+cdf:org-838ce6451316 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-519.
+cdf:org-83d6fffdcb89 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-423.
+cdf:org-841e6e262b3c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-13711.
+cdf:org-846e40ca323a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-273, cdp:maennergewaltschutz-7866;
+    cdp:hasMatchEvidence _:n3-266.
+cdf:org-856dc36a4e84 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-511.
+cdf:org-86a7dcfd44de a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-473.
+cdf:org-87a50140738a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-426.
+cdf:org-87ee0842712a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-360.
+cdf:org-885ddc49d51f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-308.
+cdf:org-88771aa68d0c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-587, cdp:maennergewaltschutz-8997;
+    cdp:hasMatchEvidence _:n3-314.
+cdf:org-89040914a992 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-478.
+cdf:org-891f0d6c92ba a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2719.
+cdf:org-89e3b37da1dc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-553.
+cdf:org-89fd29806142 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8799.
+cdf:org-8a22724bc6c7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9009.
+cdf:org-8a6664a577e3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-489.
+cdf:org-8ab294e14202 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1532.
+cdf:org-8afbae38c517 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-561.
+cdf:org-8b939be8a444 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-335.
+cdf:org-8c5d422b4e8d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2433.
+cdf:org-8c6f6f291ddf a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-329.
+cdf:org-8cbeb4687e02 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-274.
+cdf:org-8d179eddbf8d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-282.
+cdf:org-8d6937b4a8de a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14662, cdp:maennergewaltschutz-12414;
+    cdp:hasMatchEvidence _:n3-218.
+cdf:org-8dc6be69bfef a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8795.
+cdf:org-8e8f6eeae412 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-374.
+cdf:org-8f72d0aa0611 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-485.
+cdf:org-8fc70f20b85f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8806.
+cdf:org-9032a83f5aa2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-338.
+cdf:org-90a32563fda6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2251.
+cdf:org-90bd1509ea54 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-13708.
+cdf:org-90e9387c52bc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-11047.
+cdf:org-913fbc6771b7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-522.
+cdf:org-9162a4cf0289 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-494.
+cdf:org-92269c56da90 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-572.
+cdf:org-9262a87991eb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9012.
+cdf:org-928e0a2d12e3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-304.
+cdf:org-933ae102717b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-340.
+cdf:org-93cf5289554c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-591.
+cdf:org-941c37bfc495 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-534.
+cdf:org-9443ad414af9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-227.
+cdf:org-94525f51bd86 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-432.
+cdf:org-95a8dec8ca72 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-354.
+cdf:org-964c449b3c0e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-236, cdp:maennergewaltschutz-9018;
+    cdp:hasMatchEvidence _:n3-260.
+cdf:org-96904adcfbd3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-13801.
+cdf:org-96ca66fea081 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-493.
+cdf:org-9898f5270cde a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-6906.
+cdf:org-99737a2bf51f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-500.
+cdf:org-9a3877034328 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8796.
+cdf:org-9a4d7b97d695 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-590.
+cdf:org-9a78c44de1d9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12474.
+cdf:org-9c9011f96943 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9053.
+cdf:org-9d7a2acf42cc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-392.
+cdf:org-9e0295fe793a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-292.
+cdf:org-9f3b969d96a1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-437.
+cdf:org-a1bfe1f58110 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-440.
+cdf:org-a25d48e39f6f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-230, cdp:maennergewaltschutz-9019;
+    cdp:hasMatchEvidence _:n3-257.
+cdf:org-a4b155adb7fb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2478.
+cdf:org-a4d979f6cd00 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-310.
+cdf:org-a5227923e419 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-251.
+cdf:org-a5dc81aaf32d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7044.
+cdf:org-a616f5645101 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-9618.
+cdf:org-a666614a1760 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2723.
+cdf:org-a680c8b7a35d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14850.
+cdf:org-a6d287c99e49 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-518.
+cdf:org-a6d4ed7fc897 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-483.
+cdf:org-a73be473efe6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-388.
+cdf:org-a893e8fa64e1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-351.
+cdf:org-a8d9bd261c62 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-3070.
+cdf:org-a9573c58c6f0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-372.
+cdf:org-aa387426d1e1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-548.
+cdf:org-aa76a540a026 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-497.
+cdf:org-aa89e1eb7147 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8994.
+cdf:org-aab8513abb49 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-431.
+cdf:org-ab3f188c7be1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-256.
+cdf:org-ab5e7460811e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9059.
+cdf:org-ab93cc38fd69 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-344.
+cdf:org-abaa5681456f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-381.
+cdf:org-ac17f11454b2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-517.
+cdf:org-ac2ee1116ee2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7053.
+cdf:org-ac5508f5c2a2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-545.
+cdf:org-acd12952479f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-8316.
+cdf:org-ad52e527b50c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-479.
+cdf:org-ad89c7a97d1f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8600.
+cdf:org-ae033b5f184c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2367.
+cdf:org-af1672e3c942 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14674, cdp:maennergewaltschutz-12421;
+    cdp:hasMatchEvidence _:n3-236.
+cdf:org-af82b89ef5a6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-507.
+cdf:org-afed7436b2c8 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14667, cdp:maennergewaltschutz-12417;
+    cdp:hasMatchEvidence _:n3-227.
+cdf:org-b19f6ea4def9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-503.
+cdf:org-b212e4ec1b6e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-581.
+cdf:org-b226645b1f2e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-488.
+cdf:org-b24bfb5dbf25 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-237.
+cdf:org-b34373dd146b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-456.
+cdf:org-b3b805f7ed36 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-475.
+cdf:org-b3c79fae0e30 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-361.
+cdf:org-b417e688a792 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7022.
+cdf:org-b43db5d81231 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-264.
+cdf:org-b4dddb13a798 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-309.
+cdf:org-b4f137f3e98a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-320.
+cdf:org-b4f2f391d4f2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9576.
+cdf:org-b576a168a907 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-302.
+cdf:org-b5f3b8fdf616 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-229.
+cdf:org-b5f51fec0da1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-6755.
+cdf:org-b63f723ad523 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-482, cdp:maennergewaltschutz-8583;
+    cdp:hasMatchEvidence _:n3-296.
+cdf:org-b67ab8fd2741 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-10227.
+cdf:org-b6fe74ea2390 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14665, cdp:maennergewaltschutz-12418;
+    cdp:hasMatchEvidence _:n3-221.
+cdf:org-b7841255ec6f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-487.
+cdf:org-b7db38c5af4a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-378.
+cdf:org-b7db5d172c82 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-234.
+cdf:org-b8e4726933e0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7146.
+cdf:org-ba02e4ece641 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-6954.
+cdf:org-ba25890d0bf4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-261.
+cdf:org-ba7ee8cf3f55 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14320.
+cdf:org-ba80bc4622d1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-367, cdp:maennergewaltschutz-9015;
+    cdp:hasMatchEvidence _:n3-281.
+cdf:org-bb03b4f768de a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-403.
+cdf:org-bc7b190e27fe a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8612.
+cdf:org-bd7ba2d1d040 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-325.
+cdf:org-beea61bd1dfa a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-375, cdp:maennergewaltschutz-7441;
+    cdp:hasMatchEvidence _:n3-208.
+cdf:org-bf60b7d7e540 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-586, cdp:maennergewaltschutz-9063;
+    cdp:hasMatchEvidence _:n3-311.
+cdf:org-bfaad2473823 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-380.
+cdf:org-c078aab142fb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12650.
+cdf:org-c0a8ec359116 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-434.
+cdf:org-c0bf7b86b8b0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7652.
+cdf:org-c0e25e96156c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-13709.
+cdf:org-c0e303e5b8ca a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-515.
+cdf:org-c0f4c81b452b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-476.
+cdf:org-c14a88b8cbd6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-472.
+cdf:org-c1549ddd6a3e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7701.
+cdf:org-c1e43f82b0f7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-12614.
+cdf:org-c202be4f7d9c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-224.
+cdf:org-c269e619dbd2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-424, cdp:maennergewaltschutz-6959;
+    cdp:hasMatchEvidence _:n3-263.
+cdf:org-c2cb25b5e11c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-391.
+cdf:org-c2cd0b7baedc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2307.
+cdf:org-c3956468d477 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7059.
+cdf:org-c399d17a125d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-6844.
+cdf:org-c3d0b1a66445 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-245.
+cdf:org-c428ddf4112d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-347.
+cdf:org-c4694933520c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-362.
+cdf:org-c4a9c996bd96 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-377.
+cdf:org-c500879c1046 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-339.
+cdf:org-c6665d89c5d6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-345.
+cdf:org-c6bf6baba6b6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-429.
+cdf:org-c7b381a2f4cf a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-415.
+cdf:org-c7f377c3140b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-441.
+cdf:org-c8a6eccbeba3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-397.
+cdf:org-c98d1e5657e9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-239.
+cdf:org-c9ba87682fbe a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-283.
+cdf:org-c9fdd6f70c2c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-11322.
+cdf:org-ca99d070df91 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-589, cdp:maennergewaltschutz-8995;
+    cdp:hasMatchEvidence _:n3-320.
+cdf:org-cb2ee0336dc2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-277.
+cdf:org-cb30ef3cf416 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-8154.
+cdf:org-cb8b63215f75 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-295.
+cdf:org-cb96afd737d4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-7630, cdp:maennergewaltschutz-7041;
+    cdp:hasMatchEvidence _:n3-332.
+cdf:org-cc0764b0dce3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-446.
+cdf:org-cd588da74b9b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-326.
+cdf:org-ce4c71414c2c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-291.
+cdf:org-cea2e545fdee a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-322.
+cdf:org-cfce523c255a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-386.
+cdf:org-d00546adf6c4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-584.
+cdf:org-d0354da6e71c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-408.
+cdf:org-d05da4f2dae6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-13710.
+cdf:org-d07e1dfa38e1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-447.
+cdf:org-d190a06d0bb0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-551.
+cdf:org-d1cb3b9956c5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-539.
+cdf:org-d276b4508161 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2720.
+cdf:org-d282406e4227 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-10417.
+cdf:org-d33f0a7b0fdb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9056.
+cdf:org-d371629de9b4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-349.
+cdf:org-d3a1f9711c35 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-332.
+cdf:org-d3ced42ddcb5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-260.
+cdf:org-d510979b4441 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1538.
+cdf:org-d533bf2efb2a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-459.
+cdf:org-d5eb2215d479 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2722.
+cdf:org-d67c94ac258e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-460.
+cdf:org-d6b165b91c03 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-404.
+cdf:org-d6b1a12655b8 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-564.
+cdf:org-d6dfa9a57990 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-11648.
+cdf:org-d6ed481d611b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-417.
+cdf:org-d7056ef47075 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2461.
+cdf:org-d72fb12609e2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-327.
+cdf:org-d7c334da7c5f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8805.
+cdf:org-d83be9e095a3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14669, cdp:maennergewaltschutz-12408;
+    cdp:hasMatchEvidence _:n3-230.
+cdf:org-d95972a61897 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8290.
+cdf:org-d9abddb07ab1 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7047.
+cdf:org-da076fb8e9de a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-540.
+cdf:org-da43e2564d7d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-428.
+cdf:org-da98f8bc5d6e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-474.
+cdf:org-db5bc0bdb101 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-10556.
+cdf:org-db84d940e9b9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-6961.
+cdf:org-dcaccd6a676b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-1533.
+cdf:org-dd193eecc12b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-464.
+cdf:org-dd3494bd934c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-510.
+cdf:org-de664e26a0e7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14749, cdp:maennergewaltschutz-12410;
+    cdp:hasMatchEvidence _:n3-242.
+cdf:org-dea979aedfd3 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-330.
+cdf:org-dead1b0ba614 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-14666, cdp:maennergewaltschutz-12415;
+    cdp:hasMatchEvidence _:n3-224.
+cdf:org-df2a2d82efe0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-376.
+cdf:org-e04791702b28 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-222.
+cdf:org-e04ace1f9038 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-549.
+cdf:org-e05fd169350c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-363, cdp:maennergewaltschutz-6955;
+    cdp:hasMatchEvidence _:n3-254.
+cdf:org-e0be24556511 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-286.
+cdf:org-e19a8f930d37 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-293.
+cdf:org-e1d8a3dd9b0c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-383.
+cdf:org-e243cf7c266d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7028.
+cdf:org-e33d905c970c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-298.
+cdf:org-e34a4129dda5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-254.
+cdf:org-e486d8cdcdfb a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-11046, cdp:maennergewaltschutz-9823;
+    cdp:hasMatchEvidence _:n3-209.
+cdf:org-e489aaec57dd a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7046.
+cdf:org-e4d07c2d2a9e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-498.
+cdf:org-e4d5001b795a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-400.
+cdf:org-e510c0535b99 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-313.
+cdf:org-e5291912ae1a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-410.
+cdf:org-e5462b9120d7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2133.
+cdf:org-e63974572b07 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-466.
+cdf:org-e6445d832c20 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-492.
+cdf:org-e67138fa8780 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-359.
+cdf:org-e69eb4aff5e4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-393, cdp:maennergewaltschutz-6957;
+    cdp:hasMatchEvidence _:n3-215.
+cdf:org-e78d5e245ead a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-319.
+cdf:org-e79de855ddea a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-525.
+cdf:org-e7ebce5dfaf8 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-468.
+cdf:org-e7ff6d7f3c07 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-554.
+cdf:org-e891b163f78f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-467, cdp:maennergewaltschutz-9060;
+    cdp:hasMatchEvidence _:n3-293.
+cdf:org-e8ee9251a0a4 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9008.
+cdf:org-e9ef0f6436b2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-462.
+cdf:org-eb8547782e15 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9062.
+cdf:org-ebf8dbe466e0 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-248.
+cdf:org-ecb8fa243d7b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8991.
+cdf:org-ed2d86b863f5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-542.
+cdf:org-ed402ab89c81 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7717.
+cdf:org-edc181d48e78 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-8529.
+cdf:org-ee84a4d4e2b5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7024.
+cdf:org-ee8e4c66b77a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-3785.
+cdf:org-eea02f681b55 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8597.
+cdf:org-efcc0f50a19e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-2721.
+cdf:org-efd385d1e744 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-552.
+cdf:org-f04e6a17afcc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-396.
+cdf:org-f152caa700dc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-6197.
+cdf:org-f16b503da56f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-463.
+cdf:org-f181cd45f6c9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-343, cdp:maennergewaltschutz-8580;
+    cdp:hasMatchEvidence _:n3-212.
+cdf:org-f280525f0240 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-508.
+cdf:org-f2d4ca108055 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-555.
+cdf:org-f3d942557f75 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-8417.
+cdf:org-f4504844466f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-558.
+cdf:org-f45542b22104 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-416.
+cdf:org-f4a2a01ceec9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-470.
+cdf:org-f52e85b2826b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-575.
+cdf:org-f67158f4abe2 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12147.
+cdf:org-f77ba96c9507 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-8896.
+cdf:org-f8d5d29cde74 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-506.
+cdf:org-f919d6c8251b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-315.
+cdf:org-fb4a5d4189ff a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-504.
+cdf:org-fb65314e8c09 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-232.
+cdf:org-fc5b77f508cc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-6962.
+cdf:org-fc9600f1c2f7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9011.
+cdf:org-fcdc897fdbd5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-285.
+cdf:org-fd458802cf61 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-8123.
+cdf:org-fd63094fe3f9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-223.
+cdf:org-fe3af2a03eba a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-233.
+cdf:org-fe809b8aba75 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-263.
+cdf:org-ff2dda3e78c5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-568.
+cdf:org-ffa978e9ff33 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-401, cdp:maennergewaltschutz-7051;
+    cdp:hasMatchEvidence _:n3-284.
+cdf:service-02ff1cc851cf a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4370.
+cdf:service-063e5e8ee169 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-ekkehard-janson-janson-beratung-begleitung.
+cdf:service-07940988089c a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-marc-brunsmann-skm-warendorf-e-v.
+cdf:service-0c811bc37cdd a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4486.
+cdf:service-120c17446667 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4388.
+cdf:service-127d4fe5395a a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-detlef-vetter-man-o-mann-ma-nnerberatung.
+cdf:service-142179ad9761 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-werner-oenning-skm-osnabru-ck-e-v.
+cdf:service-16c182f62752 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12146.
+cdf:service-17514d7f1aee a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-carsten-spindler-skm-warendorf-e-v.
+cdf:service-1980532df17e a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-norbert-pla-wilm-skf-hochsauerland.
+cdf:service-1c435683e77c a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-daniel-beck-skm-siegburg.
+cdf:service-1edf43b13c81 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12672.
+cdf:service-30c4dac4dcdb a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-julian-schro-er-skm-ggmbh-du-sseldorf.
+cdf:service-3922da126fa5 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9774.
+cdf:service-39babc83fa21 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7356.
+cdf:service-39ffc8fd7dbb a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-andreas-haase-man-o-mann-ma-nnerberatung-im-vsgb-e-v.
+cdf:service-3aaebf417936 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-markus-brauckmann-katholischer-sozialdienst-e-v.
+cdf:service-410ca5e161c0 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-marc-pomplun-ma-nnerberatung-ruhr.
+cdf:service-4577d012fe2e a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-nils-freckmann-skm-lingen-e-v.
+cdf:service-57f705dc4b30 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12685.
+cdf:service-58f5c596fddb a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-marcus-ziemes-skm-krefeld-e-v.
+cdf:service-60a6db1ea17c a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-markus-temmen-caritasverband-tecklenburger-land-e-v.
+cdf:service-61bb92ba8f6c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7016.
+cdf:service-69010fe7bd2d a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-jan-hammelmann-caritasverband-herten.
+cdf:service-6bda5162c3b6 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-manfred-ho-ges-skm-ggmbh-du-sseldorf.
+cdf:service-6ce982f31b4b a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-timo-krasemann-familienunterstu-tzender-dienst-fud.
+cdf:service-6f70419ab7dc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-10569.
+cdf:service-705c19d8a22d a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-achim-ja-gers-fundamentes-mobile-ma-nnerberatung-berlin.
+cdf:service-772f84b11d6f a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-jonas-muth-caritasverband-fu-r-den-landkreis-emmendingen-e-v.
+cdf:service-77cc88e7eeca a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-christoph-fo-hles-skm-kath-verein-fu-r-soziale-dienste-mo-nchengladbach-e-v.
+cdf:service-79638f1b77de a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-andrea-crombach-skm-katholischer-verein-fu-r-soziale-dienste-in-aachen-e-v.
+cdf:service-799327d44e87 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-daniel-schulte-kath-sozialdienst-olpe.
+cdf:service-7ce547751a06 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-jonas-lemli-caritasverband-stadt-mu-nster-e-v.
+cdf:service-822232d5986d a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-detlef-lis-skm-katholischer-verein-fu-r-soziale-dienste-herford.
+cdf:service-82480d467f9a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9194.
+cdf:service-8bb9a3c5edca a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-jan-mokros-skm-krefeld.
+cdf:service-8f06347c58c2 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-marc-odenbrett-skm-rhein-sieg.
+cdf:service-8f6fc1333bea a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4394.
+cdf:service-951c73067949 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-klaus-schmitz-skm-ko-ln.
+cdf:service-9590f660c1e4 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-sebastian-schneider-skm-ma-nnerberatung-sigmaringen.
+cdf:service-97c9d40097ea a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-7744.
+cdf:service-9acdcfbdc8bf a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-helge-rettig-man-o-mann-ma-nnerberatung.
+cdf:service-a00a248c42c8 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-michael-diemer-health-coaching-academy.
+cdf:service-a3a20689a1de a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-michael-zeihen-skm-ko-ln.
+cdf:service-b01d40eb6545 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-michael-steiner-weitsinn.
+cdf:service-b32a1782022c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-12148.
+cdf:service-b3d02107557c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4485.
+cdf:service-b6540a606f5c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4395.
+cdf:service-bd0d6e15fb55 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-johannes-anderski-skfm-monheim-am-rhein-e-v.
+cdf:service-bd0eca5e2e00 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-tobias-latz-skm-ko-ln-sozialdienst-katholischer-ma-nner-e-v.
+cdf:service-c5b0d9ac591d a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4399.
+cdf:service-c5c30332ce91 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-daniel-niehaus-caritasverband-fu-r-die-stadt-gelsenkirchen-e-v.
+cdf:service-c9a02f51f2d1 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-thomas-meister-lebenshaus-herrgard-e-v.
+cdf:service-cf2366cab66b a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-peter-machetanz-skm-trier-e-v.
+cdf:service-db888ceb65c6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9725.
+cdf:service-de0ddd17520a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-9438.
+cdf:service-e3a4a43d702c a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-moritz-iber-skfm-e-v-region-heinsberg.
+cdf:service-f1ef2decae56 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-andreas-bo-ggering-skm-katholischer-verein-fu-r-soziale-dienste-bocholt-e-v.
+cdf:service-f3a960b5bd92 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-dietmar-fleischer-tawitko-ma-nnerberatung.
+cdf:service-f917f852d37e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4371.
+cdf:service-f942ea45bbff a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-stefan-kisters-teuwsen-caritasverband-geldern-kevelaer-e-v.
+cdf:service-fee8ab7fade9 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-4396.
+cdf:traeger-02087630e24a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-health%20coaching%20academy>.
+cdf:traeger-0223c883dc85 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-trieb%20und%20traum%20thomas%20uhrig>.
+cdf:traeger-024fd779fa07 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20bocholt>.
+cdf:traeger-02be2dde25f3 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-oekumenisches%20frauenhaus%20und%20fachstelle%20gegen%20haeusliche%20gewalt%20pforzheim%20enzkreis%20ggmbh>.
+cdf:traeger-02fc29cb96ba a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bundesministerium%20fuer%20familie%20senioren%20frauen%20und%20jugend%20bmfsfj>.
+cdf:traeger-04ce94852db6 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-quo%20vadis>.
+cdf:traeger-0585a3f48a85 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-mann%20o%20meter>.
+cdf:traeger-06674479a870 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-shia%20wolgast>.
+cdf:traeger-06d547e511d4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-frauencomputerzentrumberlin%20fczb>.
+cdf:traeger-07ed1415f87c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20landesverband%20sachsen%20anhalt>.
+cdf:traeger-08374e65226e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-vsgb.
+cdf:traeger-08725f32b893 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-florian%20sussner>.
+cdf:traeger-08b0bbda8d5e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-lebenshilfe%20dorsten>.
+cdf:traeger-08b269ff523d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-man%20o%20mann%20maennerberatung>.
+cdf:traeger-0a1e9e579e29 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-institut%20fuer%20sexualforschung%20und%20forensische%20psychiatrie%20am%20universitaetsklinikum%20hamburg%20eppendorf%20praeventionsambulanz%20altona>.
+cdf:traeger-0b2fb9cdf24d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-erzdioezese%20freiburg>.
+cdf:traeger-0b41b6290d91 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-mannsbilder%20maennerzentrum%20in%20tirol%20fuer%20bildung%20begegnung%20und%20beratung>.
+cdf:traeger-0d864fd59d1a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20koeln>, <https://civic-data.de/pipeline#emr-traeger-skm%20koeln>, <https://civic-data.de/pipeline#emr-traeger-skm%20koeln%20sozialdienst%20katholischer%20maenner>;
+    cdp:hasMatchEvidence _:n3-343, _:n3-418.
+cdf:traeger-0e6f3466246d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia%20ortsverband%20giessen>.
+cdf:traeger-10490c0ccb8e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20augsburg>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20augsburg>;
+    cdp:hasMatchEvidence _:n3-390.
+cdf:traeger-1130d4f056f2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bundesministeriums%20fuer%20familie%20senioren%20frauen%20und%20jugend>.
+cdf:traeger-11d35f6fc875 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutscher%20kinderschutzbund%20ov%20torgau>.
+cdf:traeger-11f9fe91e737 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska>.
+cdf:traeger-136880f1fd69 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-roemisch%20katholische%20kirchengemeinde%20pforzheim>.
+cdf:traeger-141bc391331f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-dioezese%20wuerzburg>.
+cdf:traeger-1426b42ece50 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-kompetenzzentrum%20sexualmedizin%20mecklenburg%20vorpommern>.
+cdf:traeger-17242d5d7126 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-ae.
+cdf:traeger-17bc27183d91 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-jungen%20und%20maenner%20fragen>.
+cdf:traeger-1869963f0fc9 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-deutscher%20familienverband%20landesverband%20sachsen%20anhalt>.
+cdf:traeger-187be7ae9067 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20erzgebirge%20ggmbh>.
+cdf:traeger-19688e64b45f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verein%20fuer%20maenner%20und%20geschlechterthemen%20steiermark>.
+cdf:traeger-1a3f0878f9d0 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20osnabrueck>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20osnabrueck>, <https://civic-data.de/pipeline#emr-traeger-skm%20osnabrueck>;
+    cdp:hasMatchEvidence _:n3-410, _:n3-412, _:n3-424.
+cdf:traeger-1b6bbd64f405 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-lemann.
+cdf:traeger-1c012edb931e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-vogelsbergkreis%20der%20kreisausschuss>.
+cdf:traeger-1c17dabde33d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bewaehrungs%20und%20straffaelligenhilfe%20thueringen>.
+cdf:traeger-1c72732d9e9c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20verband%20fuer%20dresden>.
+cdf:traeger-1c88ca252b39 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>.
+cdf:traeger-1dbce1f33f86 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-andreas%20haase>.
+cdf:traeger-1dec38e70eb2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20chemnitz%20erzgebirge%20und%20umland>.
+cdf:traeger-1e0f343c2fb4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20fuer%20chemnitz%20und%20umgebung>.
+cdf:traeger-1e821f64cd75 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kinder%20jugend%20und%20familienhilfe%20ruegen>.
+cdf:traeger-1f5ced589831 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-kreis%20caritas%20regen>.
+cdf:traeger-1fcbf4c85b49 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20herford>, <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20herford>;
+    cdp:hasMatchEvidence _:n3-342.
+cdf:traeger-210b32dc4dce a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20land%20brandenburg>.
+cdf:traeger-22a4ed70cfd8 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-queerpoint%20minden>.
+cdf:traeger-2620365845d9 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skf%20leverkusen>.
+cdf:traeger-267b8c5bd003 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-tawitko%20maennerberatung>.
+cdf:traeger-2692b8ea9a1c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20tecklenburger%20land>, <https://civic-data.de/pipeline#emr-traeger-caritas%20tecklenburger%20land>;
+    cdp:hasMatchEvidence _:n3-356.
+cdf:traeger-28a827d71c54 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verband%20kinder%20und%20jugendarbeit%20hamburg>.
+cdf:traeger-2a8acbbe07a7 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-selbststaendige%20ambulanz%20fuer%20sexualtherapeutische%20praevention%20und%20forensisch%20psychiatrische%20forschung>.
+cdf:traeger-2a98271ba262 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-arbeit%20gesundheit>.
+cdf:traeger-2d2843ab8690 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20euskirchen>.
+cdf:traeger-2d2cd8a37ad0 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20krefeld>, <https://civic-data.de/pipeline#emr-traeger-skm%20krefeld>;
+    cdp:hasMatchEvidence _:n3-422.
+cdf:traeger-2da673a00a5e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-vsp%20verbund%20fuer%20soziale%20projekte%20ggmbh>.
+cdf:traeger-2dd5504ea94d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-drk%20kv%20uecker%20randow>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutsches%20rotes%20kreuz%20kreisverband%20uecker%20randow>;
+    cdp:hasMatchEvidence _:n3-347.
+cdf:traeger-2f4973df51fb a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-hpp%20dr%20iur%20kristian%20ohde>.
+cdf:traeger-2fedc520235a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-praxis%20fuer%20coaching%20und%20achtsamkeit%20christopher%20end>.
+cdf:traeger-306593f0d254 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-suchtzentrum%20leipzig%20ggmbh>.
+cdf:traeger-3127def8f0f6 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-antidiskriminierungsstelle%20des%20bundes>.
+cdf:traeger-32191773bebb a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-aidshilfe%20leipzig>.
+cdf:traeger-32352f4b26fa a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-familienunterstuetzender%20dienst%20fud>.
+cdf:traeger-33c46a763b61 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-euline.
+cdf:traeger-35d9d3ab4936 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-boysto%20men%20braunschweig%20wolfsburg>.
+cdf:traeger-363a88cbe53f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia%20landesverband%20niedersachsen>.
+cdf:traeger-384a88831df4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-gesundheitsamt%20frankfurt%20am%20main>.
+cdf:traeger-39f370d2e11a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-consens.
+cdf:traeger-3a34ca50f6c5 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenschutzhaus%20dresden>.
+cdf:traeger-3a7c2fc5840d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-arche%20fuer%20frau%20und%20familie>.
+cdf:traeger-3a9463f43f3e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20kath%20verein%20fuer%20soziale%20dienste%20im%20rhein%20sieg%20kreis>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>, <https://civic-data.de/pipeline#emr-traeger-skm%20siegburg>, <https://civic-data.de/pipeline#emr-traeger-skm%20rhein%20sieg>;
+    cdp:hasMatchEvidence _:n3-337, _:n3-338, _:n3-339.
+cdf:traeger-3ab7d3d9c12e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennerbuero%20hannover>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerbuero%20hannover>;
+    cdp:hasMatchEvidence _:n3-394.
+cdf:traeger-3b22a031e4b2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-zentrum%20fuer%20integrative%20psychiatrie%20zip%20institut%20fuer%20sexualmedizin%20und%20forensische%20psychiatrie%20und%20psychotherapie>.
+cdf:traeger-3ec2c8d17c28 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20fuer%20den%20landkreis%20loerrach>.
+cdf:traeger-3ef578b422b2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauen%20fuer%20frauen>.
+cdf:traeger-40737206b866 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-lesben%20und%20schwulenverband%20lsvd>.
+cdf:traeger-414da91c4ee1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-katholischer%20sozialdienst>.
+cdf:traeger-42963b8081d6 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20warendorf>, <https://civic-data.de/pipeline#emr-traeger-skm%20warendorf>;
+    cdp:hasMatchEvidence _:n3-426.
+cdf:traeger-42ea1b619749 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-aidshilfe%20paderborn>.
+cdf:traeger-4329a850c414 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-dyade%20praxis%20fuer%20maenner>.
+cdf:traeger-432bac7b1e3c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialdienst%20katholischer%20frauen%20saarland>.
+cdf:traeger-43edb4e8cb6b a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-mihaly%20szoecs>.
+cdf:traeger-43fa905aa914 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-blaues%20kreuz%20diakoniewerk%20mgmbh>.
+cdf:traeger-4408aa2bf26f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-paparunde%20goettingen>.
+cdf:traeger-442ca94b7c66 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-gerhard%20kahl>.
+cdf:traeger-447b202e2518 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-dr%20phil%20andreas%20heilmann>.
+cdf:traeger-47ab8059d909 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-arbeiterwohlfahrt%20kreisverband%20berlin%20spree%20wuhle>.
+cdf:traeger-4973b373accd a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-aufschrei.
+cdf:traeger-4a7d74c7ddc7 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-lemann%20netzwerk%20jungen%20und%20maennerarbeit%20leipzig>.
+cdf:traeger-4aebd55be8a2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-netz%20gegen%20sexuelle%20gewalt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-netz%20gegen%20sexuelle%20gewalt>;
+    cdp:hasMatchEvidence _:n3-384.
+cdf:traeger-4b671bde2c8d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bundesverband%20maennertrauer>.
+cdf:traeger-4baa12d7ff61 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20ludwigslust>.
+cdf:traeger-4c3e387be930 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opfer%20taeterhilfe>.
+cdf:traeger-4d4af8784a7d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-zentrum%20fuer%20selbstbestimmtes%20leben%20behinderter%20erlangen>.
+cdf:traeger-4df612dbab6c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20sachsen%20leipzig>.
+cdf:traeger-4e0e7e77f389 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-zigmal%20in%20zusammenarbeit%20mit%20systemik%20im%20dialog>.
+cdf:traeger-4e69318b121e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-universitaet%20leipzig%20medizinische%20fakultaet>.
+cdf:traeger-509e3fb7e236 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia%20freiburg>.
+cdf:traeger-50deecbb6584 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-caritas%20herten>.
+cdf:traeger-5194661019cf a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-region%20hannover>.
+cdf:traeger-51acb0427cfc a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bezirksverein%20fuer%20soziale%20rechtspflege%20freiburg>.
+cdf:traeger-542f8940e814 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-awo.
+cdf:traeger-5495c1c04bb6 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-evangelischer%20kirchenkreis%20an%20der%20agger>.
+cdf:traeger-54fedf0079ce a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-walter%20duelberg>.
+cdf:traeger-55a183296f77 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialberatung%20stuttgart>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialberatung%20stuttgart>;
+    cdp:hasMatchEvidence _:n3-350.
+cdf:traeger-55e0930f6135 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skf%20muenster>.
+cdf:traeger-55ed9184b5dc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-maenneraufbruch.
+cdf:traeger-565988f75efb a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-klinikum%20bremen%20mitte>.
+cdf:traeger-58b313a1e33b a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-volkssolidaritaet%20tieckstrasse>.
+cdf:traeger-5a4042b54c9a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bundeszentrale%20fuer%20gesundheitliche%20aufklaerung%20bzga>.
+cdf:traeger-5acc5880c837 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-deutsche%20aids%20hilfe>.
+cdf:traeger-5aff7d476773 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenschutzhaus%20bautzen>.
+cdf:traeger-5b83529bbd8f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-katholischen%20gesamtkirchengemeinde%20freiburg>.
+cdf:traeger-5bfbb97e8f7c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-juergen%20willmann>.
+cdf:traeger-5c9d92735b09 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennernetzwerk%20dresden%20escape>.
+cdf:traeger-5d67c1f33b5c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia%20landesverband%20rheinland%20pfalz>.
+cdf:traeger-5dd5b72c7a65 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-universitaetsklinikum%20ulm>.
+cdf:traeger-5e2fb325904d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-kath%20gesamtkirchengemeinde%20freiburg>.
+cdf:traeger-5fad0c4095a4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20giessen>.
+cdf:traeger-611a1a063dda a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-deutscher%20caritas>.
+cdf:traeger-61d42a122a78 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-tauwetter.
+cdf:traeger-61f167d6a30c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-gestalt%20und%20paartherapeut%20juergen%20rauch>.
+cdf:traeger-621a31b9b4de a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-heilpaedagogische%20jungen%20jugendhilfe%20schlettau>.
+cdf:traeger-625b60d7de92 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bremer%20jungenbuero>.
+cdf:traeger-629f75ec1abf a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-basis%20woge>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-basis%20woge>;
+    cdp:hasMatchEvidence _:n3-406.
+cdf:traeger-62c487eb3d18 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-fairmann%20gug>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-fairmann%20gug>;
+    cdp:hasMatchEvidence _:n3-366.
+cdf:traeger-63112787496c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-katholische%20kirchengemeinde%20loerrach%20inzlingen>.
+cdf:traeger-6608063ad873 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-deutscher%20kinderschutzbund%20kreisverband%20holzminden>.
+cdf:traeger-663a7ee947ec a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-skf%20hochsauerland>.
+cdf:traeger-67fe831086d2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20vorpommern>.
+cdf:traeger-6993d97efde1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-stadt%20nuernberg>.
+cdf:traeger-69f5e6ef1c4b a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kv%20toleranz%20inklusion%20ggmbh>.
+cdf:traeger-6ae464cb7426 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-josef%20borchardt>.
+cdf:traeger-6b272e19fc02 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia>.
+cdf:traeger-6b5e3356a039 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-frauenhilfe%20chemnitz>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenhilfe%20chemnitz>;
+    cdp:hasMatchEvidence _:n3-352.
+cdf:traeger-6c4210432aa9 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner>, <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner%20region%20heinsberg>, <https://civic-data.de/pipeline#emr-traeger-skfm%20region%20heinsberg>;
+    cdp:hasMatchEvidence _:n3-335, _:n3-336.
+cdf:traeger-6e165fbf7c89 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-medizinische%20hochschule%20hannover>.
+cdf:traeger-6e382bce24a2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-drk%20kreisverband%20pirna>.
+cdf:traeger-6e76a623c5cc a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20rheydt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rheydt>;
+    cdp:hasMatchEvidence _:n3-340.
+cdf:traeger-6fb7680a396f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-beratung%20und%20praevention>.
+cdf:traeger-70d0df956f14 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-lud%20wig%20ma%20xi%20mi%20lians%20uni%20ver%20si%20taet%20muen%20chen>.
+cdf:traeger-70e8b86d72bd a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skf%20giessen>.
+cdf:traeger-7146fb54ee72 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenhilfe%20muenchen%20gemeinnuetzige%20gmbh>.
+cdf:traeger-7289e0c9212f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-innosozial.
+cdf:traeger-72f3806e0be1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-awo%20kreisverband%20schwerin%20parchim>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20schwerin%20parchim>;
+    cdp:hasMatchEvidence _:n3-376.
+cdf:traeger-7426fad48a27 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-vaeterzentrum%20dresden>.
+cdf:traeger-759949de07dc a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh%20duesseldorf>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh>, <https://civic-data.de/pipeline#emr-traeger-skm%20ggmbh%20duesseldorf>;
+    cdp:hasMatchEvidence _:n3-341, _:n3-420.
+cdf:traeger-75b086d310f0 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-diakonisches%20werk%20rosenheim>.
+cdf:traeger-760019aeab3b a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-lawaetz%20wohnen%20leben%20ggmbh>.
+cdf:traeger-761fb421c305 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-weissenburg.
+cdf:traeger-778f1fc97f67 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-evangelische%20kirche%20von%20kurhessen%20waldeck>.
+cdf:traeger-77bca1814c57 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-dialog.
+cdf:traeger-77d3095b1910 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-diakonisches%20werk%20gross%20gerau%20ruesselsheim>.
+cdf:traeger-7805d6bb011e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia%20nrw>.
+cdf:traeger-78ebef740343 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-hilfe%20fuer%20jungs>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-hilfe%20fuer%20jungs>;
+    cdp:hasMatchEvidence _:n3-368.
+cdf:traeger-78f2394a069f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-interkulturelle%20begegnungsstaette>.
+cdf:traeger-795a1beb0c29 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennerberatung%20paarberatung%20maennergruppe>.
+cdf:traeger-7a9ae96c34b3 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-anima%20systemische%20praxis>.
+cdf:traeger-7bf1e611dbd6 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20koeln>.
+cdf:traeger-7d511f26cbd1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-stark%20machen>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen>;
+    cdp:hasMatchEvidence _:n3-372.
+cdf:traeger-7ddc99eb362e a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-weissenberg, cdp:maennergewaltschutz-traeger-weissenberg;
+    cdp:hasMatchEvidence _:n3-370.
+cdf:traeger-7e0190bb23da a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialdienst%20katholischer%20frauen>.
+cdf:traeger-7efcd2b6ced0 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner%20duesseldorf>.
+cdf:traeger-7efd01f6adf8 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-fina%20und%20berg>.
+cdf:traeger-8079bf1fc17e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-diakonie%20rosenheim%20jugendhilfe%20oberbayern>.
+cdf:traeger-80c7a9e341bd a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-skf.
+cdf:traeger-81aa2792a9db a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-awo%20werra%20meissner>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20werra%20meissner>;
+    cdp:hasMatchEvidence _:n3-392.
+cdf:traeger-81ed16f4ab7a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-systemisches%20coaching%20michael%20heck>.
+cdf:traeger-828338c82623 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen>.
+cdf:traeger-838b3af4149a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-taeter%20opfer%20ausgleich%20bremen>.
+cdf:traeger-840e3b380474 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-gewaltberatung%20nuernberg>.
+cdf:traeger-84eafcea402c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-diakonie%20hasenbergl>.
+cdf:traeger-868a029e10c5 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-magistrat%20linz>.
+cdf:traeger-8695577763c9 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-fachberatung%20fuer%20sexuelle%20selbstbestimmung%20und%20gewaltpraevention>.
+cdf:traeger-875e143f9f81 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-universitaetsklinikum%20duesseldorf>.
+cdf:traeger-87ce2aeadcbe a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-evangelisches%20dekanat%20gross%20gerau%20ruesselsheim>.
+cdf:traeger-883c5e3c994c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-vaeter.
+cdf:traeger-892a3c31152a a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-schutzhoehle, cdp:maennergewaltschutz-traeger-schutzhoehle;
+    cdp:hasMatchEvidence _:n3-358.
+cdf:traeger-8973809af9e2 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-wildwasser%20wiesbaden>.
+cdf:traeger-8c19fb12bf59 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-lemann%20leipzig>.
+cdf:traeger-8c232c933c33 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennercoach%20bjoern%20krause>.
+cdf:traeger-8ce934711b5c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-reisende%20werkschule%20scholen>.
+cdf:traeger-9021fe32d0d6 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-skm%20kath%20verein%20fuer%20soziale%20dienste%20moenchengladbach>.
+cdf:traeger-916a9c90d9f6 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verein%20zwueschehalt>.
+cdf:traeger-91ccb0e7d609 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-man%20o%20mann%20maennerberatung%20im%20vsgb>.
+cdf:traeger-9292ecdabf7c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-martin%20noack>.
+cdf:traeger-92bed37a4fa1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-papas%20in%20krefeld>.
+cdf:traeger-92d4ac49643f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20landkreis%20sigmaringen>, <https://civic-data.de/pipeline#emr-traeger-skm%20maennerberatung%20sigmaringen>;
+    cdp:hasMatchEvidence _:n3-344.
+cdf:traeger-941938bce683 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-kreisdiakonisches%20werk%20greifswald>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kreisdiakonisches%20werk%20greifswald>;
+    cdp:hasMatchEvidence _:n3-362.
+cdf:traeger-94339e45a360 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutscher%20kinderschutzbund%20ortsverband%20zittau>.
+cdf:traeger-951c2f727504 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-darmstaedter%20hilfe%20beratung%20fuer%20opfer%20und%20zeugen%20in%20suedhessen>.
+cdf:traeger-956d22e90b66 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-msb%20medical%20school%20berlin>.
+cdf:traeger-97d67fb3910f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-schlupfwinkel, cdp:maennergewaltschutz-traeger-schlupfwinkel;
+    cdp:hasMatchEvidence _:n3-364.
+cdf:traeger-989ddc8bfc77 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-wendepunkt, cdp:maennergewaltschutz-traeger-wendepunkt;
+    cdp:hasMatchEvidence _:n3-400.
+cdf:traeger-9911487b1349 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-diakonie%20duesseldorf>.
+cdf:traeger-997b9a3005a7 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-fundamentes%20mobile%20maennerberatung%20berlin>.
+cdf:traeger-99cf9798dc3b a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-rueckhalt.
+cdf:traeger-9a2c79442878 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonieverband%20reutlingen>.
+cdf:traeger-9a30a6f39d43 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-c%20o%20stadt%20nuernberg%20gleichstellungsstelle>.
+cdf:traeger-9bbe41beed50 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bildungs%20und%20erholungsstaette%20langau>.
+cdf:traeger-a0f9a2bb47b1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-drk%20kreisverband%20oestliche%20altmark>.
+cdf:traeger-a1a754587150 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20spi%20soziale%20stadt%20und%20land%20entwicklungsgesellschaft%20mbh>.
+cdf:traeger-a2600839eb82 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-landesvereinigung%20fuer%20gesundheit%20und%20akademie%20fuer%20sozialmedizin%20niedersachsen>.
+cdf:traeger-a33c30de11fd a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sexualmedizinische%20praxis%20dr%20freitag>.
+cdf:traeger-a37ae13e1878 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-universitaetsmedizin%20mainz>.
+cdf:traeger-a43d64803292 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-stiftung%20opferhilfe%20niedersachsen>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    cdp:hasMatchEvidence _:n3-354.
+cdf:traeger-a4941da3d0ae a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia%20giessen>.
+cdf:traeger-a572e0ab76a1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-land%20niedersachsen%20medizinische%20hochschule%20hannover>.
+cdf:traeger-a69018b2520b a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-maennerberatung%20ruhr>.
+cdf:traeger-a69110a9399d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-pro%20familia%20flensburg>.
+cdf:traeger-a774491b176d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste>, <https://civic-data.de/pipeline#emr-traeger-skm%20trier>;
+    cdp:hasMatchEvidence _:n3-345.
+cdf:traeger-a7dd4fb70d15 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-diakonisches%20werk%20wuerzburg>.
+cdf:traeger-a883f336ebcc a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-verein%20gegen%20sexualisierte%20gewalt%20kassel>.
+cdf:traeger-a97c27ed4481 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20sachsen%20bautzen>.
+cdf:traeger-aa2508a20cee a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sven%20kerkhoff>.
+cdf:traeger-ab203821ca7d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-kreisverwaltung%20mainz%20bingen>.
+cdf:traeger-abf48a3168cd a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-institut%20fuer%20sexualwissenschaft%20und%20sexualmedizin%20charit%20universitaetsmedizin%20berlin>.
+cdf:traeger-acfc09dcb4c7 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-juergen%20degner>.
+cdf:traeger-ae7d56a6278d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-nicolai%20weilbaecher>.
+cdf:traeger-af2dc1efee60 a cdp:MatchCluster;
+    cdp:hasMember cdp:emr-traeger-weitsinn.
+cdf:traeger-b1a9cfddd39f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bistum%20augsburg>.
+cdf:traeger-b1e6b22994d8 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-selbst%20bestimmt>.
+cdf:traeger-b26599382d8e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-universitaetsklinikum%20giessen%20und%20marburg%20gmbh>.
+cdf:traeger-b4808d02aaae a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-mann%20o%20meter%20berlins%20schwuler%20checkpoint>.
+cdf:traeger-b6103c5bd888 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verein%20fuer%20maenner%20contra%20gewalt>.
+cdf:traeger-b70fa5cf2852 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-carsten%20vonnoh%20online%20coach%20fuer%20vaeter>.
+cdf:traeger-b77b395bf246 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-andreas%20goosses>.
+cdf:traeger-b90ff2ae61ba a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bz%20bildungszentrum%20des%20handels%20ggmbh>.
+cdf:traeger-ba35bbf98f6f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20geldern%20kevelaer>, <https://civic-data.de/pipeline#emr-traeger-caritas%20geldern%20kevelaer>;
+    cdp:hasMatchEvidence _:n3-416.
+cdf:traeger-ba43ce6ba2ee a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-zartbitter%20muenster>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-zartbitter%20muenster>;
+    cdp:hasMatchEvidence _:n3-404.
+cdf:traeger-baac7e49a5b7 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-vaeter%20in%20koeln>.
+cdf:traeger-bb0a1e2749a7 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-medizinische%20hochschule%20hannover%20arbeitsbereich%20klinische%20psychologie%20und%20sexualmedizin>.
+cdf:traeger-bc401f301296 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20neuss>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20neuss>;
+    cdp:hasMatchEvidence _:n3-388.
+cdf:traeger-bcd8f7a770ed a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-weisser%20ring>.
+cdf:traeger-bde17a724534 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauen%20und%20kinderschutzhaus%20freiburg>.
+cdf:traeger-be3e95f2addc a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-wegweiser.
+cdf:traeger-becdcd53a3e4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-pro%20familia%20lv%20schleswig%20holstein>.
+cdf:traeger-befc0a42c1c4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-oekumene%20evangelische%20dienste%20im%20dekanatsbezirk%20muenchen%20und%20das%20erzbischoefliche%20ordinariat%20muenchen%20und%20freising>.
+cdf:traeger-bfa137dd6613 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-vereint%20gegen%20gewalt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-vereint%20gegen%20gewalt>;
+    cdp:hasMatchEvidence _:n3-396.
+cdf:traeger-bfb48a8677d1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-fair%20gewaltfrei%20und%20selbstbestimmt>.
+cdf:traeger-bffa94319527 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-drudel11.
+cdf:traeger-c02c4ea47752 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20berlin>.
+cdf:traeger-c2230cc3f408 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennercoaching%20luebeck>.
+cdf:traeger-c239b384e8c8 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-wetek%20ggmbh>.
+cdf:traeger-c2acd5f11643 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-vaeteraufbruch%20fuer%20kinder>.
+cdf:traeger-c2e2f97e026c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20fuer%20den%20landkreis%20emmendingen>, <https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20den%20landkreis%20emmendingen>;
+    cdp:hasMatchEvidence _:n3-382.
+cdf:traeger-c2fe98abd839 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20regionalverband%20halle%20merseburg>.
+cdf:traeger-c35021a2cc2a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-praxis%20fuer%20koerperorientierte%20psychotherapie%20sebastian%20hofer>.
+cdf:traeger-c3896e364060 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennercoach%20i%20gaycoach>.
+cdf:traeger-c4054a1f0fdc a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-skfm%20monheim%20am%20rhein>.
+cdf:traeger-c405750d001d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-richard%20sima>.
+cdf:traeger-c7d7fbf2cb83 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-christlicher%20verein%20zur%20foerderung%20sozialer%20initiativen>.
+cdf:traeger-c7da282cf9f9 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-lsvd%20landesverband%20saar>.
+cdf:traeger-c820d5e242a4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-umsteuern%20robin%20sisterhood>.
+cdf:traeger-c9afee517c40 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-mario%20sudmann>.
+cdf:traeger-c9d421c5f7f3 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-traumahilfezentrum%20nuernberg>.
+cdf:traeger-ca01e345851a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-juergen%20rams>.
+cdf:traeger-caaf621f5168 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-jana%20gose>.
+cdf:traeger-cb8b03203e4a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20in%20aachen>, <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20in%20aachen>;
+    cdp:hasMatchEvidence _:n3-374.
+cdf:traeger-cd2e96b95e24 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-wuki.
+cdf:traeger-cd67b0269cb0 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-universitaetsmedizin%20rostock>.
+cdf:traeger-ceb4bdf1e248 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-diakonisches%20werk%20main%20taunus>.
+cdf:traeger-d1a30240303f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-opfer%20und%20taeterhilfe%20rheinhessen>.
+cdf:traeger-d32430eb2235 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-frauennotruf%20kiel>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauennotruf%20kiel>;
+    cdp:hasMatchEvidence _:n3-398.
+cdf:traeger-d3c0ad890211 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-wellcome%20ggmbh>.
+cdf:traeger-d61618104ed1 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-die%20diskrete%20privatpraxis%20fuer%20maenner%20und%20vaeter%20carlson%20el%20murtadi>.
+cdf:traeger-d6f9f33a2985 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20zwickauer%20land>.
+cdf:traeger-d9dfb5db5dee a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-udo%20voegeli>.
+cdf:traeger-da3b7a12f13b a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maedchenhaus%20bielefeld>.
+cdf:traeger-dac6009edd61 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-muenchner%20informationszentrum%20fuer%20maenner>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-muenchner%20informationszentrum%20fuer%20maenner>;
+    cdp:hasMatchEvidence _:n3-386.
+cdf:traeger-dacb82707024 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialstiftung%20bamberg>.
+cdf:traeger-dbc8a351f786 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20nuernberg>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20nuernberg>;
+    cdp:hasMatchEvidence _:n3-380.
+cdf:traeger-dca035180c4f a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-katte.
+cdf:traeger-dd31b208fdc4 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-skm%20lingen>.
+cdf:traeger-dd3a482c31b8 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-ein%20projekt%20der%20muenchner%20aids%20hilfe>.
+cdf:traeger-ddb45c1d0311 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-vaeterzentrum.
+cdf:traeger-deac21a8304e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-beratungsstelle%20hafen>.
+cdf:traeger-dec840039c4c a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-mannigfaltig.
+cdf:traeger-def3b90f7785 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-magnus%20hirschfeld%20zentrum>.
+cdf:traeger-e0967ae63057 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-edmund%20wegner%20heilpraktiker%20fuer%20koerper%20und%20psychotherapie>.
+cdf:traeger-e0d7f2515f23 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennergewaltschutz-traeger-pfunzkerle.
+cdf:traeger-e0dc1720bc52 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20fuer%20die%20stadt%20gelsenkirchen>, <https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20die%20stadt%20gelsenkirchen>;
+    cdp:hasMatchEvidence _:n3-414.
+cdf:traeger-e22c42d50c7e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonisches%20werk%20hamburg%20west%20suedholstein>.
+cdf:traeger-e2dd5986fb29 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stadtmission%20chemnitz>.
+cdf:traeger-e2f30e5a1619 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verein%20fuer%20soziale%20rechtspflege%20dresden>.
+cdf:traeger-e5f858934a93 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonie%20mecklenburgische%20seenplatte%20ggmbh>.
+cdf:traeger-e66751737b39 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-kath%20sozialdienst%20olpe>.
+cdf:traeger-e66bfce80414 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-gewaltbetroffenheit%20caritas%20fuer%20das%20bistum%20erfurt>.
+cdf:traeger-e759b560d18d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-janson%20beratung%20begleitung>.
+cdf:traeger-e7840adecaec a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-dioezese%20rottenburg%20stuttgart>.
+cdf:traeger-e80abff71bb6 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-rauhreif, cdp:maennergewaltschutz-traeger-rauhreif;
+    cdp:hasMatchEvidence _:n3-360.
+cdf:traeger-e8c1fd895629 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-flexible%20jugendhilfe>.
+cdf:traeger-e997e0d00211 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-bruecke%20siegen>.
+cdf:traeger-ea1ebc31dc73 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#emr-traeger-caritas%20stadt%20muenster>.
+cdf:traeger-eacb1466f18e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-michael%20krah>.
+cdf:traeger-eb4c8e16109a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verein%20zur%20foerderung%20von%20jugendlichen>.
+cdf:traeger-ed465ffb289e a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-opferhilfe%20hamburg>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20hamburg>;
+    cdp:hasMatchEvidence _:n3-378.
+cdf:traeger-edea12ed8741 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sophie%20ggmbh>.
+cdf:traeger-ee71a7f2afe0 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-verikom%20ggmbh>.
+cdf:traeger-eebb5565e1df a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-awo%20augsburg%20beratungsstelle%20via%20wege%20aus%20der%20gewalt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20augsburg>;
+    cdp:hasMatchEvidence _:n3-346.
+cdf:traeger-ef6e50c9ed1f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verein%20courage>.
+cdf:traeger-efa168e97091 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-skm.
+cdf:traeger-f0c2378214c7 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-berlin%20brandenburger%20vaeterinitiative>.
+cdf:traeger-f324252e5099 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-christian%20wengler%20praxis%20fuer%20osteopathie%20und%20psychotherapie>.
+cdf:traeger-f352dd4b14c3 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennernetzwerk%20dresden>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennernetzwerk%20dresden>;
+    cdp:hasMatchEvidence _:n3-402.
+cdf:traeger-f3766be2236f a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-lebenshaus%20herrgard>, <https://civic-data.de/pipeline#emr-traeger-lebenshaus%20herrgard>;
+    cdp:hasMatchEvidence _:n3-408.
+cdf:traeger-f4a2c1345d39 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-maennerwohnhilfe, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maenner%20wohn%20hilfe>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerwohnhilfe%20oldenburg>;
+    cdp:hasMatchEvidence _:n3-348, _:n3-349.
+cdf:traeger-f4ba35a13f08 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-alexianer%20st%20josefs%20krankenhaus%20potsdam>.
+cdf:traeger-f4d74f19db4a a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-christlicher%20verein%20zur%20foerderung%20sozialer%20initiativen%20in%20kiel>.
+cdf:traeger-f53ee685a762 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-freiberufliches%20beratungsangebot>.
+cdf:traeger-f6b330dfff10 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skfm%20mettmann>.
+cdf:traeger-f74783cd2a36 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20rheinberg>.
+cdf:traeger-f7ca183514f5 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-pro%20familia%20waiblingen>.
+cdf:traeger-f8ea34eef6e7 a cdp:MatchCluster;
+    cdp:hasMember cdp:maennerberatungsnetz-traeger-schutzraum.
+cdf:traeger-f99ea986960c a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-smutje%20therapiehilfe%20ggmbh>.
+cdf:traeger-f9be44fc1652 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner%20wattenscheid>.
+cdf:traeger-fb7951a90068 a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennergewaltschutz-traeger-hanauer%20hilfe>.
+cdf:traeger-fc6d9288791d a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-verein%20fuer%20sozialtherapie%20gruppenarbeit%20und%20beratung%20bielefeld>.
+cdf:traeger-fdfe619c9eef a cdp:MatchCluster;
+    cdp:hasMember <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-evangelische%20stadtmission%20und%20gemeindedienst%20erfurt%20ggmbh>.
+_:n3-208 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-375, cdp:maennergewaltschutz-7441;
+    cdp:viaManualMatch true.
+_:n3-209 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-11046, cdp:maennergewaltschutz-9823;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-210, _:n3-211.
+_:n3-210 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Gewaltschutz für Männer*";
+    cdp:valueB "Gewaltschutz für Männer".
+_:n3-211 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Olgastraße 19";
+    cdp:valueB "Olgastraße 19".
+_:n3-212 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-343, cdp:maennergewaltschutz-8580;
+    cdp:aggregateScore 0.650;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-213, _:n3-214.
+_:n3-213 cdp:on schema:name;
+    cdp:similarity 0.900;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfe Hamburg - Beratung bei Gewalt & Trauma";
+    cdp:valueB "Opferhilfe Hamburg e.V.".
+_:n3-214 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Paul-Nevermann-Platz 2-4";
+    cdp:valueB "Paul-Nevermann-Platz 2-4".
+_:n3-215 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-393, cdp:maennergewaltschutz-6957;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-216, _:n3-217.
+_:n3-216 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Männersache";
+    cdp:valueB "MännerSache".
+_:n3-217 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Donnerschweer Straße 10";
+    cdp:valueB "Donnerschweer Straße 10".
+_:n3-218 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14662, cdp:maennergewaltschutz-12414;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-219, _:n3-220.
+_:n3-219 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Hildesheim";
+    cdp:valueB "Opferhilfebüro Hildesheim".
+_:n3-220 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Kaiserstraße 60";
+    cdp:valueB "Kaiserstraße 60".
+_:n3-221 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14665, cdp:maennergewaltschutz-12418;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-222, _:n3-223.
+_:n3-222 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Osnabrück";
+    cdp:valueB "Opferhilfebüro Osnabrück".
+_:n3-223 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Goethering 30";
+    cdp:valueB "Goethering 30".
+_:n3-224 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14666, cdp:maennergewaltschutz-12415;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-225, _:n3-226.
+_:n3-225 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Lingen";
+    cdp:valueB "Opferhilfebüro Osnabrück/Zweigstelle Lingen".
+_:n3-226 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Kivelingstraße 5";
+    cdp:valueB "Kivelingstraße 5".
+_:n3-227 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14667, cdp:maennergewaltschutz-12417;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-228, _:n3-229.
+_:n3-228 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Oldenburg";
+    cdp:valueB "Opferhilfebüro Oldenburg".
+_:n3-229 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Cloppenburger Straße 323";
+    cdp:valueB "Cloppenburger Straße 323".
+_:n3-230 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14669, cdp:maennergewaltschutz-12408;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-231, _:n3-232.
+_:n3-231 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Braunschweig";
+    cdp:valueB "Opferhilfebüro Braunschweig".
+_:n3-232 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Münzstraße 17";
+    cdp:valueB "Münzstraße 17".
+_:n3-233 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14673, cdp:maennergewaltschutz-12416;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-234, _:n3-235.
+_:n3-234 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Lüneburg";
+    cdp:valueB "Opferhilfebüro Lüneburg".
+_:n3-235 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Bei der St. Lambertikirche 8";
+    cdp:valueB "Bei der St. Lambertikirche 8".
+_:n3-236 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14674, cdp:maennergewaltschutz-12421;
+    cdp:aggregateScore 0.664;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-237, _:n3-238.
+_:n3-237 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Verden";
+    cdp:valueB "Opferhilfebüro Verden".
+_:n3-238 cdp:on schema:streetAddress;
+    cdp:similarity 0.820;
+    cdp:weight 0.20;
+    cdp:valueA "Große Straße 82";
+    cdp:valueB "Grosse Straße 82-84".
+_:n3-239 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14748, cdp:maennergewaltschutz-12407;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-240, _:n3-241.
+_:n3-240 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Aurich";
+    cdp:valueB "Opferhilfebüro Aurich".
+_:n3-241 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Esenser Straße 40";
+    cdp:valueB "Esenser Straße 40".
+_:n3-242 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14749, cdp:maennergewaltschutz-12410;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-243, _:n3-244.
+_:n3-243 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Göttingen";
+    cdp:valueB "Opferhilfebüro Göttingen".
+_:n3-244 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Maschmühlenweg 11";
+    cdp:valueB "Maschmühlenweg 11".
+_:n3-245 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14811, cdp:maennergewaltschutz-12412;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-246, _:n3-247.
+_:n3-246 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Hannover";
+    cdp:valueB "Opferhilfebüro Hannover".
+_:n3-247 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Weinstraße 20";
+    cdp:valueB "Weinstraße 20".
+_:n3-248 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-14914, cdp:maennergewaltschutz-12409;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-249, _:n3-250.
+_:n3-249 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Opferhilfebüro Bückeburg";
+    cdp:valueB "Opferhilfebüro Bückeburg".
+_:n3-250 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Schulstraße 2";
+    cdp:valueB "Schulstraße 2".
+_:n3-251 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-1846, cdp:maennergewaltschutz-6956;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-252, _:n3-253.
+_:n3-252 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Männer*Beratung Oberfranken";
+    cdp:valueB "Männer*Beratung Oberfranken".
+_:n3-253 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Am Bürgerheim 7";
+    cdp:valueB "Am Bürgerheim 7".
+_:n3-254 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-363, cdp:maennergewaltschutz-6955;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-255, _:n3-256.
+_:n3-255 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Beratungsstelle Häusliche Gewalt gegen Männer";
+    cdp:valueB "Beratungsstelle Häusliche Gewalt gegen Männer".
+_:n3-256 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Gostenhofer Hauptstraße 63";
+    cdp:valueB "Gostenhofer Hauptstraße 63".
+_:n3-257 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-230, cdp:maennergewaltschutz-9019;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-258, _:n3-259.
+_:n3-258 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Hilfe bei sexualisierter Gewalt";
+    cdp:valueB "Rauhreif - Hilfe bei sexualisierter Gewalt".
+_:n3-259 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Platenstraße 28";
+    cdp:valueB "Platenstraße 28".
+_:n3-260 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-236, cdp:maennergewaltschutz-9018;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-261, _:n3-262.
+_:n3-261 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Jungenbüro Nürnberg – Schlupfwinkel e.V.";
+    cdp:valueB "Jungenbüro Nürnberg".
+_:n3-262 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Allersberger Straße 129";
+    cdp:valueB "Allersberger Straße 129".
+_:n3-263 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-424, cdp:maennergewaltschutz-6959;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-264, _:n3-265.
+_:n3-264 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Männerberatung Kiel";
+    cdp:valueB "Männerberatung".
+_:n3-265 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Dänische Straße 3-5";
+    cdp:valueB "Dänische Straße 3–5".
+_:n3-266 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-273, cdp:maennergewaltschutz-7866;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-267, _:n3-268.
+_:n3-267 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Männerbüro Freiburg";
+    cdp:valueB "Männerbüro".
+_:n3-268 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Talstraße 29";
+    cdp:valueB "Talstraße 29".
+_:n3-269 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-279, cdp:maennergewaltschutz-8586;
+    cdp:aggregateScore 0.686;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-270, _:n3-271.
+_:n3-270 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "MANEO - das schwule Anti-Gewalt-Projekt in Berlin";
+    cdp:valueB "MANEO".
+_:n3-271 cdp:on schema:streetAddress;
+    cdp:similarity 0.930;
+    cdp:weight 0.20;
+    cdp:valueA "Bülowstraße 107";
+    cdp:valueB "Bülowstraße 106".
+_:n3-272 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-303, cdp:maennergewaltschutz-9055;
+    cdp:aggregateScore 0.655;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-273, _:n3-274.
+_:n3-273 cdp:on schema:name;
+    cdp:similarity 0.910;
+    cdp:weight 0.50;
+    cdp:valueA "Interventionsstelle gegen Häusliche Gewalt und Stalking";
+    cdp:valueB "Interventionsstellen gegen häusliche Gewalt &amp; Stalking Stralsund".
+_:n3-274 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Semlower Straße 13";
+    cdp:valueB "Semlower Straße 13".
+_:n3-275 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-305, cdp:maennergewaltschutz-6958;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-276, _:n3-277.
+_:n3-276 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Männerberatung Flensburg";
+    cdp:valueB "Männerberatung".
+_:n3-277 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Marienstraße 29-31";
+    cdp:valueB "Marienstraße 29-31".
+_:n3-278 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-323, cdp:maennergewaltschutz-8598;
+    cdp:aggregateScore 0.620;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-279, _:n3-280.
+_:n3-279 cdp:on schema:name;
+    cdp:similarity 0.840;
+    cdp:weight 0.50;
+    cdp:valueA "AWO Beratungsstelle für Betroffene für häusliche Gewalt";
+    cdp:valueB "Beratungsstelle für Betroffene von häuslicher Gewalt Grevesmühlen".
+_:n3-280 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Rudolf-Breitscheid-Straße 27";
+    cdp:valueB "Rudolf-Breitscheid-Straße 27".
+_:n3-281 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-367, cdp:maennergewaltschutz-9015;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-282, _:n3-283.
+_:n3-282 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Netz gegen sexuelle Gewalt | Beratungsstelle Weilheim & Oberland";
+    cdp:valueB "Netz gegen sexuelle Gewalt Beratungsstelle Weilheim &amp; Oberland".
+_:n3-283 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Lohgasse 3";
+    cdp:valueB "Lohgasse 3".
+_:n3-284 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-401, cdp:maennergewaltschutz-7051;
+    cdp:aggregateScore 0.570;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-285, _:n3-286.
+_:n3-285 cdp:on schema:name;
+    cdp:similarity 0.740;
+    cdp:weight 0.50;
+    cdp:valueA "Männer- und Väterberatung";
+    cdp:valueB "Männerberatung".
+_:n3-286 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "An den Anlagen 8";
+    cdp:valueB "An den Anlagen 8".
+_:n3-287 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-406, cdp:maennergewaltschutz-6964;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-288, _:n3-289.
+_:n3-288 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Männerbüro Hannover";
+    cdp:valueB "Männerbüro Hannover e.V.".
+_:n3-289 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Ilse-Ter-Meer-Weg 7";
+    cdp:valueB "Ilse-ter-Meer-Weg 7".
+_:n3-290 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-546, cdp:maennergewaltschutz-6842;
+    cdp:aggregateScore 0.678;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-291, _:n3-292.
+_:n3-291 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "SAFE - Beratungsstelle für männliche Gewaltopfer in engen sozialen Beziehungen";
+    cdp:valueB "Beratungsstelle SAFE!".
+_:n3-292 cdp:on schema:streetAddress;
+    cdp:similarity 0.890;
+    cdp:weight 0.20;
+    cdp:valueA "Erthalstraße2";
+    cdp:valueB "Erthalstraße 2".
+_:n3-293 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-467, cdp:maennergewaltschutz-9060;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-294, _:n3-295.
+_:n3-294 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Fachberatungsstelle gegen sexualisierte Gewalt";
+    cdp:valueB "Fachberatungsstelle gegen sexualisierte Gewalt Greifswald".
+_:n3-295 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Bahnhofstraße 16";
+    cdp:valueB "Bahnhofstraße 16".
+_:n3-296 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-482, cdp:maennergewaltschutz-8583;
+    cdp:aggregateScore 0.680;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-297, _:n3-298.
+_:n3-297 cdp:on schema:name;
+    cdp:similarity 0.960;
+    cdp:weight 0.50;
+    cdp:valueA "Basis Praevent";
+    cdp:valueB "basispraevent".
+_:n3-298 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Steindamm 11";
+    cdp:valueB "Steindamm 11".
+_:n3-299 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-499, cdp:maennergewaltschutz-7018;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-300, _:n3-301.
+_:n3-300 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Echte Männer reden";
+    cdp:valueB "Echte Männer reden".
+_:n3-301 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Sternstraße 71-73";
+    cdp:valueB "Sternstraße 71-73".
+_:n3-302 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-576, cdp:maennergewaltschutz-9547;
+    cdp:aggregateScore 0.625;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-303, _:n3-304.
+_:n3-303 cdp:on schema:name;
+    cdp:similarity 0.850;
+    cdp:weight 0.50;
+    cdp:valueA "Jungen- und Männerberatungsstelle SKM Trier";
+    cdp:valueB "Jungen- und Männerberatung Trier".
+_:n3-304 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Röntgenstraße 4";
+    cdp:valueB "Röntgenstraße 4".
+_:n3-305 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-579, cdp:maennergewaltschutz-8634;
+    cdp:aggregateScore 0.620;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-306, _:n3-307.
+_:n3-306 cdp:on schema:name;
+    cdp:similarity 0.840;
+    cdp:weight 0.50;
+    cdp:valueA "Wildwasser Gießen, Beratungsstelle gegen den sexuellen Missbrauch";
+    cdp:valueB "Beratungsstelle gegen den sexuellen Missbrauch an Mädchen und Jungen".
+_:n3-307 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Liebigstraße 13";
+    cdp:valueB "Liebigstraße 13".
+_:n3-308 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-585, cdp:maennergewaltschutz-9058;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-309, _:n3-310.
+_:n3-309 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Beratungsstelle für Betroffene von häuslicher Gewalt \"Klara\"";
+    cdp:valueB "Beratungsstelle KLARA".
+_:n3-310 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Lange Straße 35";
+    cdp:valueB "Lange Straße 35".
+_:n3-311 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-586, cdp:maennergewaltschutz-9063;
+    cdp:aggregateScore 0.660;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-312, _:n3-313.
+_:n3-312 cdp:on schema:name;
+    cdp:similarity 0.920;
+    cdp:weight 0.50;
+    cdp:valueA "AWO Beratungsstelle für Betroffene von häuslicher Gewalt";
+    cdp:valueB "Beratungsstelle für Betroffene häuslicher Gewalt Parchim".
+_:n3-313 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Ziegenmarkt 4-7";
+    cdp:valueB "Ziegenmarkt 4 - 7".
+_:n3-314 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-587, cdp:maennergewaltschutz-8997;
+    cdp:aggregateScore 0.692;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-315, _:n3-316.
+_:n3-315 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Beratungsstelle \"Ankerlicht\"";
+    cdp:valueB "Beratungsstelle \"Ankerlicht\"".
+_:n3-316 cdp:on schema:streetAddress;
+    cdp:similarity 0.960;
+    cdp:weight 0.20;
+    cdp:valueA "Ringstraße 25b";
+    cdp:valueB "Ringstraße 25".
+_:n3-317 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-588, cdp:maennergewaltschutz-8595;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-318, _:n3-319.
+_:n3-318 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Beratungsstelle für Betroffene häuslicher Gewalt";
+    cdp:valueB "Beratungsstelle für Betroffene von häuslicher Gewalt".
+_:n3-319 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Oskar-Picht-Straße 1";
+    cdp:valueB "Oskar-Picht-Straße 1".
+_:n3-320 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-589, cdp:maennergewaltschutz-8995;
+    cdp:aggregateScore 0.660;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-321, _:n3-322.
+_:n3-321 cdp:on schema:name;
+    cdp:similarity 0.920;
+    cdp:weight 0.50;
+    cdp:valueA "Beratungsstelle für Betroffene von häuslicher Gewalt (Kreisdiakonisches Werk Greifswald e.V.)";
+    cdp:valueB "Beratungsstelle für Betroffene häuslicher Gewalt Wolgast".
+_:n3-322 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Breite Straße 6c";
+    cdp:valueB "Breite Straße 6c".
+_:n3-323 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-596, cdp:maennergewaltschutz-8627;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-324, _:n3-325.
+_:n3-324 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "fax-Fachberatungsstelle bei sexualisierter Gewalt in Kindheit und Jugend in Stadt und Landkreis Kassel";
+    cdp:valueB "faX".
+_:n3-325 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Untere Karlsstraße 16";
+    cdp:valueB "Untere Karlsstraße 16".
+_:n3-326 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-599, cdp:maennergewaltschutz-12395;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-327, _:n3-328.
+_:n3-327 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "SKM Männerberatung Sigmaringen";
+    cdp:valueB "Männerberatung SKM Sigmaringen".
+_:n3-328 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Fidelisstraße 6";
+    cdp:valueB "Fidelisstraße 6".
+_:n3-329 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-7629, cdp:maennergewaltschutz-7042;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-330, _:n3-331.
+_:n3-330 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Beratungsstelle Häusliche Gewalt gegen Männer Bayreuth";
+    cdp:valueB "Beratungsstelle Häusliche Gewalt gegen Männer".
+_:n3-331 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Casselmannstraße 15";
+    cdp:valueB "Casselmannstraße 15".
+_:n3-332 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-7630, cdp:maennergewaltschutz-7041;
+    cdp:aggregateScore 0.700;
+    cdp:similarityAlgorithm "token_set_ratio";
+    cdp:onCriterion _:n3-333, _:n3-334.
+_:n3-333 cdp:on schema:name;
+    cdp:similarity 1.000;
+    cdp:weight 0.50;
+    cdp:valueA "Beratungsstelle Häusliche Gewalt gegen Männer Fürth";
+    cdp:valueB "Beratungsstelle Häusliche Gewalt gegen Männer".
+_:n3-334 cdp:on schema:streetAddress;
+    cdp:similarity 1.000;
+    cdp:weight 0.20;
+    cdp:valueA "Theresienstraße 3";
+    cdp:valueB "Theresienstraße 3".
+_:n3-335 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner>, <https://civic-data.de/pipeline#emr-traeger-skfm%20region%20heinsberg>;
+    cdp:viaManualMatch true.
+_:n3-336 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner%20region%20heinsberg>, <https://civic-data.de/pipeline#emr-traeger-skfm%20region%20heinsberg>;
+    cdp:viaManualMatch true.
+_:n3-337 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20kath%20verein%20fuer%20soziale%20dienste%20im%20rhein%20sieg%20kreis>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>;
+    cdp:viaManualMatch true.
+_:n3-338 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>, <https://civic-data.de/pipeline#emr-traeger-skm%20rhein%20sieg>;
+    cdp:viaManualMatch true.
+_:n3-339 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>, <https://civic-data.de/pipeline#emr-traeger-skm%20siegburg>;
+    cdp:viaManualMatch true.
+_:n3-340 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20rheydt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rheydt>;
+    cdp:viaManualMatch true.
+_:n3-341 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh%20duesseldorf>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh>;
+    cdp:viaManualMatch true.
+_:n3-342 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20herford>, <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20herford>;
+    cdp:viaManualMatch true.
+_:n3-343 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20koeln>, <https://civic-data.de/pipeline#emr-traeger-skm%20koeln%20sozialdienst%20katholischer%20maenner>;
+    cdp:viaManualMatch true.
+_:n3-344 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20landkreis%20sigmaringen>, <https://civic-data.de/pipeline#emr-traeger-skm%20maennerberatung%20sigmaringen>;
+    cdp:viaManualMatch true.
+_:n3-345 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste>, <https://civic-data.de/pipeline#emr-traeger-skm%20trier>;
+    cdp:viaManualMatch true.
+_:n3-346 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-awo%20augsburg%20beratungsstelle%20via%20wege%20aus%20der%20gewalt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20augsburg>;
+    cdp:viaManualMatch true.
+_:n3-347 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-drk%20kv%20uecker%20randow>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutsches%20rotes%20kreuz%20kreisverband%20uecker%20randow>;
+    cdp:viaManualMatch true.
+_:n3-348 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-traeger-maennerwohnhilfe, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maenner%20wohn%20hilfe>;
+    cdp:viaManualMatch true.
+_:n3-349 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-traeger-maennerwohnhilfe, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerwohnhilfe%20oldenburg>;
+    cdp:viaManualMatch true.
+_:n3-350 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialberatung%20stuttgart>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialberatung%20stuttgart>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-351.
+_:n3-351 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "sozialberatung stuttgart";
+    cdp:valueB "sozialberatung stuttgart".
+_:n3-352 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-frauenhilfe%20chemnitz>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenhilfe%20chemnitz>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-353.
+_:n3-353 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "frauenhilfe chemnitz";
+    cdp:valueB "frauenhilfe chemnitz".
+_:n3-354 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-stiftung%20opferhilfe%20niedersachsen>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-355.
+_:n3-355 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "stiftung opferhilfe niedersachsen";
+    cdp:valueB "stiftung opferhilfe niedersachsen".
+_:n3-356 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20tecklenburger%20land>, <https://civic-data.de/pipeline#emr-traeger-caritas%20tecklenburger%20land>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-357.
+_:n3-357 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "caritas tecklenburger land";
+    cdp:valueB "caritas tecklenburger land".
+_:n3-358 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-traeger-schutzhoehle, cdp:maennergewaltschutz-traeger-schutzhoehle;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-359.
+_:n3-359 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "schutzhoehle";
+    cdp:valueB "schutzhoehle".
+_:n3-360 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-traeger-rauhreif, cdp:maennergewaltschutz-traeger-rauhreif;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-361.
+_:n3-361 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "rauhreif";
+    cdp:valueB "rauhreif".
+_:n3-362 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-kreisdiakonisches%20werk%20greifswald>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kreisdiakonisches%20werk%20greifswald>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-363.
+_:n3-363 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "kreisdiakonisches werk greifswald";
+    cdp:valueB "kreisdiakonisches werk greifswald".
+_:n3-364 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-traeger-schlupfwinkel, cdp:maennergewaltschutz-traeger-schlupfwinkel;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-365.
+_:n3-365 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "schlupfwinkel";
+    cdp:valueB "schlupfwinkel".
+_:n3-366 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-fairmann%20gug>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-fairmann%20gug>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-367.
+_:n3-367 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "fairmann gug";
+    cdp:valueB "fairmann gug".
+_:n3-368 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-hilfe%20fuer%20jungs>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-hilfe%20fuer%20jungs>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-369.
+_:n3-369 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "hilfe fuer jungs";
+    cdp:valueB "hilfe fuer jungs".
+_:n3-370 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-traeger-weissenberg, cdp:maennergewaltschutz-traeger-weissenberg;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-371.
+_:n3-371 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "weissenberg";
+    cdp:valueB "weissenberg".
+_:n3-372 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-stark%20machen>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-373.
+_:n3-373 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "stark machen";
+    cdp:valueB "stark machen".
+_:n3-374 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20in%20aachen>, <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20in%20aachen>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-375.
+_:n3-375 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm katholischer verein fuer soziale dienste in aachen";
+    cdp:valueB "skm katholischer verein fuer soziale dienste in aachen".
+_:n3-376 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-awo%20kreisverband%20schwerin%20parchim>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20schwerin%20parchim>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-377.
+_:n3-377 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "awo kreisverband schwerin parchim";
+    cdp:valueB "awo kreisverband schwerin parchim".
+_:n3-378 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-opferhilfe%20hamburg>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20hamburg>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-379.
+_:n3-379 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "opferhilfe hamburg";
+    cdp:valueB "opferhilfe hamburg".
+_:n3-380 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20nuernberg>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20nuernberg>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-381.
+_:n3-381 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "caritas nuernberg";
+    cdp:valueB "caritas nuernberg".
+_:n3-382 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20fuer%20den%20landkreis%20emmendingen>, <https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20den%20landkreis%20emmendingen>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-383.
+_:n3-383 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "caritas fuer den landkreis emmendingen";
+    cdp:valueB "caritas fuer den landkreis emmendingen".
+_:n3-384 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-netz%20gegen%20sexuelle%20gewalt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-netz%20gegen%20sexuelle%20gewalt>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-385.
+_:n3-385 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "netz gegen sexuelle gewalt";
+    cdp:valueB "netz gegen sexuelle gewalt".
+_:n3-386 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-muenchner%20informationszentrum%20fuer%20maenner>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-muenchner%20informationszentrum%20fuer%20maenner>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-387.
+_:n3-387 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "muenchner informationszentrum fuer maenner";
+    cdp:valueB "muenchner informationszentrum fuer maenner".
+_:n3-388 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20neuss>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20neuss>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-389.
+_:n3-389 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm neuss";
+    cdp:valueB "skm neuss".
+_:n3-390 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20augsburg>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20augsburg>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-391.
+_:n3-391 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm augsburg";
+    cdp:valueB "skm augsburg".
+_:n3-392 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-awo%20werra%20meissner>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20werra%20meissner>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-393.
+_:n3-393 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "awo werra meissner";
+    cdp:valueB "awo werra meissner".
+_:n3-394 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennerbuero%20hannover>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerbuero%20hannover>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-395.
+_:n3-395 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "maennerbuero hannover";
+    cdp:valueB "maennerbuero hannover".
+_:n3-396 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-vereint%20gegen%20gewalt>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-vereint%20gegen%20gewalt>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-397.
+_:n3-397 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "vereint gegen gewalt";
+    cdp:valueB "vereint gegen gewalt".
+_:n3-398 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-frauennotruf%20kiel>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauennotruf%20kiel>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-399.
+_:n3-399 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "frauennotruf kiel";
+    cdp:valueB "frauennotruf kiel".
+_:n3-400 a cdp:MatchEvidence;
+    cdp:pair cdp:maennerberatungsnetz-traeger-wendepunkt, cdp:maennergewaltschutz-traeger-wendepunkt;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-401.
+_:n3-401 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "wendepunkt";
+    cdp:valueB "wendepunkt".
+_:n3-402 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennernetzwerk%20dresden>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennernetzwerk%20dresden>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-403.
+_:n3-403 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "maennernetzwerk dresden";
+    cdp:valueB "maennernetzwerk dresden".
+_:n3-404 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-zartbitter%20muenster>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-zartbitter%20muenster>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-405.
+_:n3-405 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "zartbitter muenster";
+    cdp:valueB "zartbitter muenster".
+_:n3-406 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-basis%20woge>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-basis%20woge>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-407.
+_:n3-407 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "basis woge";
+    cdp:valueB "basis woge".
+_:n3-408 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-lebenshaus%20herrgard>, <https://civic-data.de/pipeline#emr-traeger-lebenshaus%20herrgard>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-409.
+_:n3-409 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "lebenshaus herrgard";
+    cdp:valueB "lebenshaus herrgard".
+_:n3-410 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20osnabrueck>, <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20osnabrueck>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-411.
+_:n3-411 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm osnabrueck";
+    cdp:valueB "skm osnabrueck".
+_:n3-412 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20osnabrueck>, <https://civic-data.de/pipeline#emr-traeger-skm%20osnabrueck>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-413.
+_:n3-413 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm osnabrueck";
+    cdp:valueB "skm osnabrueck".
+_:n3-414 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-caritas%20fuer%20die%20stadt%20gelsenkirchen>, <https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20die%20stadt%20gelsenkirchen>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-415.
+_:n3-415 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "caritas fuer die stadt gelsenkirchen";
+    cdp:valueB "caritas fuer die stadt gelsenkirchen".
+_:n3-416 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20geldern%20kevelaer>, <https://civic-data.de/pipeline#emr-traeger-caritas%20geldern%20kevelaer>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-417.
+_:n3-417 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "caritas geldern kevelaer";
+    cdp:valueB "caritas geldern kevelaer".
+_:n3-418 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20koeln>, <https://civic-data.de/pipeline#emr-traeger-skm%20koeln>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-419.
+_:n3-419 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm koeln";
+    cdp:valueB "skm koeln".
+_:n3-420 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh%20duesseldorf>, <https://civic-data.de/pipeline#emr-traeger-skm%20ggmbh%20duesseldorf>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-421.
+_:n3-421 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm ggmbh duesseldorf";
+    cdp:valueB "skm ggmbh duesseldorf".
+_:n3-422 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20krefeld>, <https://civic-data.de/pipeline#emr-traeger-skm%20krefeld>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-423.
+_:n3-423 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm krefeld";
+    cdp:valueB "skm krefeld".
+_:n3-424 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20osnabrueck>, <https://civic-data.de/pipeline#emr-traeger-skm%20osnabrueck>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-425.
+_:n3-425 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm osnabrueck";
+    cdp:valueB "skm osnabrueck".
+_:n3-426 a cdp:MatchEvidence;
+    cdp:pair <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20warendorf>, <https://civic-data.de/pipeline#emr-traeger-skm%20warendorf>;
+    cdp:aggregateScore 1.000;
+    cdp:similarityAlgorithm "ratio";
+    cdp:onCriterion _:n3-427.
+_:n3-427 cdp:on cdp:matchString;
+    cdp:similarity 1.000;
+    cdp:weight 1.00;
+    cdp:valueA "skm warendorf";
+    cdp:valueB "skm warendorf".

@@ -1,0 +1,10 @@
+@prefix :      <https://civic-data.de/pipeline#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+:cleanMaennerberatungsnetz a :Clean, p-plan:Step ; :fromSource :maennerberatungsnetzSource ; p-plan:isPrecededBy :liftMaennerberatungsnetz .
+:cleanMaennergewaltschutz a :Clean, p-plan:Step ; :fromSource :maennergewaltschutzSource ; p-plan:isPrecededBy :liftMaennergewaltschutz .
+:cleanEchteMaennerReden a :Clean, p-plan:Step ; :fromSource :echteMaennerRedenSource ; p-plan:isPrecededBy :liftEchteMaennerReden .
+:mapStep a :Map, p-plan:Step ; p-plan:isPrecededBy :cleanMaennerberatungsnetz, :cleanMaennergewaltschutz, :cleanEchteMaennerReden .
+:matchStep a :Match, p-plan:Step ; p-plan:isPrecededBy :mapStep .
+:mergeStep a :Merge, p-plan:Step ; p-plan:isPrecededBy :matchStep .
+:resolveStep a :Resolve, p-plan:Step ; p-plan:isPrecededBy :mergeStep .

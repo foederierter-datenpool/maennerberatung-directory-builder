@@ -1,0 +1,81 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# Curated identity the matcher can't reach from names alone. Records are their source
+# IRI (cdp:<source>-traeger-<normalised-name>): owl:sameAs forces a merge, owl:differentFrom
+# vetoes one. Each entry notes its evidence (a shared address, or a shared postcode via
+# child centres); the two marked "name only" are lower confidence. SKM Rheydt and SKM
+# Mönchengladbach (both 41236) are kept apart — separate associations (skm-ry.de / skm-mg.de).
+
+# SKFM Region Heinsberg — all three run centres at 41812 Erkelenz.
+# (SKFM = Sozialdienst Katholischer Frauen und Männer.)
+<https://civic-data.de/pipeline#emr-traeger-skfm%20region%20heinsberg>
+    owl:sameAs <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner> .
+<https://civic-data.de/pipeline#emr-traeger-skfm%20region%20heinsberg>
+    owl:sameAs <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen%20und%20maenner%20region%20heinsberg> .
+
+# SKM Rhein-Sieg-Kreis — all four at 53721 Siegburg; "SKM Rhein-Sieg" and "SKM
+# Siegburg" share one address (Bahnhofstraße 27). Siegburg is the seat of the Kreis.
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>
+    owl:sameAs <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20kath%20verein%20fuer%20soziale%20dienste%20im%20rhein%20sieg%20kreis> .
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>
+    owl:sameAs <https://civic-data.de/pipeline#emr-traeger-skm%20rhein%20sieg> .
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>
+    owl:sameAs <https://civic-data.de/pipeline#emr-traeger-skm%20siegburg> .
+
+# SKM Rheydt — both run centres at 41236 Mönchengladbach-Rheydt. (Kept apart from
+# SKM Mönchengladbach, also at 41236 but a separate association — see header.)
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rheydt>
+    owl:sameAs <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20rheydt> .
+
+# SKM Düsseldorf — "SKM gGmbH" runs a centre at 40479 Düsseldorf, matching "SKM gGmbH Düsseldorf".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh%20duesseldorf>
+    owl:sameAs <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh> .
+
+# SKM Herford — both at 32052 Herford.
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20herford>
+    owl:sameAs <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20herford> .
+
+# SKM Köln — all at 50676 Köln, Große Telegraphenstraße 31 (same address).
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20koeln>
+    owl:sameAs <https://civic-data.de/pipeline#emr-traeger-skm%20koeln%20sozialdienst%20katholischer%20maenner> .
+
+# SKM Sigmaringen — both at 72488 Sigmaringen.
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20landkreis%20sigmaringen>
+    owl:sameAs <https://civic-data.de/pipeline#emr-traeger-skm%20maennerberatung%20sigmaringen> .
+
+# SKM Trier — "SKM Trier e.V." (54292 Trier) and the town-less "SKM- Katholischer
+# Verein für soziale Dienste e.V.", whose centre is at 54292 Trier.
+<https://civic-data.de/pipeline#emr-traeger-skm%20trier>
+    owl:sameAs <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste> .
+
+# AWO Augsburg — NAME ONLY: mgs runs a centre at 86152 Augsburg, but the mbn record
+# carries no address, so this rests on the shared name "AWO Augsburg" (lower confidence).
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20augsburg>
+    owl:sameAs <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-awo%20augsburg%20beratungsstelle%20via%20wege%20aus%20der%20gewalt> .
+
+# DRK Uecker-Randow — both run centres at 17309 Pasewalk.
+# (DRK = Deutsches Rotes Kreuz, KV = Kreisverband.)
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutsches%20rotes%20kreuz%20kreisverband%20uecker%20randow>
+    owl:sameAs <https://civic-data.de/pipeline#maennerberatungsnetz-traeger-drk%20kv%20uecker%20randow> .
+
+# MännerWohnHilfe e.V. — NAME ONLY: only the third record is located (26123 Oldenburg);
+# the first two carry no address, so this rests on the distinctive name (lower confidence).
+<https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennerwohnhilfe>
+    owl:sameAs <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maenner%20wohn%20hilfe> .
+<https://civic-data.de/pipeline#maennerberatungsnetz-traeger-maennerwohnhilfe>
+    owl:sameAs <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerwohnhilfe%20oldenburg> .
+
+# ---- Beratungsstellen ----
+# Männer Notruf Heidelberg — one centre, two sources, same address (69126 Heidelberg,
+# Parkstraße 15). Scores 0.53, just below beratungsstelleMatch's 0.55 floor (name
+# 0.66·0.5 + street 1.0·0.2); the floor can't drop without admitting co-located but
+# distinct centres elsewhere.
+<https://civic-data.de/pipeline#maennerberatungsnetz-375>
+    owl:sameAs <https://civic-data.de/pipeline#maennergewaltschutz-7441> .
+
+# ---- Vetoes ----
+# SkF Würzburg ≠ SkF Paderborn — identical bare name "Sozialdienst katholischer Frauen
+# e.V.", but centres in different towns (97082 Würzburg vs 33098 Paderborn): distinct
+# local associations of the SkF federation.
+<https://civic-data.de/pipeline#maennerberatungsnetz-traeger-sozialdienst%20katholischer%20frauen>
+    owl:differentFrom <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialdienst%20katholischer%20frauen> .

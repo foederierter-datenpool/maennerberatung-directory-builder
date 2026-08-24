@@ -1,0 +1,655 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix cdp: <https://civic-data.de/pipeline#>.
+
+cdp:emr-achim-ja-gers-fundamentes-mobile-ma-nnerberatung-berlin cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "achim-ja-gers-fundamentes-mobile-ma-nnerberatung-berlin";
+    xyz:person "Achim Jägers";
+    xyz:description "Ich bin Achim Jägers. Ich arbeite als Diplom Sozialarbeiter, Sexualpädagoge und zertifizierter Männerberater mit Jugendlichen und Erwachsenen. Meine Schwerpunkte sind: Beratung von jungen als auch älteren Männern/Vätern, die sich in Krisen befinden; allgemeine Beratung rund um das Thema Sexualität; Begleitung bei Missbrauchserfahrungen; Präventionskonzepte.";
+    xyz:email "acjaegers@gmx.de";
+    xyz:category "Sozialarbeiter/Sozialpädagoge", "Sexualpädagoge";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-fundamentes%20mobile%20maennerberatung%20berlin>.
+cdp:emr-andrea-crombach-skm-katholischer-verein-fu-r-soziale-dienste-in-aachen-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "andrea-crombach-skm-katholischer-verein-fu-r-soziale-dienste-in-aachen-e-v";
+    xyz:person "Andrea Crombach";
+    xyz:description "Ich bin Andrea Crombach. Ich bin Dipl. Sozialarbeiterin und zertifizierte systemische Beraterin. Ich berate Männer, die gegenüber ihrer (Ex-) Partnerin gewalttätig geworden sind oder befürchten, dass es dazu kommen könnte. Ich unterstütze Männer dabei, ihre Konflikte ohne Gewalt zu lösen.";
+    xyz:email "info@skm-aachen.de";
+    xyz:category "Systemische Therapeutin (DGSF)", "Fachkraft Täterarbeit (BAG TäHG)";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20in%20aachen>.
+cdp:emr-andreas-bo-ggering-skm-katholischer-verein-fu-r-soziale-dienste-bocholt-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "andreas-bo-ggering-skm-katholischer-verein-fu-r-soziale-dienste-bocholt-e-v";
+    xyz:person "Andreas Böggering";
+    xyz:description "Ich bin Andreas Böggering. Seit 2000 arbeite ich beim SKM Bocholt, erst in der Familienberatung, dann in der Suchtberatung. Seit 2015 berate ich Jungen- und Männer in schwierigen Lebenssituationen.";
+    xyz:email "coaching.boeggering@gmail.com";
+    xyz:category "Phaemoberater®", "Suchttherapeut";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20bocholt>.
+cdp:emr-andreas-haase-man-o-mann-ma-nnerberatung-im-vsgb-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "andreas-haase-man-o-mann-ma-nnerberatung-im-vsgb-e-v";
+    xyz:person "Andreas Haase";
+    xyz:description "Mein Name ist Andreas Haase. Die therapeutische und politische Männerarbeit liegt mir am Herzen. Ich habe meine ehrenamtliche Tätigkeit als Coach und Deeskalationstrainer für Jungen und Männer zum Beruf gemacht und bin bei der man-o-mann Männerberatung in Bielefeld tätig.";
+    xyz:email "haase@man-o-mann.de";
+    xyz:category "Gestalttherapeut", "Paartherapeut";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-man%20o%20mann%20maennerberatung%20im%20vsgb>.
+cdp:emr-carsten-spindler-skm-warendorf-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "carsten-spindler-skm-warendorf-e-v";
+    xyz:person "Carsten Spindler";
+    xyz:description "Mein Name ist Carsten Spindler. Ich bin seit 2002 als Diplom-Sozialarbeiter beim SKM Warendorf beschäftigt. Ich arbeite als Mediator in Strafsachen (Täter-Opfer-Ausgleich) und seit 2014 auch als Krisen- und Gewaltberater.";
+    xyz:email "spindler@skm-warendorf.de";
+    xyz:category "Phaemoberater®", "Diplom-Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20warendorf>.
+cdp:emr-christoph-fo-hles-skm-kath-verein-fu-r-soziale-dienste-mo-nchengladbach-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "christoph-fo-hles-skm-kath-verein-fu-r-soziale-dienste-mo-nchengladbach-e-v";
+    xyz:person "Christoph Föhles";
+    xyz:description "Ich bin Christoph Föhles. Ich arbeite als Diplom Sozialarbeiter und zertifizierter Gewaltberater in der Jungen-und Männerarbeit. Meine Schwerpunkte liegen in der Krisen und Gewaltberatung für Männer.";
+    xyz:email "c.foehles@skm-mg.de";
+    xyz:category "Phaemoberater®", "Diplom-Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20kath%20verein%20fuer%20soziale%20dienste%20moenchengladbach>.
+cdp:emr-daniel-beck-skm-siegburg cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "daniel-beck-skm-siegburg";
+    xyz:person "Daniel Beck";
+    xyz:description "Ich bin Daniel Beck und ich arbeite als Sozialarbeiter in der Jungen-, Männer- und Väterberatung beim SKM Siegburg. Berufliche Erfahrungen habe ich außerdem in der Gerichtshilfe, der Schuldnerberatung und in der Wohnungslosenhilfe.";
+    xyz:email "Daniel.beck@skm-rhein-sieg.de";
+    xyz:category "Sozialarbeiter", "Phaemoberater®";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20siegburg>.
+cdp:emr-daniel-niehaus-caritasverband-fu-r-die-stadt-gelsenkirchen-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "daniel-niehaus-caritasverband-fu-r-die-stadt-gelsenkirchen-e-v";
+    xyz:person "Daniel Niehaus";
+    xyz:description "Ich bin Daniel Niehaus. Ich arbeite als Sozialarbeiter und männerfokussierter Berater in der Jungen- und Männerberatungsstelle des Caritasverbandes für die Stadt Gelsenkirchen e.V. Meine Schwerpunkte liegen in der Krisen- und Gewaltberatung.";
+    xyz:email "daniel.niehaus@caritas-gelsenkirchen.de";
+    xyz:category "Männerfokussierter Berater", "Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20die%20stadt%20gelsenkirchen>.
+cdp:emr-daniel-schulte-kath-sozialdienst-olpe cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "daniel-schulte-kath-sozialdienst-olpe";
+    xyz:person "Daniel Schulte";
+    xyz:description "Ich bin Daniel Schulte. Ich arbeite als Berater in der Krisen- und Gewaltberatung für Jungen und Männer in Olpe.";
+    xyz:email "d.schulte@ksd-olpe.de";
+    xyz:category "Phaemoberater®", "Diplom-Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-kath%20sozialdienst%20olpe>.
+cdp:emr-detlef-lis-skm-katholischer-verein-fu-r-soziale-dienste-herford cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "detlef-lis-skm-katholischer-verein-fu-r-soziale-dienste-herford";
+    xyz:person "Detlef Lis";
+    xyz:description "Mein Name ist Detlef Lis. Ich bin Sozialarbeiter und in den Bereichen rechtliche Betreuung und Beratung sowie Begleitung ehrenamtlicher Betreuer und ambulant betreutes Wohnen für chronisch Suchtkranke tätig.";
+    xyz:email "Detlef.lis@skm-herford.de";
+    xyz:category "Sozialarbeiter", "Krisen- und Gewaltberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20herford>.
+cdp:emr-detlef-vetter-man-o-mann-ma-nnerberatung cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "detlef-vetter-man-o-mann-ma-nnerberatung";
+    xyz:person "Detlef Vetter";
+    xyz:description "Mein Name ist Detlef Vetter. Ich bin psychologischer Psychotherapeut und ausgebildeter Sexualtherapeut (DGfS). Ich berate Männer und Väter, die unter sexuellen Störungen, Pornosucht oder Depression leiden. Außerdem unterstütze ich Männer im Umgang mit den Folgen von Traumata.";
+    xyz:email "vetter@man-o-mann.de";
+    xyz:category "Psychologischer Psychotherapeut", "Sexualtherapeut (DGfS)";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-man%20o%20mann%20maennerberatung>.
+cdp:emr-dietmar-fleischer-tawitko-ma-nnerberatung cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "dietmar-fleischer-tawitko-ma-nnerberatung";
+    xyz:person "Dietmar Fleischer";
+    xyz:description "Ich bin Dietmar Fleischer. Als Sozialarbeiter bin ich seit über 10 Jahren in der Männerarbeit tätig. Seit vielen Jahren bin ich als Referent und Dozent nebenberuflich tätig. Seit 2024 biete ich selbstständig Männerberatung an.";
+    xyz:email "maennerkraft@gmx.de";
+    xyz:category "Männerfokussierter Berater", "Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-tawitko%20maennerberatung>.
+cdp:emr-ekkehard-janson-janson-beratung-begleitung cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "ekkehard-janson-janson-beratung-begleitung";
+    xyz:person "Ekkehard Janson";
+    xyz:description "Ich heiße Ekkehard Janson und arbeite als Sozialpädagoge in der Männerberatung. Meine Schwerpunkte liegen in der Krisen- und Gewaltberatung sowie in Beziehungsthemen.";
+    xyz:email "post@j-bb.de";
+    xyz:category "Männerfokussierter Berater", "Diplom-Sozialpädagoge";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-janson%20beratung%20begleitung>.
+cdp:emr-helge-rettig-man-o-mann-ma-nnerberatung cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "helge-rettig-man-o-mann-ma-nnerberatung";
+    xyz:person "Helge Rettig";
+    xyz:description "Mein Name ist Helge Rettig. Ich bin Sozialpädagoge und Gestalttherapeut. Seit 1998 arbeite ich in der Männerberatung und berate vor allem Täter häuslicher Gewalt.";
+    xyz:email "rettig@man-o-mann.de";
+    xyz:category "Gestalttherapeut", "Sozialpädagoge";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-man%20o%20mann%20maennerberatung>.
+cdp:emr-jan-hammelmann-caritasverband-herten cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "jan-hammelmann-caritasverband-herten";
+    xyz:person "Jan Hammelmann";
+    xyz:description "Ich bin Jan Hammelmann. Der Schwerpunkt meiner Arbeit liegt in der Jungen- und Männerberatung. Ich komme aus verschiedenen Bereichen der Familien- und Jugendhilfe. Seit 2018 bin ich für den Caritasverband Herten als Krisen- und Gewaltberater für Männer tätig.";
+    xyz:email "j.hammelmann@caritas-herten.de";
+    xyz:category "Phaemoberater®", "Diplom-Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-caritas%20herten>.
+cdp:emr-jan-mokros-skm-krefeld cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "jan-mokros-skm-krefeld";
+    xyz:person "Jan Mokros";
+    xyz:description "Mein Name ist Jan Mokros, ich bin Sozialwissenschaftler (MA) und Männerfokussierter Berater. Meine Beratungsschwerpunkte sind Krisenberatung und Täterarbeit bei (häuslicher) Gewalt.";
+    xyz:email "jan-mokros@skm-krefeld.de";
+    xyz:category "Sozialwissenschaftler", "Männer- und Gewaltberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20krefeld>.
+cdp:emr-johannes-anderski-skfm-monheim-am-rhein-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "johannes-anderski-skfm-monheim-am-rhein-e-v";
+    xyz:person "Johannes Anderski";
+    xyz:description "Ich bin Johannes Anderski. Ich arbeite als Berater in der Väter- und Männerberatung beim SKFM Monheim am Rhein e.V. Meine Schwerpunkte liegen in der Begleitung von Männern in Krisen und bei Gewalt (ausübend und erlebend).";
+    xyz:email "johannes.anderski@skfm-monheim.de";
+    xyz:category "Psychologe", "Männerfokussierter Berater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skfm%20monheim%20am%20rhein>.
+cdp:emr-jonas-lemli-caritasverband-stadt-mu-nster-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "jonas-lemli-caritasverband-stadt-mu-nster-e-v";
+    xyz:person "Jonas Lemli";
+    xyz:description "Mein Name ist Jonas Lemli. Ich bin Sozialarbeiter bei der Caritas Münster in der Krisen- und Gewaltberatung.";
+    xyz:email "Jonas.lemli@caritas-ms.de";
+    xyz:category "Sozialarbeiter", "Krisen- und Gewaltberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-caritas%20stadt%20muenster>.
+cdp:emr-jonas-muth-caritasverband-fu-r-den-landkreis-emmendingen-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "jonas-muth-caritasverband-fu-r-den-landkreis-emmendingen-e-v";
+    xyz:person "Jonas Muth";
+    xyz:description "Ich bin Jonas Muth. Ich arbeite als Diplom Pädagoge, Jungen,- Männer- und Gewaltberater sowie systemischer Berater in der Jungen- und Männerarbeit für den Caritasverband für den Landkreis Emmendingen e.V. Meine Schwerpunkte liegen in der Täterberatung. Selbstständig biete ich zusätzlich Beratung für alle Männer in Krisen an.";
+    xyz:email "jonas.muth@caritas-emmendingen.de";
+    xyz:category "Diplom-Pädagoge", "Systemischer Berater (DGSF)";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20den%20landkreis%20emmendingen>.
+cdp:emr-julian-schro-er-skm-ggmbh-du-sseldorf cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "julian-schro-er-skm-ggmbh-du-sseldorf";
+    xyz:person "Julian Schröer";
+    xyz:description "Mein Name ist Julian Schröer. Ich bin Sozialarbeiter und männerfokussierter Berater mit Schwerpunkten in der Krisen- und Gewaltberatung. Ich berate vor allem Männer, die Gewalt im häuslichen Umfeld erlebt haben, und unterstütze sie dabei, Wege zu einem sicheren und selbstbestimmten Leben zu finden.";
+    xyz:email "Julian.Schroeer@skmd.de";
+    xyz:category "Männerfokussierter Berater", "Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20ggmbh%20duesseldorf>.
+cdp:emr-klaus-schmitz-skm-ko-ln cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "klaus-schmitz-skm-ko-ln";
+    xyz:person "Klaus Schmitz";
+    xyz:description "Mein Name ist Klaus Schmitz und ich arbeite als Männer-, Krisen- und Anti- Gewaltberater in der Fachstelle für Jungen und Männer beim SKM Köln. Meine Schwerpunkte sind in der Beratung von Gewalterfahrungen und Verlusterfahrungen bei Männern. Weitere Beratungsfelder sind Krisen jeglicher Art sowie auch ausübenden Gewalt im häuslichen und auch öffentlichen Bereich.";
+    xyz:email "Klaus.schmitz@skm-koeln.de";
+    xyz:category "Krisen- und Gewaltberater", "Opfer- und Verlustberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20koeln>.
+cdp:emr-manfred-ho-ges-skm-ggmbh-du-sseldorf cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "manfred-ho-ges-skm-ggmbh-du-sseldorf";
+    xyz:person "Manfred Höges";
+    xyz:description "Mein Name ist Manfred Höges. Ich habe Sozialarbeit und Sozialwirtschaft studiert und in der Ausbildungs- und Beschäftigungsförderung, in der Jugendhilfe und in den Eingliederungshilfen für Menschen mit psychischen und Suchterkrankungen gearbeitet. Heute berate ich beim SKM Männer, die mit persönlichen Krisen oder gewalttätigem Verhalten zu kämpfen haben.";
+    xyz:email "Manfred.hoeges@skmd.de";
+    xyz:category "Sozialarbeiter", "Phaemoberater®";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20ggmbh%20duesseldorf>.
+cdp:emr-marc-brunsmann-skm-warendorf-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "marc-brunsmann-skm-warendorf-e-v";
+    xyz:person "Marc Brunsmann";
+    xyz:description "Ich bin Marc Brunsmann. Ich arbeite als Diplom Sozialpädagoge sowie Krisen-, Gewalt- und Männerberater in der Jungen- und Männerarbeit. Meine Schwerpunkte liegen in der Krisen- und Gewaltberatung sowie die Arbeit im Männergewaltschutzprojekt „Freiraum“.";
+    xyz:email "brunsmann@skm-warendorf.de";
+    xyz:category "Phaemoberater®", "Diplom-Sozialpädagoge";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20warendorf>.
+cdp:emr-marc-odenbrett-skm-rhein-sieg cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "marc-odenbrett-skm-rhein-sieg";
+    xyz:person "Marc Odenbrett";
+    xyz:description "Mein Name ist Marc Odenbrett. Ich habe Soziale Arbeit und Sozialpädagogik studiert und arbeite seit Oktober 2024 in der Beratungsstelle für Männer und Jungen des SKM Rhein-Sieg. Mein beruflicher Schwerpunkt liegt in der Krisenberatung von Männern und Jungen ab 14 Jahren.";
+    xyz:email "marc.odenbrett@skm-rhein-sieg.de";
+    xyz:category "Sozialpädagoge & Sozialarbeiter", "Systemischer Berater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20rhein%20sieg>.
+cdp:emr-marc-pomplun-ma-nnerberatung-ruhr cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "marc-pomplun-ma-nnerberatung-ruhr";
+    xyz:person "Marc Pomplun";
+    xyz:description "Mein Name ist Marc Pomplun. Ich bin Diplom-Sozialarbeiter und arbeite als Männerberater bei der Männerberatung Ruhr. Ich biete Einzel- und Gruppengespräche für Männer an, die sich in einer Krise befinden, die belastende Erfahrungen gemacht haben oder die ihre Persönlichkeit als Mann oder Vater weiterentwickeln wollen.";
+    xyz:email "kontakt@maennerberatung.ruhr";
+    xyz:category "Männerfokussierter Berater", "Diplom-Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-maennerberatung%20ruhr>.
+cdp:emr-marcus-ziemes-skm-krefeld-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "marcus-ziemes-skm-krefeld-e-v";
+    xyz:person "Marcus Ziemes";
+    xyz:description "Mein Name ist Marcus Ziemes. Ich bin Sozialpädagoge (B.A.) und arbeite seit 2011 im Ambulant betreuten Wohnen des SKM Krefeld e.V.. Seit Oktober 2024 bin ich auch in der Jungen- und Männerarbeit tätig und habe die Weiterbildung Männerfokussierte Beratung begonnen.";
+    xyz:email "m.ziemes@skm-krefeld.de";
+    xyz:category "Sozialpädagoge", "Männerfokussierter Berater i.A.";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20krefeld>.
+cdp:emr-markus-brauckmann-katholischer-sozialdienst-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "markus-brauckmann-katholischer-sozialdienst-e-v";
+    xyz:person "Markus Brauckmann";
+    xyz:description "Ich bin Markus Brauckmann. Ich arbeite als Krisen- und Gewaltberater in der Männerberatung. Darin liegt auch der Schwerpunkt meiner Arbeit.";
+    xyz:email "brauckmann@ksd-sozial.de";
+    xyz:category "Volljurist", "Gewaltberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-katholischer%20sozialdienst>.
+cdp:emr-markus-temmen-caritasverband-tecklenburger-land-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "markus-temmen-caritasverband-tecklenburger-land-e-v";
+    xyz:person "Markus Temmen";
+    xyz:description "Mein Name ist Markus Temmen. Ich bin Sozialpädagoge und arbeite seit 2011 als Systemischer Familienberater in der ambulanten Jugendhilfe. Ich berate Jungen und Männer, die sich in schwierigen oder konfliktbeladenen Lebenslagen befinden.";
+    xyz:email "gewaltberatung@caritas-ibbenbueren.de";
+    xyz:category "Sozialpädagoge", "Systemischer Familienberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-caritas%20tecklenburger%20land>.
+cdp:emr-michael-diemer-health-coaching-academy cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "michael-diemer-health-coaching-academy";
+    xyz:person "Michael Diemer";
+    xyz:description "Ich heiße Michael Diemer. Mein Schwerpunkt liegt in der Beratung traumatisierte Männer. Ich arbeite im Moment in eigener Beratungsstelle.";
+    xyz:email "md@health-coaching-academy.de";
+    xyz:category "Traumafachberater", "Physiotherapeut";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-health%20coaching%20academy>.
+cdp:emr-michael-steiner-weitsinn cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "michael-steiner-weitsinn";
+    xyz:person "Michael Steiner";
+    xyz:description "Mein Name ist Michael Steiner. Ich bin systemischer Coach sowie Krisenberater für Jungen und Männer. Zudem arbeite ich seit vielen Jahren als Trainer für gewaltfreie Kommunikation und als Kursleiter für konstruktive Konfliktbearbeitung. Für verschiedene Weiterbildungsträger verantworte ich Workshop- und Kursangebote zu vielfältigen Themen der Persönlichkeitsentwicklung.";
+    xyz:email "info@beratung-mit-weitsinn.de";
+    xyz:category "Phaemoberater®", "Coach System und Spiritualität";
+    cdp:providedBy cdp:emr-traeger-weitsinn.
+cdp:emr-michael-zeihen-skm-ko-ln cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "michael-zeihen-skm-ko-ln";
+    xyz:person "Michael Zeihen";
+    xyz:description "Ich bin Michael Zeihen. Ich arbeite als Dipl. Sozialpädagoge und zertifizierter Krisen- und Anti-Gewaltberater für Männer in der Männer- und Jungenberatung. Mein Schwerpunkt liegt in der Beratung von Männern und Jungen, die von häuslicher/partnerschaftlicher Gewalt betroffen sind.";
+    xyz:email "michael.zeihen@skm-koeln.de";
+    xyz:category "Diplom-Sozialpädagoge", "Krisen- und Gewaltberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20koeln>.
+cdp:emr-moritz-iber-skfm-e-v-region-heinsberg cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "moritz-iber-skfm-e-v-region-heinsberg";
+    xyz:person "Moritz Iber";
+    xyz:description "Mein Name ist Moritz Iber. Ich bin Sozialarbeiter und arbeite seit 2022 für den Sozialdienst katholischer Frauen und Männer e.V. Region Heinsberg im Training zur Vermeidung häuslicher Gewalt.";
+    xyz:email "m.iber@skfm-region-hs.de";
+    xyz:category "Männerfokussierter Berater", "Sozialarbeiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skfm%20region%20heinsberg>.
+cdp:emr-nils-freckmann-skm-lingen-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "nils-freckmann-skm-lingen-e-v";
+    xyz:person "Nils Freckmann";
+    xyz:description "Ich heiße Nils Freckmann und bin Sozialarbeiter und Sozialpädagoge beim SKM Lingen in der Abteilung ambulante Familienhilfe. Zu meinen Aufgaben gehört auch das Schlichten von Konflikten (Täter-Opfer-Ausgleich/TOA).";
+    xyz:email "Nils.freckmann@skm-lingen.de";
+    xyz:category "Sozialarbeiter", "Phaemoberater®";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20lingen>.
+cdp:emr-norbert-pla-wilm-skf-hochsauerland cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "norbert-pla-wilm-skf-hochsauerland";
+    xyz:person "Norbert Plaßwilm";
+    xyz:description "Ich bin Norbert Plaßwilm und arbeite als Heilpädagoge in der Familien- und Erziehungsberatungsstelle. Hier arbeite ich auch als Männerberater. Meine Schwerpunkte in der Väter- und Männerberatung sind: Täter und Opferberatung. Männer in Krisen nach Jobverlust, Trennung und Scheidung und alle anderen Problemlagen in denen Männer Unterstützung bedürfen.";
+    xyz:email "Eb.arnsberg@skf-hochsauerland.de";
+    xyz:category "Heilpädagoge", "Systemischer Familienberater";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skf%20hochsauerland>.
+cdp:emr-peter-machetanz-skm-trier-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "peter-machetanz-skm-trier-e-v";
+    xyz:person "Peter Machetanz";
+    xyz:description "Ich bin Peter Machetanz. Ich arbeite als Diplom-Pädagoge und männerfokussierter Berater in der Jungen- und Männerarbeit. Meine Schwerpunkte liegen in der Beratung von gewaltbetroffenen Jungen und Männern sowie der allgemeinen Lebens- und Krisenberatung.";
+    xyz:email "machetanz@skm-trier.de";
+    xyz:category "Männerfokussierter Berater", "Diplom-Pädagoge";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20trier>.
+cdp:emr-sebastian-schneider-skm-ma-nnerberatung-sigmaringen cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "sebastian-schneider-skm-ma-nnerberatung-sigmaringen";
+    xyz:person "Sebastian Schneider";
+    xyz:description "Ich bin Sebastian Schneider. Ich arbeite als Diplom-Pädagoge und systemischer Therapeut in der Männerberatung. Meine Schwerpunkte liegen in der Lebens- und Krisenberatung.";
+    xyz:email "maennerberatung@skm-sigmaringen.de";
+    xyz:category "Diplom-Pädagoge", "Systemischer Therapeut (SG)";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20maennerberatung%20sigmaringen>.
+cdp:emr-stefan-kisters-teuwsen-caritasverband-geldern-kevelaer-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "stefan-kisters-teuwsen-caritasverband-geldern-kevelaer-e-v";
+    xyz:person "Stefan Kisters-Teuwsen";
+    xyz:description "Mein Name ist Stefan Kisters-Teuwsen. Ich bin Sozialpädagoge und berate Männer. Ich unterstütze Väter und biete Vater-Kind-Aktionen an. Außerdem berate ich Familien, auch bei Erziehungsfragen.";
+    xyz:email "Stefan.Kisters-Teuwsen@caritas-geldern.de";
+    xyz:category "Sozialpädagoge", "Psychosozialer Prozessbegleiter";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-caritas%20geldern%20kevelaer>.
+cdp:emr-thomas-meister-lebenshaus-herrgard-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "thomas-meister-lebenshaus-herrgard-e-v";
+    xyz:person "Thomas Meister";
+    xyz:description "Ich bin Tommi Meister. Ich arbeite als christl. Lebensberater und Traumatherapeut im Lebenshaus Herrgard e.V. Mein Schwerpunkt ist die Beratung von Männern in unterschiedlichen Fragestellungen die es im Leben geben kann. Zum Beispiel: Depression und Burn out, Gewalterfahrung, Suchtproblematik, Fragen zur eigenen Sexualität. Partnerschaft und vieles andere.";
+    xyz:email "pastor-tom@meisterfamilie.de";
+    xyz:category "Chr. Lebensberater und Theologe", "Traumatherapeut";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-lebenshaus%20herrgard>.
+cdp:emr-timo-krasemann-familienunterstu-tzender-dienst-fud cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "timo-krasemann-familienunterstu-tzender-dienst-fud";
+    xyz:person "Timo Krasemann";
+    xyz:description "Mein Name ist Timo Krasemann. Ich bin Heilerziehungspfleger und studierte Soziale Arbeit sowie Netzwerkmanagement in der Sozialen Arbeit. Seit 2021 berate ich bei Tectum Caritas Steinfurt vor allem Männer mit Behinderung.";
+    xyz:email "timo.krasemann@caritas-steinfurt.de";
+    xyz:category "Sozialarbeiter", "Heilerziehungspfleger";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-familienunterstuetzender%20dienst%20fud>.
+cdp:emr-tobias-latz-skm-ko-ln-sozialdienst-katholischer-ma-nner-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "tobias-latz-skm-ko-ln-sozialdienst-katholischer-ma-nner-e-v";
+    xyz:person "Tobias Latz";
+    xyz:description "Mein Name ist Tobias Latz. Ich bin als Sozialpädagoge in der Männerberatung. Meine Schwerpunkte liegen im Thema Gewaltberatung (Betroffene/Opfer von Gewalt) und Krisenberatung von Männern und Vätern.";
+    xyz:email "Tobias.Latz@skm-koeln.de";
+    xyz:category "Sexualpädagoge", "Sozialpädagoge";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20koeln%20sozialdienst%20katholischer%20maenner>.
+<https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20den%20landkreis%20emmendingen> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas fuer den landkreis emmendingen";
+    xyz:org "Caritasverband für den Landkreis Emmendingen e.V.";
+    xyz:street "Lessingstraße 36/1";
+    xyz:postalCode "79312";
+    xyz:locality "Emmendingen";
+    xyz:phone "076411088";
+    xyz:website "https://www.caritas-emmendingen.de/hilfe-beratung/beratung-fuer-gewaltbereite-jungen-und-maenner".
+<https://civic-data.de/pipeline#emr-traeger-caritas%20fuer%20die%20stadt%20gelsenkirchen> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas fuer die stadt gelsenkirchen";
+    xyz:org "Caritasverband für die Stadt Gelsenkirchen e.V.";
+    xyz:street "Kirchstraße 51";
+    xyz:postalCode "45879";
+    xyz:locality "Gelsenkirchen";
+    xyz:phone "01743980131";
+    xyz:website "https://www.caritas-gelsenkirchen.de".
+<https://civic-data.de/pipeline#emr-traeger-caritas%20geldern%20kevelaer> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas geldern kevelaer";
+    xyz:org "Caritasverband Geldern-Kevelaer e.V.";
+    xyz:street "Südwall 52";
+    xyz:postalCode "47608";
+    xyz:locality "Geldern";
+    xyz:phone "028319102348";
+    xyz:website "https://www.caritas-geldern.de/beratung/maennerberatung/maennerberatung".
+<https://civic-data.de/pipeline#emr-traeger-caritas%20herten> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas herten";
+    xyz:org "Caritasverband Herten";
+    xyz:street "Hospitalstraße 11";
+    xyz:postalCode "45699";
+    xyz:locality "Herten";
+    xyz:phone "015125343444";
+    xyz:website "https://www.caritas-herten.de/".
+<https://civic-data.de/pipeline#emr-traeger-caritas%20stadt%20muenster> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas stadt muenster";
+    xyz:org "Caritasverband Stadt Münster e.V.";
+    xyz:street "Josefstraße 2";
+    xyz:postalCode "48151";
+    xyz:locality "Münster";
+    xyz:phone "025153009343";
+    xyz:website "https://www.caritas-ms.de/".
+<https://civic-data.de/pipeline#emr-traeger-caritas%20tecklenburger%20land> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas tecklenburger land";
+    xyz:org "Caritasverband Tecklenburger Land e.V.";
+    xyz:street "Klosterstraße 19";
+    xyz:postalCode "49477";
+    xyz:locality "Ibbenbüren";
+    xyz:phone "01713010652";
+    xyz:website "https://www.caritas-ibbenbueren.de/wir-beraten-und-helfen/krisen-und-gewaltberatung".
+<https://civic-data.de/pipeline#emr-traeger-familienunterstuetzender%20dienst%20fud> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "familienunterstuetzender dienst fud";
+    xyz:org "Familienunterstützender Dienst (FuD)";
+    xyz:street "Münsterstraße 1";
+    xyz:postalCode "48565";
+    xyz:locality "Steinfurt";
+    xyz:phone "01706742348";
+    xyz:website "https://www.caritasverband-steinfurt.de/hilfe-beratung/hilfe-und-beratung/maennerberatung".
+<https://civic-data.de/pipeline#emr-traeger-fundamentes%20mobile%20maennerberatung%20berlin> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "fundamentes mobile maennerberatung berlin";
+    xyz:org "Fundamentes – Mobile Männerberatung Berlin";
+    xyz:street "Bleibtreustraße 8";
+    xyz:postalCode "10623";
+    xyz:locality "Berlin";
+    xyz:phone "01712254940";
+    xyz:website xyz:null.
+<https://civic-data.de/pipeline#emr-traeger-health%20coaching%20academy> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "health coaching academy";
+    xyz:org "Health Coaching Academy";
+    xyz:street "Richard-Strauss-Straße 11";
+    xyz:postalCode "81677";
+    xyz:locality "München";
+    xyz:phone "01605556817";
+    xyz:website "https://www.health-coaching-academy.de/maennerarbeit-muenchen.html".
+<https://civic-data.de/pipeline#emr-traeger-janson%20beratung%20begleitung> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "janson beratung begleitung";
+    xyz:org "JANSON Beratung & Begleitung";
+    xyz:street "Maximilianstraße 98";
+    xyz:postalCode "76534";
+    xyz:locality "Baden-Baden";
+    xyz:phone "072217790306";
+    xyz:website "https://www.j-bb.de".
+<https://civic-data.de/pipeline#emr-traeger-kath%20sozialdienst%20olpe> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "kath sozialdienst olpe";
+    xyz:org "Kath. Sozialdienst Olpe";
+    xyz:street "Mühlenstraße 5";
+    xyz:postalCode "57462";
+    xyz:locality "Olpe";
+    xyz:phone "015231818887";
+    xyz:website "https://www.ksd-olpe.de/angebote/echte-maenner-reden/".
+<https://civic-data.de/pipeline#emr-traeger-katholischer%20sozialdienst> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "katholischer sozialdienst";
+    xyz:org "Katholischer Sozialdienst e.V.";
+    xyz:street "Stadthausstraße 2";
+    xyz:postalCode "59065";
+    xyz:locality "Hamm";
+    xyz:phone "023819245146";
+    xyz:website "https://ksd-sozial.de/familien/gewaltberatung-fuer-maenner/".
+<https://civic-data.de/pipeline#emr-traeger-lebenshaus%20herrgard> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "lebenshaus herrgard";
+    xyz:org "Lebenshaus Herrgard e.V.";
+    xyz:street "Friedrich-Ebert-Straße 1";
+    xyz:postalCode "75196";
+    xyz:locality "Remchingen";
+    xyz:phone "07232314713";
+    xyz:website "https://www.lebenshaus-herrgard.de".
+<https://civic-data.de/pipeline#emr-traeger-maennerberatung%20ruhr> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "maennerberatung ruhr";
+    xyz:org "Männerberatung Ruhr";
+    xyz:street "Dorotheenstraße 15";
+    xyz:postalCode "45130";
+    xyz:locality "Essen";
+    xyz:phone "015773461031";
+    xyz:website "https://www.maennerberatung.ruhr".
+<https://civic-data.de/pipeline#emr-traeger-man%20o%20mann%20maennerberatung> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "man o mann maennerberatung";
+    xyz:org "man-o-mann Männerberatung", "Man-o-mann Männerberatung";
+    xyz:street "Teutoburger Straße 106";
+    xyz:postalCode "33607";
+    xyz:locality "Bielefeld";
+    xyz:phone "052168676";
+    xyz:website "https://www.man-o-mann.de".
+<https://civic-data.de/pipeline#emr-traeger-man%20o%20mann%20maennerberatung%20im%20vsgb> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "man o mann maennerberatung im vsgb";
+    xyz:org "Man-o-mann Männerberatung im VSGB e.V.";
+    xyz:street "Teutoburger Straße 106";
+    xyz:postalCode "33607";
+    xyz:locality "Bielefeld";
+    xyz:phone "052168676";
+    xyz:website "https://www.man-o-mann.de".
+<https://civic-data.de/pipeline#emr-traeger-skf%20hochsauerland> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skf hochsauerland";
+    xyz:org "SkF Hochsauerland";
+    xyz:street "Ringlebstraße 10";
+    xyz:postalCode "59821";
+    xyz:locality "Arnsberg";
+    xyz:phone "029329393111";
+    xyz:website "https://www.skf-hochsauerland.de/hilfsangebote/beratung/maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-skfm%20monheim%20am%20rhein> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skfm monheim am rhein";
+    xyz:org "SKFM Monheim am Rhein e.V.";
+    xyz:street "Ernst-Reuter-Platz 2";
+    xyz:postalCode "40789";
+    xyz:locality "Monheim am Rhein";
+    xyz:phone "02173956980";
+    xyz:website "https://www.skfm-monheim.de/maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-skfm%20region%20heinsberg> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skfm region heinsberg";
+    xyz:org "SKFM e.V. Region Heinsberg";
+    xyz:street "Theodor-Heuss-Straße 15";
+    xyz:postalCode "41812";
+    xyz:locality "Erkelenz";
+    xyz:phone "02431960014";
+    xyz:website "https://www.skfm-region-hs.de/index.php/skfm-bereiche/maennerberatung".
+<https://civic-data.de/pipeline#emr-traeger-skm%20ggmbh%20duesseldorf> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm ggmbh duesseldorf";
+    xyz:org "SKM gGmbH Düsseldorf";
+    xyz:street "Sternstraße 71-73";
+    xyz:postalCode "40479";
+    xyz:locality "Düsseldorf";
+    xyz:phone "01782320820", "021123394858";
+    xyz:website "https://www.skmd.de/maennerberatung-2/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20kath%20verein%20fuer%20soziale%20dienste%20moenchengladbach> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm kath verein fuer soziale dienste moenchengladbach";
+    xyz:org "SKM – Kath. Verein für soziale Dienste Mönchengladbach e.V.";
+    xyz:street "Waisenhausstraße 22c";
+    xyz:postalCode "41236";
+    xyz:locality "Mönchengladbach";
+    xyz:phone "021661309730";
+    xyz:website "https://skm-mg.de/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20bocholt> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm katholischer verein fuer soziale dienste bocholt";
+    xyz:org "SKM – Katholischer Verein für soziale Dienste Bocholt e.V.";
+    xyz:street "Friesenstraße 5";
+    xyz:postalCode "46395";
+    xyz:locality "Bocholt";
+    xyz:phone "028718891";
+    xyz:website "https://www.skm-bocholt.de/beratung-hilfe/jungen-und-maennerarbeit/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20herford> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm katholischer verein fuer soziale dienste herford";
+    xyz:org "SKM katholischer Verein für soziale Dienste Herford";
+    xyz:street "Lockhauserstraße 68";
+    xyz:postalCode "32052";
+    xyz:locality "Herford";
+    xyz:phone "052212777810";
+    xyz:website "https://skm-herford.de/beratung/jungen-und-maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste%20in%20aachen> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm katholischer verein fuer soziale dienste in aachen";
+    xyz:org "SKM – Katholischer Verein für soziale Dienste in Aachen e.V.";
+    xyz:street "Heinrichsallee 56";
+    xyz:postalCode "52062";
+    xyz:locality "Aachen";
+    xyz:phone "024141355500";
+    xyz:website "https://www.skm-aachen.de/hilfe-beratung/projekt-gewaltlos-stark/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20koeln> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm koeln";
+    xyz:org "SKM Köln";
+    xyz:street "Große Telegraphenstraße 31";
+    xyz:postalCode "50676";
+    xyz:locality "Köln";
+    xyz:phone "017615067623", "02212074344";
+    xyz:website "https://www.skm-koeln.de/maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20koeln%20sozialdienst%20katholischer%20maenner> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm koeln sozialdienst katholischer maenner";
+    xyz:org "SKM Köln – Sozialdienst Katholischer Männer e.V.";
+    xyz:street "Große Telegraphenstraße 31";
+    xyz:postalCode "50676";
+    xyz:locality "Köln";
+    xyz:phone "02212074153";
+    xyz:website "https://www.skm-koeln.de/maennerberatung/#toggle-id-2".
+<https://civic-data.de/pipeline#emr-traeger-skm%20krefeld> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm krefeld";
+    xyz:org "SKM Krefeld", "SKM Krefeld e.V.";
+    xyz:street "Hubertusstraße 97";
+    xyz:postalCode "47798";
+    xyz:locality "Krefeld";
+    xyz:phone "02151841226";
+    xyz:website "https://skm-krefeld.de/hilfen-angebote/maennerarbeit/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20lingen> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm lingen";
+    xyz:org "SKM Lingen e.V.";
+    xyz:street "Lindenstraße 13";
+    xyz:postalCode "49808";
+    xyz:locality "Lingen";
+    xyz:phone "05919124616";
+    xyz:website "https://skm-lingen.de/jungen-maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20maennerberatung%20sigmaringen> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm maennerberatung sigmaringen";
+    xyz:org "SKM Männerberatung Sigmaringen";
+    xyz:street "Fidelisstraße 6";
+    xyz:postalCode "72488";
+    xyz:locality "Sigmaringen";
+    xyz:phone "075717289229";
+    xyz:website "https://sigmaringen.skmdivfreiburg.de/informationen/maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20osnabrueck> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm osnabrueck";
+    xyz:org "SKM-Osnabrück e.V.";
+    xyz:street "Kolpingstraße 5";
+    xyz:postalCode "49074";
+    xyz:locality "Osnabrück";
+    xyz:phone "05413314471";
+    xyz:website "https://www.skm-osnabrueck.de/maennerberatung".
+<https://civic-data.de/pipeline#emr-traeger-skm%20rhein%20sieg> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm rhein sieg";
+    xyz:org "SKM Rhein-Sieg";
+    xyz:street "Bahnhofstraße 27";
+    xyz:postalCode "53721";
+    xyz:locality "Siegburg";
+    xyz:phone "02241177842";
+    xyz:website "https://caritas.erzbistum-koeln.de/rheinsieg-skm/unsere-hilfen/Beratung-fuer-Maenner-und-Jungen/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20siegburg> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm siegburg";
+    xyz:org "SKM Siegburg";
+    xyz:street "Bahnhofstraße 27";
+    xyz:postalCode "53721";
+    xyz:locality "Siegburg";
+    xyz:phone "02241177841";
+    xyz:website "https://caritas.erzbistum-koeln.de/rheinsieg-skm/unsere-hilfen/Beratung-fuer-Maenner-und-Jungen/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20trier> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm trier";
+    xyz:org "SKM Trier e.V.";
+    xyz:street "Röntgenstraße 4";
+    xyz:postalCode "54292";
+    xyz:locality "Trier";
+    xyz:phone "06511478819";
+    xyz:website "http://skm-trier.de/jungen-und-maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-skm%20warendorf> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm warendorf";
+    xyz:org "SKM Warendorf e. V.";
+    xyz:street "Kirchstraße 5";
+    xyz:postalCode "48231";
+    xyz:locality "Warendorf";
+    xyz:phone "0252283434720", "025819410116";
+    xyz:website "https://skm-warendorf.de/fachbereiche/krisen-und-gewaltberatung/maennerberatung/".
+<https://civic-data.de/pipeline#emr-traeger-tawitko%20maennerberatung> cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "tawitko maennerberatung";
+    xyz:org "TAWITKO Männerberatung";
+    xyz:street "August Schmidt Straße 7";
+    xyz:postalCode "45327";
+    xyz:locality "Essen";
+    xyz:phone "015733127474";
+    xyz:website "http://www.tawitko.de/Profil.html".
+cdp:emr-traeger-weitsinn cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "weitsinn";
+    xyz:org "WeitSinn";
+    xyz:street "Gallusstraße 17";
+    xyz:postalCode "53227";
+    xyz:locality "Bonn";
+    xyz:phone "01749818948";
+    xyz:website "https://Beratung-mit-WeitSinn.de".
+cdp:emr-werner-oenning-skm-osnabru-ck-e-v cdp:fromSource cdp:echteMaennerRedenSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "werner-oenning-skm-osnabru-ck-e-v";
+    xyz:person "Werner Oenning";
+    xyz:description "Ich bin Werner Oenning. Ich arbeite als Diplom Sozialpädagoge, Systemischer Supervisor sowie Männer- und Väterberater. Meine Schwerpunkte liegen in der Beratung von männlichen Gewaltopfern und Vätern, die in Trennung leben sowie Männern in verschiedenen Lebenskrisen. Ich begleite Männer und Väter, die sich zum Austausch in Gruppen treffen.";
+    xyz:email "w.oenning@skm-osnabrueck.de";
+    xyz:category "Diplom-Sozialpädagoge", "Systemischer Supervisor";
+    cdp:providedBy <https://civic-data.de/pipeline#emr-traeger-skm%20osnabrueck>.

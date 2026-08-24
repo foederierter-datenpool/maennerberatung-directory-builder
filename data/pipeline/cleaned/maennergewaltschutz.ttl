@@ -1,0 +1,2380 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix cdp: <https://civic-data.de/pipeline#>.
+
+cdp:maennergewaltschutz-10417 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "10417";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsangebot für Männer, die sich in einer Krise befinden, im familiären Umfeld gewalttätig geworden oder selbst Opfer von Gewalterfahrungen sind.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20geldern%20kevelaer>;
+    xyz:name "Krisen- und Gewaltberatung für Männer";
+    xyz:streetAddress "Südwall 52";
+    xyz:postalCode "47608";
+    xyz:addressLocality "Geldern";
+    xyz:telephone "028319102348";
+    xyz:url "https://www.caritas-geldern.de/beratung/maennerberatung/krisen-und-gewaltberatung-fuer-maenner/krisen-und-gewaltberatung-fuer-maenner";
+    xyz:email "stefan.kisters-teuwsen@caritas-geldern.de".
+cdp:maennergewaltschutz-10556 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "10556";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Hilfe und Beratung bei häuslicher Gewalt und bei sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialdienst%20katholischer%20frauen>;
+    xyz:name "Beratungsstelle Belladonna";
+    xyz:streetAddress "Westernstraße 28";
+    xyz:postalCode "33098";
+    xyz:addressLocality "Paderborn";
+    xyz:telephone "052511219619";
+    xyz:url "https://skf-paderborn.de/beratungsdienstleistungen/belladonna/";
+    xyz:email "belladonna@skf-paderborn.de".
+cdp:maennergewaltschutz-10569 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "10569";
+    xyz:angebotstyp "geschlechtsunabhängige Schutzwohnungen";
+    xyz:description "Die AWO Fachstelle Vera bietet anonyme Schutzwohnungen für hochgefährdete von Zwangsverheiratung und ehrbezogener Gewalt betroffene Frauen* und Paare mit Kindern an. Die Mitarbeiterinnen der Schutzwohnungen beraten, begleiten und unterstützen unter anderem bei der psychischen Stabilisierung, der Anonymisierung und der Erarbeitung einer Zukunftsperspektive. Die Gewährleistung der Sicherheit und des Schutzes haben höchste Priorität. Aufgrund dessen unterliegt der Aufenthalt in den Schutzwohnungen hohen Sicherheitsvorkehrungen und verpflichtenden Maßnahmen zur Wahrung der Anonymität.";
+    xyz:name "Vera – Fachstelle gegen Frauenhandel, Zwangsverheiratung und ehrbezogene Gewalt";
+    xyz:streetAddress "Seepark 7";
+    xyz:postalCode "39116";
+    xyz:addressLocality "Magdeburg";
+    xyz:telephone "039199977868";
+    xyz:url "https://www.awo-sachsenanhalt.de/fachstelle-vera";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20landesverband%20sachsen%20anhalt>;
+    xyz:email "vera.schutzwohnung@awo-sachsenanhalt.de".
+cdp:maennergewaltschutz-11322 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "11322";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Die Gewaltschutzambulanz ist eine Anlaufstelle für alle Betroffenen von Gewalt in Bremen und Bremerhaven, unabhängig von Geschlecht und Alter. Sie arbeitet bei Bedarf eng mit dem Eltern-Kind-Zentrum Prof. Hess und der Gynäkologie am Klinikum Bremen-Mitte zusammen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-klinikum%20bremen%20mitte>;
+    xyz:name "Gewaltschutzambulanz Bremen";
+    xyz:streetAddress "St.-Jürgen-Straße 1";
+    xyz:postalCode "28205";
+    xyz:addressLocality "Bremen";
+    xyz:telephone "042149773920";
+    xyz:url "https://www.gesundheitnord.de/gewaltschutzambulanz.html";
+    xyz:email "gewaltschutzambulanz@gesundheitnord.de".
+cdp:maennergewaltschutz-11576 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "11576";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsstelle für Männer und Jungen ab 14 Jahren, die Gewalt erfahren haben.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-beratungsstelle%20hafen>;
+    xyz:name "Beratungsstelle Hafen e.V.";
+    xyz:streetAddress "Detmolder Straße 38a";
+    xyz:postalCode "33604";
+    xyz:addressLocality "Bielefeld";
+    xyz:telephone "+49017624708573";
+    xyz:url "https://www.bshafen.de/";
+    xyz:email "info@bshafen.de".
+cdp:maennergewaltschutz-12146 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "12146";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für Männer und nicht-binäre Menschen. Kontakt über eine der folgenden Clearing-Stellen: - Opferhilfe Hamburg (040-381993 | mail@opferhilfe-hamburg.de) - basis prevent (040 / 39 84 26 62 | basis-praevent@basisundwoge.de - Lale (040- 57 30 93 020 | lale@ikbev.de) - i.bera (040 350 17 72 26) - MHC – Magnus Hirschfeld Centrum (040-279 00 69 | schwulenberatung@mhc-hamburg.de)";
+    xyz:name "Alivio";
+    xyz:streetAddress "Amandastraße 60";
+    xyz:postalCode "20357";
+    xyz:addressLocality "Hamburg";
+    xyz:telephone "040334659010";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-lawaetz%20wohnen%20leben%20ggmbh>;
+    xyz:email "fiebig@lawaetz-ggmbh.de".
+cdp:maennergewaltschutz-12147 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12147";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsangebot für schwule, bisexuelle und queere Männer in allen Lebenslagen u.a. auch Gewalterfahrungen und Diskriminierung.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-magnus%20hirschfeld%20zentrum>;
+    xyz:name "Psychosoziale Beratung für schwule, bisexuelle und queere Männer";
+    xyz:streetAddress "Borgweg 8";
+    xyz:postalCode "22303";
+    xyz:addressLocality "Hamburg";
+    xyz:telephone "0402790069";
+    xyz:url "https://www.mhc-hh.de";
+    xyz:email "schwulenberatung@mhc-hamburg.de".
+cdp:maennergewaltschutz-12148 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "12148";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von Gewalt betroffene Männer.";
+    xyz:name "Gewaltschutzwohnung für Männer";
+    xyz:streetAddress "Ilse-ter-Meer-Weg 7";
+    xyz:postalCode "30449";
+    xyz:addressLocality "Hannover";
+    xyz:telephone "05111235890";
+    xyz:url "https://www.maennerbuero-hannover.de/seite/735649/zufluchtswohnung.html";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerbuero%20hannover>;
+    xyz:email "gewaltschutzwohnung@maennerbuero-hannover.de".
+cdp:maennergewaltschutz-12395 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12395";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20landkreis%20sigmaringen>;
+    xyz:name "Männerberatung SKM Sigmaringen";
+    xyz:streetAddress "Fidelisstraße 6";
+    xyz:postalCode "72488";
+    xyz:addressLocality "Sigmaringen";
+    xyz:telephone "07571728920";
+    xyz:url "https://sigmaringen.skmdivfreiburg.de/angebote/maennerberatung";
+    xyz:email "maennerberatung@skm-sigmaringen.de".
+cdp:maennergewaltschutz-12407 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12407";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Aurich";
+    xyz:streetAddress "Esenser Straße 40";
+    xyz:postalCode "26603";
+    xyz:addressLocality "Aurich";
+    xyz:telephone "049419998798";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "Poststelleaurich@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12408 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12408";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Braunschweig";
+    xyz:streetAddress "Münzstraße 17";
+    xyz:postalCode "38100";
+    xyz:addressLocality "Braunschweig";
+    xyz:telephone "05314881072";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "PostststelleBraunschweig@Opferhilfe.Niedersachsen.de".
+cdp:maennergewaltschutz-12409 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12409";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Bückeburg";
+    xyz:streetAddress "Schulstraße 2";
+    xyz:postalCode "31675";
+    xyz:addressLocality "Bückeburg";
+    xyz:telephone "05722290297";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "poststellebueckeburg@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12410 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12410";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Göttingen";
+    xyz:streetAddress "Maschmühlenweg 11";
+    xyz:postalCode "37073";
+    xyz:addressLocality "Göttingen";
+    xyz:telephone "05514031152";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "PoststelleGoettingen@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12412 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12412";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Hannover";
+    xyz:streetAddress "Weinstraße 20";
+    xyz:postalCode "30171";
+    xyz:addressLocality "Hannover";
+    xyz:telephone "05113471012";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "PoststelleHannover@opferhilfe.Niedersachsen.de".
+cdp:maennergewaltschutz-12414 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12414";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Hildesheim";
+    xyz:streetAddress "Kaiserstraße 60";
+    xyz:postalCode "31134";
+    xyz:addressLocality "Hildesheim";
+    xyz:telephone "05121968348";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "Poststellehildesheim@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12415 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12415";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Osnabrück/Zweigstelle Lingen";
+    xyz:streetAddress "Kivelingstraße 5";
+    xyz:postalCode "49808";
+    xyz:addressLocality "Lingen";
+    xyz:telephone "059196695416";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "Poststelleosnabrueck@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12416 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12416";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Lüneburg";
+    xyz:streetAddress "Bei der St. Lambertikirche 8";
+    xyz:postalCode "21335";
+    xyz:addressLocality "Lüneburg";
+    xyz:telephone "041317271910";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "poststellelueneburg@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12417 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12417";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Oldenburg";
+    xyz:streetAddress "Cloppenburger Straße 323";
+    xyz:postalCode "26133";
+    xyz:addressLocality "Oldenburg";
+    xyz:telephone "044196971215";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "poststelleoldenburg@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12418 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12418";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Osnabrück";
+    xyz:streetAddress "Goethering 30";
+    xyz:postalCode "49074";
+    xyz:addressLocality "Osnabrück";
+    xyz:telephone "05413153950";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "Poststelleosnabrueck@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12420 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12420";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Stade";
+    xyz:streetAddress "Wilhadikirchhof 3";
+    xyz:postalCode "21682";
+    xyz:addressLocality "Stade";
+    xyz:telephone "041414030430";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "PoststelleStade@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12421 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12421";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen>;
+    xyz:name "Opferhilfebüro Verden";
+    xyz:streetAddress "Grosse Straße 82-84";
+    xyz:postalCode "27283";
+    xyz:addressLocality "Verden";
+    xyz:telephone "042319376792";
+    xyz:url "https://www.opferhilfe.niedersachsen.de/";
+    xyz:email "poststelleverden@opferhilfe.niedersachsen.de".
+cdp:maennergewaltschutz-12474 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12474";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-alexianer%20st%20josefs%20krankenhaus%20potsdam>;
+    xyz:name "vertrauliche Spurensicherung";
+    xyz:streetAddress "Zimmerstraße 6";
+    xyz:postalCode "14471";
+    xyz:addressLocality "Potsdam";
+    xyz:telephone "+4933196824004";
+    xyz:url "https://www.alexianer-potsdam.de/gyn-potsdam/soforthilfe-nach-vergewaltigung";
+    xyz:email "gyn-potsdam@alexianer.de".
+cdp:maennergewaltschutz-12648 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12648";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer Unterfranken";
+    xyz:streetAddress "Güterhallstraße 5";
+    xyz:postalCode "97318";
+    xyz:addressLocality "Kitzingen";
+    xyz:telephone "093179625749";
+    xyz:url "https://www.iska-nuernberg.de/bhgmu/index.html";
+    xyz:email "bhgm-unterfranken@iska-nuernberg.de".
+cdp:maennergewaltschutz-12650 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12650";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer Unterfranken";
+    xyz:streetAddress "Bauerngasse 46";
+    xyz:postalCode "97421";
+    xyz:addressLocality "Schweinfurt";
+    xyz:telephone "093179625749";
+    xyz:url "https://www.iska-nuernberg.de/bhgmu/index.html";
+    xyz:email "bhgm-unterfranken@iska-nuernberg.de".
+cdp:maennergewaltschutz-12651 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12651";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer Unterfranken";
+    xyz:streetAddress "Promenade 37";
+    xyz:postalCode "97437";
+    xyz:addressLocality "Haßfurt";
+    xyz:telephone "093179625749";
+    xyz:url "https://www.iska-nuernberg.de/bhgmu/index.html";
+    xyz:email "bhgm-unterfranken@iska-nuernberg.de".
+cdp:maennergewaltschutz-12652 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "12652";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer Unterfranken";
+    xyz:streetAddress "Hartmannstraße 2A";
+    xyz:postalCode "97688";
+    xyz:addressLocality "Bad Kissingen";
+    xyz:telephone "093179625749";
+    xyz:url "https://www.iska-nuernberg.de/bhgmu/index.html";
+    xyz:email "bhgm-unterfranken@iska-nuernberg.de".
+cdp:maennergewaltschutz-12672 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "12672";
+    xyz:angebotstyp "geschlechtsunabhängige Schutzwohnungen";
+    xyz:description "Die TIN*-Schutzunterkunft ist ein Projekt der Frauen*hilfe München. Sie bietet trans*, intergeschlechtlichen und nicht-binären Personen* Schutz, Unterstützung und die Möglichkeit, sich aus einer gewaltvollen Lebenssituation zu lösen.";
+    xyz:name "TIN* Schutzunterkunft";
+    xyz:streetAddress "Charles-de-Gaulle-Straße 4";
+    xyz:postalCode "81737";
+    xyz:addressLocality "München";
+    xyz:telephone "08935483260";
+    xyz:url "https://www.tin-muenchen.de/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenhilfe%20muenchen%20gemeinnuetzige%20gmbh>;
+    xyz:email "info@tin-muenchen.de".
+cdp:maennergewaltschutz-12685 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "12685";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von häuslicher Gewalt betroffene Männer.";
+    xyz:name "Männerschutzwohnung";
+    xyz:streetAddress "Grafenstraße 27";
+    xyz:postalCode "64283";
+    xyz:addressLocality "Darmstadt";
+    xyz:telephone "061513946610";
+    xyz:url "https://www.flexiblejugendhilfe.de/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-flexible%20jugendhilfe>;
+    xyz:email "info@flexiblejugendhilfe.de".
+cdp:maennergewaltschutz-4370 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4370";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von häuslicher Gewalt betroffene Männer.";
+    xyz:name "Männer-Wohn-Hilfe e.V.";
+    xyz:streetAddress "Achterdiek 30a";
+    xyz:postalCode "26131";
+    xyz:addressLocality "Oldenburg";
+    xyz:telephone "01628783013";
+    xyz:url "https://www.maennerwohnhilfe.de";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maenner%20wohn%20hilfe>.
+cdp:maennergewaltschutz-4371 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4371";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von häuslicher Gewalt betroffene Männer.";
+    xyz:name "Männerschutzwohnung Dresden";
+    xyz:streetAddress "Schwepnitzer Straße 10";
+    xyz:postalCode "01097";
+    xyz:addressLocality "Dresden";
+    xyz:telephone "035132345422";
+    xyz:url "https://mnw-dd.de/schutzwohnung";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennernetzwerk%20dresden>.
+cdp:maennergewaltschutz-4388 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4388";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von häuslicher Gewalt betroffene Männer.";
+    xyz:name "Adami";
+    xyz:streetAddress "Klinkertorstraße 12";
+    xyz:postalCode "86152";
+    xyz:addressLocality "Augsburg";
+    xyz:telephone "015153322936";
+    xyz:url "https://www.skm-augsburg.de/hilfe-beratung/straffaelligenhilfe/adami-wohnung-fuer-von-haeuslicher-und-oder-sexualisierter-gewalt-betroffene-maenner";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20augsburg>.
+cdp:maennergewaltschutz-4394 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4394";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von Gewalt bedrohten und betroffenen Männer.";
+    xyz:name "Männerhaus Leipzig";
+    xyz:streetAddress "Bernhard-Göring-Straße 152";
+    xyz:postalCode "04277";
+    xyz:addressLocality "Leipzig";
+    xyz:telephone "017642902888";
+    xyz:url "https://www.maennerhaus-leipzig.de/kontakt/";
+    cdp:providedBy cdp:maennergewaltschutz-traeger-lemann.
+cdp:maennergewaltschutz-4395 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4395";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von häuslicher Gewalt betroffene Männer.";
+    xyz:name "Riposo";
+    xyz:streetAddress "Obstmarkt 28";
+    xyz:postalCode "90403";
+    xyz:addressLocality "Nürnberg";
+    xyz:telephone "09112354137";
+    xyz:url "https://www.caritas-nuernberg.de/ich-suche-hilfe/hilfe-fuer-menschen-in-besonderen-lagen/riposo.html";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20nuernberg>;
+    xyz:email "riposo@caritas-nuernberg.de".
+cdp:maennergewaltschutz-4396 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4396";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Wohnraum und Schutz bei Gewalt innerhalb enger sozialer Beziehungen.";
+    xyz:name "Schutzwohnung";
+    xyz:streetAddress "Olgastraße 19";
+    xyz:postalCode "70182";
+    xyz:addressLocality "Stuttgart";
+    xyz:telephone "071133508784";
+    xyz:url "https://www.sozialberatung-stuttgart.de/seite/394985/gewaltschutz-f%C3%BCr-m%C3%A4nner-bei-h%C3%A4uslicher-gewalt-hilfetelefon.html";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialberatung%20stuttgart>.
+cdp:maennergewaltschutz-4399 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4399";
+    xyz:angebotstyp "geschlechtsunabhängige Schutzwohnungen";
+    xyz:description "Schutzwohnung für von häusliche Gewalt betroffene Personen.";
+    xyz:name "Spezialisierte Gewaltschutzeinrichtung";
+    xyz:streetAddress "Neundorfer Straße 155";
+    xyz:postalCode "08523";
+    xyz:addressLocality "Plauen";
+    xyz:telephone "015225267210";
+    xyz:url "https://schutzwohnung.de/inhalte/schutzwohnung/_inhalt/maennerschutzwohnung/maennerschutzwohnung";
+    cdp:providedBy cdp:maennergewaltschutz-traeger-weissenberg.
+cdp:maennergewaltschutz-4485 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4485";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von Gewalt betroffene Männer.";
+    xyz:name "Freiraum";
+    xyz:streetAddress "Große Telegraphenstraße 31";
+    xyz:postalCode "50676";
+    xyz:addressLocality "Köln";
+    xyz:telephone "022120740";
+    xyz:url "https://www.skm-koeln.de/schutzwohnen-fuer-maenner/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20koeln>.
+cdp:maennergewaltschutz-4486 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "4486";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von Gewalt betroffene Männer.";
+    xyz:name "Freiraum";
+    xyz:streetAddress "Sternstraße 71-73";
+    xyz:postalCode "40479";
+    xyz:addressLocality "Düsseldorf";
+    xyz:telephone "01637773111";
+    xyz:url "https://www.skmd.de/ambulante-dienste/gewaltschutz-maenner/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh%20duesseldorf>.
+cdp:maennergewaltschutz-6842 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6842";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für männliche Gewaltopfer in engen sozialen Beziehungen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opfer%20taeterhilfe>;
+    xyz:name "Beratungsstelle SAFE!";
+    xyz:streetAddress "Erthalstraße 2";
+    xyz:postalCode "55118";
+    xyz:addressLocality "Mainz";
+    xyz:telephone "061312877711";
+    xyz:url "https://www.outh.de/angebote/safe.html#content-contact".
+cdp:maennergewaltschutz-6844 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6844";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Männerberatung für Betroffene von Beziehungsgewalt und Stalking.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-vereint%20gegen%20gewalt>;
+    xyz:name "Projekt A4 Männerberatung";
+    xyz:streetAddress "August-Bebel-Straße 10";
+    xyz:postalCode "07743";
+    xyz:addressLocality "Jena";
+    xyz:telephone "015128815618";
+    xyz:url "https://maennerberatung-thueringen.de/maennerberatung/kontakt-maennerberatung/".
+cdp:maennergewaltschutz-6906 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6906";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Opfer und Zeugen von Straftaten. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-hanauer%20hilfe>;
+    xyz:name "Opfer- und Zeugenberatung";
+    xyz:streetAddress "Salzstraße 11";
+    xyz:postalCode "63450";
+    xyz:addressLocality "Hanau";
+    xyz:telephone "0618124871";
+    xyz:url "https://www.hanauer-hilfe.de/".
+cdp:maennergewaltschutz-6953 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6953";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "via ist Anlaufstelle, Beratungsstelle und Interventionsstelle bei häuslicher Gewalt, sexueller Gewalt, bei psychischer und physischer Gewalt und bei Stalking.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20augsburg>;
+    xyz:name "Beratungs- und Interventionsstelle via";
+    xyz:streetAddress "Am Katzenstadel 32";
+    xyz:postalCode "86152";
+    xyz:addressLocality "Augsburg";
+    xyz:telephone "082145033920";
+    xyz:url "https://awo-augsburg.de/via-beratung-fuer-maenner/".
+cdp:maennergewaltschutz-6954 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6954";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung und Angebote für Männer, die von Gewalt betroffen sind.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-muenchner%20informationszentrum%20fuer%20maenner>;
+    xyz:name "Münchner Informationszentrum für Männer e.V.";
+    xyz:streetAddress "Feldmochingerstraße 6";
+    xyz:postalCode "80992";
+    xyz:addressLocality "München";
+    xyz:telephone "0895439556";
+    xyz:url "https://www.maennerzentrum.de/angebot/#betroffen".
+cdp:maennergewaltschutz-6955 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6955";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer";
+    xyz:streetAddress "Gostenhofer Hauptstraße 63";
+    xyz:postalCode "90443";
+    xyz:addressLocality "Nürnberg";
+    xyz:telephone "091127299820";
+    xyz:url "https://www.iska-nuernberg.de/bhgm/beratungnue.html".
+cdp:maennergewaltschutz-6956 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6956";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Eine Beratungsstelle für Männer*, die in Kindheit und Jugend sexualisierte Gewalt und Missbrauch erfahren haben. Auch Telefonberatung möglich.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-schutzhoehle;
+    xyz:name "Männer*Beratung Oberfranken";
+    xyz:streetAddress "Am Bürgerheim 7";
+    xyz:postalCode "95030";
+    xyz:addressLocality "Hof";
+    xyz:telephone "092817798682";
+    xyz:url "https://www.männerberatung-oberfranken.de/".
+cdp:maennergewaltschutz-6957 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6957";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Mann zu Mann, zu verschiedensten Lebenssituationen und Gewalterfahrungen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerwohnhilfe%20oldenburg>;
+    xyz:name "MännerSache";
+    xyz:streetAddress "Donnerschweer Straße 10";
+    xyz:postalCode "26123";
+    xyz:addressLocality "Oldenburg";
+    xyz:telephone "017621444373";
+    xyz:url "https://www.maennersache-ol.de/".
+cdp:maennergewaltschutz-6958 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6958";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Männer, die sexuelle und häusliche Gewalt erlebt haben. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-pro%20familia%20flensburg>;
+    xyz:name "Männerberatung";
+    xyz:streetAddress "Marienstraße 29-31";
+    xyz:postalCode "24937";
+    xyz:addressLocality "Flensburg";
+    xyz:telephone "04619092642";
+    xyz:url "https://www.profamilia.de/angebote-vor-ort/schleswig-holstein/beratungsstelle-flensburg/maennerberatung".
+cdp:maennergewaltschutz-6959 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6959";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Das Angebot richtet sich an Männer ab 16 Jahren, die als Junge oder als Erwachsener Opfer von sexueller oder häuslicher Gewalt wurden. Auch telefonische Beratung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauennotruf%20kiel>;
+    xyz:name "Männerberatung";
+    xyz:streetAddress "Dänische Straße 3–5";
+    xyz:postalCode "24103";
+    xyz:addressLocality "Kiel";
+    xyz:telephone "043191124";
+    xyz:url "https://www.frauennotruf-kiel.de/maennerberatung/".
+cdp:maennergewaltschutz-6960 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6960";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Männer, die sexuelle und häusliche Gewalt erlebt haben.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-wendepunkt;
+    xyz:name "Männerberatung Elmshorn";
+    xyz:streetAddress "Gärtnerstraße 10-14";
+    xyz:postalCode "25335";
+    xyz:addressLocality "Elmshorn";
+    xyz:telephone "04121475730";
+    xyz:url "https://www.wendepunkt-ev.de/maennerberatung/".
+cdp:maennergewaltschutz-6961 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6961";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Männer, die sexuelle und häusliche Gewalt erlebt haben.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-wendepunkt;
+    xyz:name "Männerberatung Neumünster";
+    xyz:streetAddress "Wasbeker Straße 130";
+    xyz:postalCode "24537";
+    xyz:addressLocality "Neumünster";
+    xyz:telephone "04121475730";
+    xyz:url "https://www.wendepunkt-ev.de/maennerberatung/".
+cdp:maennergewaltschutz-6962 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6962";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Männer, die sexuelle und häusliche Gewalt erlebt haben.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-wendepunkt;
+    xyz:name "Männerberatung Quickborn";
+    xyz:streetAddress "Kieler Straße 93";
+    xyz:postalCode "25451";
+    xyz:addressLocality "Quickborn";
+    xyz:telephone "04121475730";
+    xyz:url "https://www.wendepunkt-ev.de/maennerberatung/".
+cdp:maennergewaltschutz-6964 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "6964";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Das Beratungsangebot richtet sich an Männer, die im häuslichen Kontext Opfer von Gewalthandlungen geworden sind. Auch telefonische Beratung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerbuero%20hannover>;
+    xyz:name "Männerbüro Hannover e.V.";
+    xyz:streetAddress "Ilse-ter-Meer-Weg 7";
+    xyz:postalCode "30449";
+    xyz:addressLocality "Hannover";
+    xyz:telephone "05111235890";
+    xyz:url "https://www.maennerbuero-hannover.de/seite/735636/beratung-m%C3%A4nnlicher-betroffener-h%C3%A4uslicher-gewalt.html".
+cdp:maennergewaltschutz-7010 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7010";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung bei Männern in Krisen und bei Gewalterfahrungen. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis>;
+    xyz:name "Echte Männer reden";
+    xyz:streetAddress "Bahnhofstraße 27";
+    xyz:postalCode "53721";
+    xyz:addressLocality "Siegburg";
+    xyz:telephone "02241177841";
+    xyz:url "https://caritas.erzbistum-koeln.de/rheinsieg-skm/unsere-hilfen/Beratung-fuer-Maenner-und-Jungen/".
+cdp:maennergewaltschutz-7016 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "7016";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Beratung für Männer* in Krisen und bei Gewalterfahrungen. Schutzwohnung bei Bedarf auch für Kinder. Auch telefonische- und Onlineberatung möglich.";
+    xyz:name "Freiraum";
+    xyz:streetAddress "Waisenhausstraße 22";
+    xyz:postalCode "41236";
+    xyz:addressLocality "Mönchengladbach-Rheydt";
+    xyz:telephone "021661309733";
+    xyz:url "https://www.skm-ry.de/angebote-projekte/maennerarbeit-2/freiraum/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rheydt>.
+cdp:maennergewaltschutz-7018 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7018";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung bei Männern in Krisen und bei Gewalterfahrungen. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh>;
+    xyz:name "Echte Männer reden";
+    xyz:streetAddress "Sternstraße 71-73";
+    xyz:postalCode "40479";
+    xyz:addressLocality "Düsseldorf";
+    xyz:telephone "021123394846";
+    xyz:url "https://www.skmd.de/ambulante-dienste/beratung-fuer-jungen-und-maenner/".
+cdp:maennergewaltschutz-7019 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7019";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung bei Männern in Krisen und bei Gewalterfahrungen. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20neuss>;
+    xyz:name "Echte Männer reden";
+    xyz:streetAddress "Hammer Landstraße 5";
+    xyz:postalCode "41460";
+    xyz:addressLocality "Neuss";
+    xyz:telephone "0213192480";
+    xyz:url "https://skm-neuss.de/beratungsstellen/beratung-fuer-maenner/".
+cdp:maennergewaltschutz-7021 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7021";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung bei Männern in Krisen und bei Gewalterfahrungen. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20herford>;
+    xyz:name "Echte Männer reden";
+    xyz:streetAddress "Steintorwall 17";
+    xyz:postalCode "32052";
+    xyz:addressLocality "Herford";
+    xyz:telephone "052212777812";
+    xyz:url "https://skm-herford.de/beratung/jungen-und-maennerberatung/".
+cdp:maennergewaltschutz-7022 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7022";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung bei Männern in Krisen und bei Gewalterfahrungen. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20krefeld>;
+    xyz:name "Echte Männer reden";
+    xyz:streetAddress "Hubertusstraße 97";
+    xyz:postalCode "47798";
+    xyz:addressLocality "Krefeld";
+    xyz:telephone "02151841226";
+    xyz:url "https://skm-krefeld.de/hilfen-angebote/maennerarbeit/".
+cdp:maennergewaltschutz-7024 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7024";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20osnabrueck>;
+    xyz:name "Echte Männer reden";
+    xyz:streetAddress "Alte Poststraße 11";
+    xyz:postalCode "49074";
+    xyz:addressLocality "Osnabrück";
+    xyz:telephone "054120511397";
+    xyz:url "https://skm-osnabrueck.de/fachbereiche/skm-kinder-jugend-und-familienhilfe/maennerberatung/".
+cdp:maennergewaltschutz-7028 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7028";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Telefon- und Videoberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20land%20brandenburg>;
+    xyz:name "Opferberatung/ Traumaambulanz Potsdam";
+    xyz:streetAddress "Jägerstraße 36";
+    xyz:postalCode "14467";
+    xyz:addressLocality "Potsdam";
+    xyz:telephone "03312802725";
+    xyz:url "https://www.opferhilfe-brandenburg.de/kontakt/potsdam/".
+cdp:maennergewaltschutz-7040 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7040";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer Unterfranken";
+    xyz:streetAddress "Friedrich-Ebert-Ring 27A";
+    xyz:postalCode "97070";
+    xyz:addressLocality "Würzburg";
+    xyz:telephone "093179625749";
+    xyz:url "https://www.iska-nuernberg.de/bhgmu/index.html";
+    xyz:email "bhgm-unterfranken@iska-nuernberg.de".
+cdp:maennergewaltschutz-7041 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7041";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer";
+    xyz:streetAddress "Theresienstraße 3";
+    xyz:postalCode "90762";
+    xyz:addressLocality "Fürth";
+    xyz:telephone "091127299820";
+    xyz:url "https://www.iska-nuernberg.de/bhgm/beratungfue.html".
+cdp:maennergewaltschutz-7042 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7042";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer";
+    xyz:streetAddress "Casselmannstraße 15";
+    xyz:postalCode "95444";
+    xyz:addressLocality "Bayreuth";
+    xyz:telephone "09112729982";
+    xyz:url "https://www.iska-nuernberg.de/bhgm/beratungbay.html".
+cdp:maennergewaltschutz-7044 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7044";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Telefon- und Videoberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20land%20brandenburg>;
+    xyz:name "Opferberatung Cottbus";
+    xyz:streetAddress "Gerhart-Hauptmann- Straße 15";
+    xyz:postalCode "03044";
+    xyz:addressLocality "Cottbus";
+    xyz:telephone "03557296052";
+    xyz:url "https://www.opferhilfe-brandenburg.de/kontakt/cottbus/".
+cdp:maennergewaltschutz-7045 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7045";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Telefon- und Videoberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20land%20brandenburg>;
+    xyz:name "Opferberatung Senftenberg";
+    xyz:streetAddress "Jüttendorfer Anger 24";
+    xyz:postalCode "01968";
+    xyz:addressLocality "Senftenberg";
+    xyz:telephone "03573140334";
+    xyz:url "https://www.opferhilfe-brandenburg.de/kontakt/senftenberg/".
+cdp:maennergewaltschutz-7046 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7046";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Telefon- und Videoberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20land%20brandenburg>;
+    xyz:name "Opferberatung Frankfurt/ Oder";
+    xyz:streetAddress "Carthausplatz 1";
+    xyz:postalCode "15230";
+    xyz:addressLocality "Frankfurt (Oder)";
+    xyz:telephone "03356659267";
+    xyz:url "https://www.opferhilfe-brandenburg.de/kontakt/frankfurt/".
+cdp:maennergewaltschutz-7047 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7047";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung von Opfern von Gewalt. Auch Telefon- und Videoberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20land%20brandenburg>;
+    xyz:name "Opferberatung Neuruppin";
+    xyz:streetAddress "Karl-Marx-Straße 33/34";
+    xyz:postalCode "16816";
+    xyz:addressLocality "Neuruppin";
+    xyz:telephone "03391512300";
+    xyz:url "https://www.opferhilfe-brandenburg.de/kontakt/neuruppin/".
+cdp:maennergewaltschutz-7049 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7049";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt und Stalking.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20regionalverband%20halle%20merseburg>;
+    xyz:name "Interventionsstelle „Häusliche Gewalt &amp; Stalking“ Halle";
+    xyz:streetAddress "Trakehner Straße 47";
+    xyz:postalCode "06124";
+    xyz:addressLocality "Halle (Saale)";
+    xyz:telephone "03456867907";
+    xyz:url "https://www.awo-halle-merseburg.de/angebote/beratung-und-unterstuetzung/interventionsstelle-bei-haeuslicher-gewaltstalking/angebote-interventionsstelle/".
+cdp:maennergewaltschutz-7050 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7050";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsstelle für Betroffene von häuslicher Gewalt und Stalking.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20spi%20soziale%20stadt%20und%20land%20entwicklungsgesellschaft%20mbh>;
+    xyz:name "Interventionsstelle Häusliche Gewalt und Stalking";
+    xyz:streetAddress "Johannisstraße 14";
+    xyz:postalCode "06844";
+    xyz:addressLocality "Dessau-Roßlau";
+    xyz:telephone "034066128539";
+    xyz:url "https://awo-spi.de/projekt/interventionsstelle-haeusliche-gewalt-und-stalking/".
+cdp:maennergewaltschutz-7051 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7051";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Männer bei Gewalt in der Partnerschaft.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20werra%20meissner>;
+    xyz:name "Männerberatung";
+    xyz:streetAddress "An den Anlagen 8";
+    xyz:postalCode "37269";
+    xyz:addressLocality "Eschwege";
+    xyz:telephone "05651307620";
+    xyz:url "https://www.awo-werra-meissner.de/angebot/beratungsstelle-fuer-schwangerschaft-familie-sexualitaet/maennerberatung/".
+cdp:maennergewaltschutz-7053 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7053";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt. Auch Telefon- und Videoberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skf%20giessen>;
+    xyz:name "Interventionsstelle gegen häusliche Gewalt";
+    xyz:streetAddress "Wartweg 17";
+    xyz:postalCode "35392";
+    xyz:addressLocality "Gießen";
+    xyz:telephone "06412001750";
+    xyz:url "https://www.skf-giessen.de/hilfe-und-beratung/1/2/2".
+cdp:maennergewaltschutz-7057 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7057";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Opfer von Straftaten.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20berlin>;
+    xyz:name "Beratungsstelle für Opfer von Straftaten - Opferhilfe Berlin e.V.";
+    xyz:streetAddress "Oldenburger Straße 38";
+    xyz:postalCode "10551";
+    xyz:addressLocality "Berlin-Moabit";
+    xyz:telephone "0303952867";
+    xyz:url "https://www.opferhilfe-berlin.de/beratungsstelle".
+cdp:maennergewaltschutz-7059 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7059";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Opfer von Straftaten. Mehrere Außenstellen in Berlin. Auch telefonische Beratung und Onlineberatung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-weisser%20ring>;
+    xyz:name "Weisser Ring Berlin";
+    xyz:streetAddress "Bartningallee 24";
+    xyz:postalCode "10557";
+    xyz:addressLocality "Berlin";
+    xyz:telephone "0308337060";
+    xyz:url "https://berlin.weisser-ring.de/".
+cdp:maennergewaltschutz-7146 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7146";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung auch für Männer bei Gewalt in der Partnerschaft.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-dialog;
+    xyz:name "Gewaltberatungsstelle Wolfsburg";
+    xyz:streetAddress "Goethestraße 59";
+    xyz:postalCode "38440";
+    xyz:addressLocality "Wolfsburg";
+    xyz:telephone "053618912300";
+    xyz:url "https://www.dialog-wolfsburg.de/beratungsstelle/erwachsene/".
+cdp:maennergewaltschutz-7356 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "7356";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Schutzwohnung für von Gewalt bedrohten und betroffenen Männer.";
+    xyz:name "Freiraum";
+    xyz:streetAddress "Kirchstraße 5";
+    xyz:postalCode "48231";
+    xyz:addressLocality "Warendorf";
+    xyz:telephone "01703304393";
+    xyz:url "https://skm-warendorf.de/fachbereiche/krisen-und-gewaltberatung/gewaltschutz-fuer-maenner/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20warendorf>.
+cdp:maennergewaltschutz-7439 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7439";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Fachberatungsstelle bei häuslicher Gewalt für Frauen und Männer";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skf%20muenster>;
+    xyz:name "Fachberatungsstelle bei häuslicher Gewalt für Frauen und Männer";
+    xyz:streetAddress "Wolbecker Straße 16a";
+    xyz:postalCode "48155";
+    xyz:addressLocality "Münster";
+    xyz:telephone "025113322330";
+    xyz:url "https://www.skf-muenster.de/hilfe-bei-haeuslicher-Gewalt/#gewalt".
+cdp:maennergewaltschutz-7441 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7441";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-fairmann%20gug>;
+    xyz:name "Männer Notruf Heidelberg";
+    xyz:streetAddress "Parkstraße 15";
+    xyz:postalCode "69126";
+    xyz:addressLocality "Heidelberg";
+    xyz:telephone "062216516767";
+    xyz:url "https://maennernotruf.org/".
+cdp:maennergewaltschutz-7716 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7716";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-lemann%20leipzig>;
+    xyz:name "Männerberatung";
+    xyz:streetAddress "Bernhard-Göring-Straße 152,";
+    xyz:postalCode "04277";
+    xyz:addressLocality "Leipzig";
+    xyz:telephone "03413065280";
+    xyz:url "https://lemann-netzwerk.de/maennerberatung/".
+cdp:maennergewaltschutz-7717 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7717";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Jungen & Männer, die von Gewalt betroffen sind.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20sachsen%20leipzig>;
+    xyz:name "Männersprechzeit";
+    xyz:streetAddress "Kochstraße 1";
+    xyz:postalCode "04275";
+    xyz:addressLocality "Leipzig";
+    xyz:telephone "03412254318";
+    xyz:url "https://www.opferhilfe-sachsen.de/kontakt/leipzig/".
+cdp:maennergewaltschutz-7718 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7718";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Jungen & Männer, die von Gewalt betroffen sind.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20sachsen%20bautzen>;
+    xyz:name "Männersprechzeit";
+    xyz:streetAddress "Löbauer Straße 48";
+    xyz:postalCode "02625";
+    xyz:addressLocality "Bautzen";
+    xyz:telephone "03591679550";
+    xyz:url "https://www.opferhilfe-sachsen.de/kontakt/bautzen/".
+cdp:maennergewaltschutz-7744 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "7744";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Beratung und bei Bedarf Schutzwohnung für von häuslicher Gewalt betroffene Männer.";
+    xyz:name "man-o-mann Maennerberatung";
+    xyz:streetAddress "Teutoburger Straße 106";
+    xyz:postalCode "33607";
+    xyz:addressLocality "Bielefeld";
+    xyz:telephone "015228256243015251764336";
+    xyz:url "https://man-o-mann.de/maennerschutzeinrichtung/";
+    cdp:providedBy cdp:maennergewaltschutz-traeger-vsgb;
+    xyz:email "mse@man-o-mann.de".
+cdp:maennergewaltschutz-7864 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7864";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Hilfe und Beratung bei häuslicher Gewalt. Auch Online-Beratung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauen%20und%20kinderschutzhaus%20freiburg>;
+    xyz:name "Freiburger Fachstelle Intervention gegen Häusliche Gewalt (FRIG)";
+    xyz:streetAddress "Rimsinger Weg 15a";
+    xyz:postalCode "79111";
+    xyz:addressLocality "Freiburg";
+    xyz:telephone "07618973520";
+    xyz:url "https://frig-freiburg.de/".
+cdp:maennergewaltschutz-7866 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "7866";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Gespräche und Beratung von Mann zu Mann";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-katholischen%20gesamtkirchengemeinde%20freiburg>;
+    xyz:name "Männerbüro";
+    xyz:streetAddress "Talstraße 29";
+    xyz:postalCode "79102";
+    xyz:addressLocality "Freiburg";
+    xyz:telephone "076160066577";
+    xyz:url "https://www.maennerbuero-freiburg.de/".
+cdp:maennergewaltschutz-8123 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8123";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Bei uns werden Sie im Fall einer Ehe- oder Partnerschaftskrise, bei der körperliche oder seelische Gewalt geschieht, schnell beraten – auch zuhause. Dieses Angebot ist offen für alle Menschen, unabhängig von Alter, Geschlecht, Nationalität, Religion, Beruf und Einkommen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonieverband%20reutlingen>;
+    xyz:name "Beratungs- und Interventionsstelle";
+    xyz:streetAddress "Planie 17";
+    xyz:postalCode "72764";
+    xyz:addressLocality "Reutlingen";
+    xyz:telephone "0712194860";
+    xyz:url "https://diakonie-reutlingen.de/rat-und-hilfe/beratung/diakonieverband-reutlingen-beratung-bei-haeuslicher-gewalt".
+cdp:maennergewaltschutz-8287 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8287";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Begleitung für Männer*, die sexualisierte Gewalt (sexuelle Gewalt, Missbrauch, Vergewaltigung) erleben oder erlebt haben";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-hilfe%20fuer%20jungs>;
+    xyz:name "MUT Traumahilfe für Männer";
+    xyz:streetAddress "Leinestraße 49";
+    xyz:postalCode "12049";
+    xyz:addressLocality "Berlin";
+    xyz:telephone "03023633978";
+    xyz:url "https://mut-traumahilfe.de/".
+cdp:maennergewaltschutz-8290 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8290";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer Unterfranken";
+    xyz:streetAddress "Pfaffengasse 7";
+    xyz:postalCode "63739";
+    xyz:addressLocality "Aschaffenburg";
+    xyz:telephone "093179625749";
+    xyz:url "https://www.iska-nuernberg.de/bhgmu/index.html";
+    xyz:email "bhgm-unterfranken@iska-nuernberg.de".
+cdp:maennergewaltschutz-8292 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8292";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffenen Männern.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh>;
+    xyz:name "Beratungsstelle Häusliche Gewalt gegen Männer";
+    xyz:streetAddress "Am Bürgerheim 7";
+    xyz:postalCode "95030";
+    xyz:addressLocality "Hof";
+    xyz:telephone "091127299820";
+    xyz:url "https://www.iska-nuernberg.de/bhgm/beratunghof.html".
+cdp:maennergewaltschutz-8580 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8580";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung bei Gewalt & Trauma. Auch telefonische Beratung möglich.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20hamburg>;
+    xyz:name "Opferhilfe Hamburg e.V.";
+    xyz:streetAddress "Paul-Nevermann-Platz 2-4";
+    xyz:postalCode "22765";
+    xyz:addressLocality "Hamburg";
+    xyz:telephone "040381993";
+    xyz:url "https://opferhilfe-hamburg.de/beratung/zielgruppen/".
+cdp:maennergewaltschutz-8581 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8581";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Berät Menschen mit Migrationshintergrund, die in ihrer Beziehung oder Familie Gewalt erleben oder die von einer Zwangsheirat betroffen sind.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-interkulturelle%20begegnungsstaette>;
+    xyz:name "LÂLE";
+    xyz:streetAddress "Brahmsallee 35";
+    xyz:postalCode "20144";
+    xyz:addressLocality "Hamburg";
+    xyz:telephone "040573093020";
+    xyz:url "https://ikbev.de/lale/".
+cdp:maennergewaltschutz-8582 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8582";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Berät Menschen mit Migrationshintergrund, die in ihrer Beziehung oder Familie Gewalt erleben oder die von einer Zwangsheirat betroffen sind.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-verikom%20ggmbh>;
+    xyz:name "i.bera";
+    xyz:streetAddress "Norderreihe 61";
+    xyz:postalCode "22767";
+    xyz:addressLocality "Hamburg";
+    xyz:telephone "040350177226";
+    xyz:url "https://www.verikom.de/gewaltschutz/ibera-ueber-uns/".
+cdp:maennergewaltschutz-8583 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8583";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Jungen und Männer, die sexuelle Gewalt erlebt haben, Beratung für Angehörige und Fachkräfte.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-basis%20woge>;
+    xyz:name "basispraevent";
+    xyz:streetAddress "Steindamm 11";
+    xyz:postalCode "20099";
+    xyz:addressLocality "Hamburg";
+    xyz:telephone "+4940398426";
+    xyz:url "https://basis-praevent.de/beratung/maenner/".
+cdp:maennergewaltschutz-8584 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8584";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsstelle für Männer und männliche Jugendliche. Beratung von Gewaltbetroffene.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonisches%20werk%20hamburg%20west%20suedholstein>;
+    xyz:name "Männersache";
+    xyz:streetAddress "Max-Zelck-Straße 1";
+    xyz:postalCode "22459";
+    xyz:addressLocality "Hamburg";
+    xyz:telephone "040558220130";
+    xyz:url "https://diakonie-hhsh.de/angebote/familie-beziehung-beratung/maennersache/".
+cdp:maennergewaltschutz-8585 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8585";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von Gewalt betroffene Menschen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-reisende%20werkschule%20scholen>;
+    xyz:name "Neue Wege";
+    xyz:streetAddress "Altenwall 24";
+    xyz:postalCode "28195";
+    xyz:addressLocality "Bremen";
+    xyz:telephone "04217947118";
+    xyz:url "https://neue-wege-bremen.de/angebote-fuer-betroffene/".
+cdp:maennergewaltschutz-8586 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8586";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Maneo hilft schwulen und bisexuellen Jugendlichen und Männern, die von schwulenfeindlicher Gewalt und Diskriminierung betroffen sind – egal ob als Opfer, Tatzeugen oder Lebenspartner der Betroffenen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-mann%20o%20meter>;
+    xyz:name "MANEO";
+    xyz:streetAddress "Bülowstraße 106";
+    xyz:postalCode "10783";
+    xyz:addressLocality "Berlin";
+    xyz:telephone "0302163336";
+    xyz:url "https://www.maneo.de/maneo-arbeit/opferhilfe/";
+    xyz:email "opferhilfe@maneo.de".
+cdp:maennergewaltschutz-8592 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8592";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Jungen* und junge Männer* bis 27, die Gewalt erlebt haben.";
+    xyz:name "Bremer JungenBüro e.V.";
+    xyz:streetAddress "Schüsselkorb 17/18";
+    xyz:postalCode "28195";
+    xyz:addressLocality "Bremen";
+    xyz:telephone "042159865160";
+    xyz:url "https://www.bremer-jungenbuero.de/junge-maenner/beratung-jm.php".
+cdp:maennergewaltschutz-8594 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8594";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Krisen-Interventions-Team bei Stalking und häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-taeter%20opfer%20ausgleich%20bremen>;
+    xyz:name "Stalking-KIT";
+    xyz:streetAddress "Am Wall 193";
+    xyz:postalCode "28195";
+    xyz:addressLocality "Bremen";
+    xyz:telephone "042179282890";
+    xyz:url "https://toa-bremen.de/angebote/stalking-kit".
+cdp:maennergewaltschutz-8595 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8595";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutsches%20rotes%20kreuz%20kreisverband%20uecker%20randow>;
+    xyz:name "Beratungsstelle für Betroffene von häuslicher Gewalt";
+    xyz:streetAddress "Oskar-Picht-Straße 1";
+    xyz:postalCode "17309";
+    xyz:addressLocality "Pasewalk";
+    xyz:telephone "039732049975";
+    xyz:url "https://www.drk-uer.de/home/haeusliche-gewalt/".
+cdp:maennergewaltschutz-8596 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8596";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung und Unterstützung bei der Bewältigung aktueller oder zurückliegender Gewalterfahrungen in Partnerschaft und familiärem Umfeld.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen>;
+    xyz:name "BeLa Rostock";
+    xyz:streetAddress "Heiligengeisthof 3";
+    xyz:postalCode "18055";
+    xyz:addressLocality "Rostock";
+    xyz:telephone "017643326923";
+    xyz:url "https://www.stark-machen.de/das-team-rostock-2/kontakt-rostock".
+cdp:maennergewaltschutz-8597 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8597";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung und Unterstützung bei der Bewältigung aktueller oder zurückliegender Gewalterfahrungen in Partnerschaft und familiärem Umfeld.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen>;
+    xyz:name "BeLa Vorpommern";
+    xyz:streetAddress "Jungfernstieg 14";
+    xyz:postalCode "18437";
+    xyz:addressLocality "Stralsund";
+    xyz:telephone "017674708335";
+    xyz:url "https://www.stark-machen.de/das-team-vorpommern/kontakt-vorpommern".
+cdp:maennergewaltschutz-8598 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8598";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsstelle für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20schwerin%20parchim>;
+    xyz:name "Beratungsstelle für Betroffene von häuslicher Gewalt Grevesmühlen";
+    xyz:streetAddress "Rudolf-Breitscheid-Straße 27";
+    xyz:postalCode "23936";
+    xyz:addressLocality "Grevesmühlen";
+    xyz:telephone "03881758564";
+    xyz:url "https://www.awo-schwerin.de/fachbereiche/beratung-erziehung-lebensbewaeltigung/schutz-und-kriesendienste/beratungsstelle-fuer-betroffene-von-haeuslicher-gewalt-gvm".
+cdp:maennergewaltschutz-8600 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8600";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Die Interventionsstelle richtet sich mit ihrem Beratungsangebot an Betroffene von häuslicher Gewalt unabhängig von Geschlecht und Herkunft.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20schwerin%20parchim>;
+    xyz:name "Interventionsstelle gegen häusliche Gewalt und Stalking";
+    xyz:streetAddress "Platz der Jugend 8";
+    xyz:postalCode "19053";
+    xyz:addressLocality "Schwerin";
+    xyz:telephone "038552190541";
+    xyz:url "https://www.awo-schwerin.de/fachbereiche/beratung-erziehung-lebensbewaeltigung/schutz-und-kriesendienste/interventionsstelle-gegen-haeusliche-gewalt-und-stalking-mit-kinder-und-jugendberatung".
+cdp:maennergewaltschutz-8612 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8612";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Die Beratungs- und Interventionsstelle für Opfer häuslicher Gewalt bietet saarlandweit Kurzzeit- und Krisenberatung für Opfer häuslicher Gewalt an.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialdienst%20katholischer%20frauen%20saarland>;
+    xyz:name "Beratungs- und Interventionsstelle für Opfer häuslicher Gewalt";
+    xyz:streetAddress "Richard-Wagner-Straße 17";
+    xyz:postalCode "66111";
+    xyz:addressLocality "Saarbrücken";
+    xyz:telephone "06819362590";
+    xyz:url "https://www.skf-saarbruecken.de/taetigkeitsbereiche/beratungs-und-interventionsstelle-fuer-opfer-haeuslicher-gewalt/".
+cdp:maennergewaltschutz-8615 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8615";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Männer und Jungen in Krisen und bei Gewalttätigkeit";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rheydt>;
+    xyz:name "Echte Männer reden";
+    xyz:streetAddress "Waisenhausstraße 22";
+    xyz:postalCode "41236";
+    xyz:addressLocality "Mönchengladbach-Rheydt";
+    xyz:telephone "021661309730";
+    xyz:url "https://echte-männer-reden.de/berater/christoph-foehles/".
+cdp:maennergewaltschutz-8627 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8627";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Fachberatungsstelle bei sexualisierter Gewalt in Stadt und Landkreis Kassel";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-verein%20gegen%20sexualisierte%20gewalt%20kassel>;
+    xyz:name "faX";
+    xyz:streetAddress "Untere Karlsstraße 16";
+    xyz:postalCode "34117";
+    xyz:addressLocality "Kassel";
+    xyz:telephone "056131749116";
+    xyz:url "https://fax-kassel.de/".
+cdp:maennergewaltschutz-8634 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8634";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für betroffene Männer";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20giessen>;
+    xyz:name "Beratungsstelle gegen den sexuellen Missbrauch an Mädchen und Jungen";
+    xyz:streetAddress "Liebigstraße 13";
+    xyz:postalCode "35390";
+    xyz:addressLocality "Gießen";
+    xyz:telephone "064176545";
+    xyz:url "https://wildwasser-giessen.de/angebot/betroffene-frauen-manner-und-non-binare-erwachsene".
+cdp:maennergewaltschutz-8792 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8792";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Das Beratungsangebot richtet sich an alle Menschen, die im Landkreis Bautzen leben und von häuslicher Gewalt oder Stalking betroffen sind – unabhängig von Geschlecht, sexueller Orientierung, Alter, Nationalität, Aufenthaltsstatus oder Weltanschauung.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenschutzhaus%20bautzen>;
+    xyz:name "Interventionsstelle gegen häusliche Gewalt Ostsachsen";
+    xyz:streetAddress "Lessingstraße 4";
+    xyz:postalCode "02625";
+    xyz:addressLocality "Bautzen";
+    xyz:telephone "03591275824";
+    xyz:url "https://interventionsstelle-ostsachsen.de/interventionsstelle/".
+cdp:maennergewaltschutz-8793 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8793";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Das Beratungsangebot richtet sich an alle Menschen, die im Landkreis Bautzen leben und von häuslicher Gewalt oder Stalking betroffen sind – unabhängig von Geschlecht, sexueller Orientierung, Alter, Nationalität, Aufenthaltsstatus oder Weltanschauung.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenschutzhaus%20bautzen>;
+    xyz:name "Interventionsstelle gegen häusliche Gewalt Ostsachsen";
+    xyz:streetAddress "Virchowstraße 60";
+    xyz:postalCode "02977";
+    xyz:addressLocality "Hoyerswerda";
+    xyz:telephone "03591275824";
+    xyz:url "https://interventionsstelle-ostsachsen.de/interventionsstelle/".
+cdp:maennergewaltschutz-8794 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8794";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Das Angebot richtet sich an Männer und Frauen ab dem 18. Lebensjahr, die von häuslicher Gewalt und Stalking betroffen sind/waren";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenhilfe%20chemnitz>;
+    xyz:name "IKOS Chemnitz";
+    xyz:streetAddress "Hainstraße 125";
+    xyz:postalCode "09130";
+    xyz:addressLocality "Chemnitz";
+    xyz:telephone "+4903719185354";
+    xyz:url "https://www.ikos-chemnitz.de/".
+cdp:maennergewaltschutz-8795 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8795";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Das Angebot richtet sich an von häuslicher Gewalt betroffene Frauen und Männer, Freunde, Angehörige und professionelle HelferInnen, die Betroffene unterstützen wollen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenschutzhaus%20dresden>;
+    xyz:name "D.I.K. Dresdner Interventions- und Koordinierungsstelle zur Bekämpfung häuslicher Gewalt";
+    xyz:streetAddress "Laurinstraße 6";
+    xyz:postalCode "01067";
+    xyz:addressLocality "Dresden";
+    xyz:telephone "03518567210";
+    xyz:url "https://www.fsh-dresden.de/beratung/".
+cdp:maennergewaltschutz-8796 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8796";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung bei häuslicher Gewalt und Stalking";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-wegweiser;
+    xyz:name "Beratungsstelle gegen häuslicher Gewalt und Stalking";
+    xyz:streetAddress "Lange Straße 50";
+    xyz:postalCode "04668";
+    xyz:addressLocality "Grimma";
+    xyz:telephone "03437708478";
+    xyz:url "https://wegweiser-boehlen.de/frauen-und-kinderschutzhaus/haeusliche-gewalt/".
+cdp:maennergewaltschutz-8797 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8797";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffene Menschen in Leipzig.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauen%20fuer%20frauen>;
+    xyz:name "KIS Beratungsstelle";
+    xyz:streetAddress "Karl Liebknecht Straße 59";
+    xyz:postalCode "04275";
+    xyz:addressLocality "Leipzig";
+    xyz:telephone "03413068778";
+    xyz:url "https://www.fff-leipzig.de/haeusliche-gewalt/kis-beratungsstelle/".
+cdp:maennergewaltschutz-8798 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8798";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Unterstützung für von häuslicher Gewalt und Stalking betroffenener Menschen im Landkreis Meißen.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-skf;
+    xyz:name "Beratungs- und Interventionsstelle gegen häusliche Gewalt und Stalking";
+    xyz:streetAddress "Dr.-Külz-Straße 4";
+    xyz:postalCode "01445";
+    xyz:addressLocality "Radebeul";
+    xyz:telephone "035179552205";
+    xyz:url "https://frauenhaus-skf-radebeul.de/beratungs-interventionsstelle/".
+cdp:maennergewaltschutz-8799 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8799";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Unterstützung für von häuslicher Gewalt und Stalking betroffenener Menschen im Landkreis Meißen.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-skf;
+    xyz:name "Beratungs- und Interventionsstelle gegen häusliche Gewalt und Stalking";
+    xyz:streetAddress "Kurt-Schlosser-Straße 22";
+    xyz:postalCode "01591";
+    xyz:addressLocality "Riesa";
+    xyz:telephone "035179552205";
+    xyz:url "https://frauenhaus-skf-radebeul.de/beratungs-interventionsstelle/".
+cdp:maennergewaltschutz-8801 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8801";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Unterstützung in der Krisensituation und bei der Suche nach Wegen aus der Gewalt Beratung in Fällen von häuslicher Gewalt und Stalking";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20zwickauer%20land>;
+    xyz:name "Interventions- und Koordinierungsstelle Zwickau";
+    xyz:streetAddress "Casparistraße 5";
+    xyz:postalCode "08056";
+    xyz:addressLocality "Zwickau";
+    xyz:telephone "+4937544791551";
+    xyz:url "https://www.wildwasser-zwickauer-land.de/interventionsstelle---iks".
+cdp:maennergewaltschutz-8802 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8802";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Unterstützung für Betroffene von häuslicher Gewalt und Stalking";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutscher%20kinderschutzbund%20ov%20torgau>;
+    xyz:name "Beratungsstellegegen häusliche Gewalt und Stalking Nordsachsen";
+    xyz:streetAddress "Dommitzscher Straße 7";
+    xyz:postalCode "04860";
+    xyz:addressLocality "Torgau";
+    xyz:telephone "015223689437";
+    xyz:url "https://www.hilf-dir.info/hilf-dir.html".
+cdp:maennergewaltschutz-8803 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8803";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung, Begleitung und Unterstützung für Menschen, die in der Vergangenheit oder aktuell entweder in ihrer bestehenden bzw. beendeten Partnerschaft oder in ihrem häuslichen Umfeld Gewalt erfahren, angedroht bekommen oder Stalking erleben.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kv%20toleranz%20inklusion%20ggmbh>;
+    xyz:name "KOINS Mittelsachsen";
+    xyz:streetAddress "Tschaikowskistraße 57a";
+    xyz:postalCode "09599";
+    xyz:addressLocality "Freiberg";
+    xyz:telephone "037317744350";
+    xyz:url "http://www.koins-mittelsachsen.de/".
+cdp:maennergewaltschutz-8804 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8804";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Unterstzüung für Betroffene von häuslicher Gewalt";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-drk%20kreisverband%20pirna>;
+    xyz:name "IKS zur Beratung und Hilfe bei häuslicher Gewalt";
+    xyz:streetAddress "Krietzschwitzer Straße 3";
+    xyz:postalCode "01796";
+    xyz:addressLocality "Pirna";
+    xyz:telephone "035015764998";
+    xyz:url "http://www.drkpirna.de/angebote/interventions-und-koordinierungsstelle-fuer-opfer-von-haeuslicher-gewalt.html".
+cdp:maennergewaltschutz-8805 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8805";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Unterstzüung für Betroffene von häuslicher Gewalt";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-drk%20kreisverband%20pirna>;
+    xyz:name "IKS zur Beratung und Hilfe bei häuslicher Gewalt";
+    xyz:streetAddress "Dresdner Straße 207";
+    xyz:postalCode "01705";
+    xyz:addressLocality "Freital";
+    xyz:telephone "035015764988";
+    xyz:url "http://www.drkpirna.de/angebote/interventions-und-koordinierungsstelle-fuer-opfer-von-haeuslicher-gewalt.html".
+cdp:maennergewaltschutz-8806 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8806";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffenen von häuslicher Gewalt im Landkreis Görlitz.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutscher%20kinderschutzbund%20ortsverband%20zittau>;
+    xyz:name "IKS gegen häusliche Gewalt im Landkreis Görlitz";
+    xyz:streetAddress "Bahnhofstraße 8";
+    xyz:postalCode "02708";
+    xyz:addressLocality "Löbau";
+    xyz:telephone "035852139803";
+    xyz:url "https://kinderschutzbund-zittau.de/iks-haeusliche-gewalt/".
+cdp:maennergewaltschutz-8808 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8808";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Proaktive Beratung von Gewalt betroffenen Menschen nach Krisenintervention";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20erzgebirge%20ggmbh>;
+    xyz:name "IKOS Erzgebirge";
+    xyz:streetAddress "Straße der Einheit 57";
+    xyz:postalCode "08340";
+    xyz:addressLocality "Schwarzenberg";
+    xyz:telephone "037748199958";
+    xyz:url "https://www.awo-erzgebirge.de/index.php/angebote/iberatung-und-beratungsstellen/interventions-und-koordinierungsstelle".
+cdp:maennergewaltschutz-8991 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8991";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Menschen, die sexualisierte Gewalt erlebt haben.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-zartbitter%20muenster>;
+    xyz:name "Zartbitter Münster e.V.";
+    xyz:streetAddress "Hammer Straße 220";
+    xyz:postalCode "48153";
+    xyz:addressLocality "Münster/Westf.";
+    xyz:telephone "+492514140555";
+    xyz:url "https://www.zartbitter-muenster.de/beratung".
+cdp:maennergewaltschutz-8992 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8992";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Anlaufstelle, für Männer*, die in Kindheit und Jugend sexualisierter Gewalt ausgesetzt waren.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-tauwetter;
+    xyz:name "Tauwetter e.V.";
+    xyz:streetAddress "Gneisenaustraße 2a";
+    xyz:postalCode "10961";
+    xyz:addressLocality "Berlin";
+    xyz:telephone "0306938007";
+    xyz:url "https://tauwetter.de/beratung/".
+cdp:maennergewaltschutz-8993 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8993";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Jugendliche ab 12 Jahre und Frauen und Männer, die von sexualisierter Gewalt betroffen sind.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20chemnitz%20erzgebirge%20und%20umland>;
+    xyz:name "WILDWASSER Chemnitz, Erzgebirge und Umland e.V.";
+    xyz:streetAddress "Uferstraße 46";
+    xyz:postalCode "09126";
+    xyz:addressLocality "Chemnitz";
+    xyz:telephone "0371350534";
+    xyz:url "https://www.wildwasser-chemnitz.de/junge-erwachsene".
+cdp:maennergewaltschutz-8994 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8994";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kreisdiakonisches%20werk%20greifswald>;
+    xyz:name "Beratungsstelle für Betroffene häuslicher Gewalt Greifswald";
+    xyz:streetAddress "Bugenhagenstraße 1 — 3";
+    xyz:postalCode "17489";
+    xyz:addressLocality "Greifswald";
+    xyz:telephone "038362377630";
+    xyz:url "https://kdw-greifswald.de/beratung-und-hilfe-bei-problemen/gewalt-opfer-beratung/".
+cdp:maennergewaltschutz-8995 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8995";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kreisdiakonisches%20werk%20greifswald>;
+    xyz:name "Beratungsstelle für Betroffene häuslicher Gewalt Wolgast";
+    xyz:streetAddress "Breite Straße 6c";
+    xyz:postalCode "17438";
+    xyz:addressLocality "Wolgast";
+    xyz:telephone "038362377630";
+    xyz:url "https://kdw-greifswald.de/beratung-und-hilfe-bei-problemen/gewalt-opfer-beratung/".
+cdp:maennergewaltschutz-8997 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "8997";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt ab dem 18. Lebensjahr. Entlastende Gespräche und Beratung zur individuellen Situation Begleitung zu Ämtern und Institutionen. Weitervermittlung nach Bedarf.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kinder%20jugend%20und%20familienhilfe%20ruegen>;
+    xyz:name "Beratungsstelle \"Ankerlicht\"";
+    xyz:streetAddress "Ringstraße 25";
+    xyz:postalCode "18528";
+    xyz:addressLocality "Bergen auf Rügen";
+    xyz:telephone "03838201793";
+    xyz:url "https://www.jugendhilfe-ruegen.de/ankerlicht";
+    xyz:email "ankerlicht@kjfh-ruegen.de".
+cdp:maennergewaltschutz-9000 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9000";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsstelle für Menschen, die Häusliche Gewalt erleben.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sophie%20ggmbh>;
+    xyz:name "Beratungsstelle Libelle";
+    xyz:streetAddress "Prinz-Wilhelm-Straße 3";
+    xyz:postalCode "76646";
+    xyz:addressLocality "Bruchsal";
+    xyz:telephone "072517130323";
+    xyz:url "https://www.sophie-ggmbh.de/beratungsstelle/".
+cdp:maennergewaltschutz-9007 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9007";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-wendepunkt;
+    xyz:name "Fachstelle gegen sexuellen Missbrauch an Mädchen und Jungen";
+    xyz:streetAddress "Talstraße 4";
+    xyz:postalCode "79102";
+    xyz:addressLocality "Freiburg";
+    xyz:telephone "07617071191";
+    xyz:url "https://www.wendepunkt-freiburg.de/content/main/fuer-frauen-maenner/beratung-begleitung/".
+cdp:maennergewaltschutz-9008 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9008";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-aufschrei;
+    xyz:name "Aufschrei!";
+    xyz:streetAddress "Hindenburgstraße 28";
+    xyz:postalCode "77654";
+    xyz:addressLocality "Offenburg";
+    xyz:telephone "078131000";
+    xyz:url "https://aufschrei-ortenau.de/beratung/";
+    xyz:email "offenburg@aufschrei-ortenau.de".
+cdp:maennergewaltschutz-9009 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9009";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-oekumenisches%20frauenhaus%20und%20fachstelle%20gegen%20haeusliche%20gewalt%20pforzheim%20enzkreis%20ggmbh>;
+    xyz:name "Fachstelle Häusliche Gewalt Pforzheim Enzkreis";
+    xyz:streetAddress "Melanchthonstraße 1";
+    xyz:postalCode "75173";
+    xyz:addressLocality "Pforzheim";
+    xyz:telephone "072314576333";
+    xyz:url "https://frauenhaus-pforzheim.de/fachstelle-haeusliche-gewalt-pforzheim-enzkreis/";
+    xyz:email "fachstelle.haeuslichegewalt@frauenhaus-pforzheim.de".
+cdp:maennergewaltschutz-9010 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9010";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-dioezese%20rottenburg%20stuttgart>;
+    xyz:name "RUF und RAT";
+    xyz:streetAddress "Hospitalstraße 26";
+    xyz:postalCode "70174";
+    xyz:addressLocality "Stuttgart";
+    xyz:telephone "07112262055";
+    xyz:url "https://ruf-und-rat.de/beratungsstelle/#tab-id-7";
+    xyz:email "beratungszentrum@ruf-und-rat.de".
+cdp:maennergewaltschutz-9011 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9011";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für betroffene von sexualisierter Gewalt.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-pfunzkerle;
+    xyz:name "AGIT";
+    xyz:streetAddress "Unter dem Holz 3";
+    xyz:postalCode "72072";
+    xyz:addressLocality "Tübingen";
+    xyz:telephone "070717911101";
+    xyz:url "https://www.pfunzkerle.org/sexualisierte-gewalt/kontaktansprechpartner/";
+    xyz:email "agit@pfunzkerle.org".
+cdp:maennergewaltschutz-9012 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9012";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-pro%20familia%20waiblingen>;
+    xyz:name "Flügel";
+    xyz:streetAddress "Alter Postplatz 17";
+    xyz:postalCode "71332";
+    xyz:addressLocality "Waiblingen";
+    xyz:telephone "07151982248940";
+    xyz:url "https://fluegel-waiblingen.de/beratung-fuer-maenner-bei-sexualisierter-gewalt/";
+    xyz:email "info@fluegel-waiblingen.de".
+cdp:maennergewaltschutz-9015 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9015";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-netz%20gegen%20sexuelle%20gewalt>;
+    xyz:name "Netz gegen sexuelle Gewalt Beratungsstelle Weilheim &amp; Oberland";
+    xyz:streetAddress "Lohgasse 3";
+    xyz:postalCode "82362";
+    xyz:addressLocality "Weilheim i.OB";
+    xyz:telephone "088192792294";
+    xyz:url "https://www.beratungsstelle-netz.de/de/erwachsene.html";
+    xyz:email "info@beratungsstelle-netz.de".
+cdp:maennergewaltschutz-9017 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9017";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-beratung%20und%20praevention>;
+    xyz:name "AVALON Fachberatungsstelle gegen sexualisierte Gewalt";
+    xyz:streetAddress "Casselmannstraße 15";
+    xyz:postalCode "95444";
+    xyz:addressLocality "Bayreuth";
+    xyz:telephone "+49921512525";
+    xyz:url "https://www.avalon-bayreuth.de/beratung_praevention/beratungsarbeit/";
+    xyz:email "info@avalon-bayreuth.de".
+cdp:maennergewaltschutz-9018 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9018";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von gewaltbetroffene Jungen und junge Männer. Auch Onlineberatung möglich.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-schlupfwinkel;
+    xyz:name "Jungenbüro Nürnberg";
+    xyz:streetAddress "Allersberger Straße 129";
+    xyz:postalCode "90461";
+    xyz:addressLocality "Nürnberg";
+    xyz:telephone "091152814751";
+    xyz:url "https://jungenbuero-nuernberg.de/";
+    xyz:email "info@jungenbuero-nuernberg.de".
+cdp:maennergewaltschutz-9019 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9019";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt. Auch Onlineberatung möglich.";
+    cdp:hasParent cdp:maennergewaltschutz-traeger-rauhreif;
+    xyz:name "Rauhreif - Hilfe bei sexualisierter Gewalt";
+    xyz:streetAddress "Platenstraße 28";
+    xyz:postalCode "91522";
+    xyz:addressLocality "Ansbach";
+    xyz:telephone "098198848";
+    xyz:url "https://rauhreif-ansbach.de/beratung/";
+    xyz:email "info@rauhreif-ansbach.de".
+cdp:maennergewaltschutz-9052 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9052";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-arche%20fuer%20frau%20und%20familie>;
+    xyz:name "Beratungsstelle für Betroffene häuslicher Gewalt";
+    xyz:streetAddress "Klosterhof 1";
+    xyz:postalCode "18209";
+    xyz:addressLocality "Bad Doberan";
+    xyz:telephone "01744355843";
+    xyz:url "https://www.arche-ev.de/angebote/onlineberatung/";
+    xyz:email "bst@arche-ev.de".
+cdp:maennergewaltschutz-9053 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9053";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung und Unterstützung für Betroffene sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen>;
+    xyz:name "Fachberatungsstelle gegen sexualisierte Gewalt Rostock";
+    xyz:streetAddress "Ernst-Haeckel-Straße 1";
+    xyz:postalCode "18059";
+    xyz:addressLocality "Rostock";
+    xyz:telephone "03814403290";
+    xyz:url "https://www.stark-machen.de/kontakt-fachberatungsstelle";
+    xyz:email "fachberatungsstelle@stark-machen.de".
+cdp:maennergewaltschutz-9054 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9054";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt und Stalking.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen>;
+    xyz:name "Interventionsstellen gegen häusliche Gewalt &amp; Stalking Rostock";
+    xyz:streetAddress "Heiligengeisthof 3";
+    xyz:postalCode "18055";
+    xyz:addressLocality "Rostock";
+    xyz:telephone "03814582938";
+    xyz:url "https://www.stark-machen.de/das-team-rostock/kontakt-rostock";
+    xyz:email "interventionsstelle.rostock@stark-machen.de".
+cdp:maennergewaltschutz-9055 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9055";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt und Stalking.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen>;
+    xyz:name "Interventionsstellen gegen häusliche Gewalt &amp; Stalking Stralsund";
+    xyz:streetAddress "Semlower Straße 13";
+    xyz:postalCode "18439";
+    xyz:addressLocality "Stralsund";
+    xyz:telephone "03831307750";
+    xyz:url "https://www.stark-machen.de/das-team-stralsund/kontakt-stralsund";
+    xyz:email "interventionsstelle.stralsund@stark-machen.de".
+cdp:maennergewaltschutz-9056 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9056";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt und Stalking";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-quo%20vadis>;
+    xyz:name "Interventionsstelle gegen häusliche Gewalt und Stalking Neubrandenburg";
+    xyz:streetAddress "Helmut- Just- Straße 4";
+    xyz:postalCode "17036";
+    xyz:addressLocality "Neubrandenburg";
+    xyz:telephone "03955584384";
+    xyz:url "https://www.quovadis-neubrandenburg.de/interventionsstelle-neubrandenburg/";
+    xyz:email "interventionsstelle-nb@web.de".
+cdp:maennergewaltschutz-9057 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9057";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-quo%20vadis>;
+    xyz:name "Maxi - Beratungsstelle sexualisierte Gewalt";
+    xyz:streetAddress "Helmut- Just- Straße 4";
+    xyz:postalCode "17036";
+    xyz:addressLocality "Neubrandenburg";
+    xyz:telephone "03955706661";
+    xyz:url "https://www.quovadis-neubrandenburg.de/maxi-beratungsstelle-sexualisierte-gewalt/";
+    xyz:email "bsmaxi@gmx.de".
+cdp:maennergewaltschutz-9058 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9058";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonie%20mecklenburgische%20seenplatte%20ggmbh>;
+    xyz:name "Beratungsstelle KLARA";
+    xyz:streetAddress "Lange Straße 35";
+    xyz:postalCode "17192";
+    xyz:addressLocality "Waren";
+    xyz:telephone "03991165111";
+    xyz:url "https://www.diakonie-mse.de/einrichtungen/beratungsstelle-klara";
+    xyz:email "klara@diakonie-mse.de".
+cdp:maennergewaltschutz-9059 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9059";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt und Stalking.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-shia%20wolgast>;
+    xyz:name "Interventionsstelle gegen häusliche Gewalt und Stalking Anklam/Wolgast";
+    xyz:streetAddress "Mühlentrift 4";
+    xyz:postalCode "17438";
+    xyz:addressLocality "Wolgast";
+    xyz:telephone "038362372700";
+    xyz:url "https://www.ist-anklam.de/";
+    xyz:email "ist.anklam@freenet.de".
+cdp:maennergewaltschutz-9060 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9060";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene sexualisierter Gewalt.";
+    xyz:name "Fachberatungsstelle gegen sexualisierte Gewalt Greifswald";
+    xyz:streetAddress "Bahnhofstraße 16";
+    xyz:postalCode "17489";
+    xyz:addressLocality "Greifswald";
+    xyz:telephone "+4938347983199";
+    xyz:url "https://www.caritas-vorpommern.de/caritasvorort/greifswald/beratungsstellefueropfersexuellergewalt/fachberatungsstelle-gegen-sexualisierte-gewalt";
+    xyz:email "anonym@caritas-vorpommern.de".
+cdp:maennergewaltschutz-9061 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9061";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-fair%20gewaltfrei%20und%20selbstbestimmt>;
+    xyz:name "M.I.S.S. Fachberatungsstelle gegen sexualisierte Gewalt";
+    xyz:streetAddress "Frankendamm 5";
+    xyz:postalCode "18439";
+    xyz:addressLocality "Stralsund";
+    xyz:telephone "038316679363";
+    xyz:url "https://miss-beratungsstelle.de/angebote/index.html";
+    xyz:email "kontakt@miss-beratungsstelle.de".
+cdp:maennergewaltschutz-9062 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9062";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für betroffene von sexualisierter Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20schwerin%20parchim>;
+    xyz:name "Beratungsstelle gegen sexualisierte Gewalt Schwerin";
+    xyz:streetAddress "Platz der Jugend 8";
+    xyz:postalCode "19053";
+    xyz:addressLocality "Schwerin";
+    xyz:telephone "03855557352";
+    xyz:url "https://www.awo-schwerin.de/fachbereiche/beratung-erziehung-lebensbewaeltigung/beratung/beratungsstelle-gegen-sexualisierte-gewalt";
+    xyz:email "bgsg@awo-schwerin.de".
+cdp:maennergewaltschutz-9063 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9063";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20ludwigslust>;
+    xyz:name "Beratungsstelle für Betroffene häuslicher Gewalt Parchim";
+    xyz:streetAddress "Ziegenmarkt 4 - 7";
+    xyz:postalCode "19370";
+    xyz:addressLocality "Parchim";
+    xyz:telephone "+493871265977";
+    xyz:url "https://www.awo-ludwigslust.de/hilfe-und-beratung/beratungsstelle-fuer-opfer-haeuslicher-gewalt/";
+    xyz:email "beratung-haeusliche-gewalt@awo-ludwigslust.de".
+cdp:maennergewaltschutz-9156 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9156";
+    xyz:angebotstyp "Beratungsstelle";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-drk%20kreisverband%20oestliche%20altmark>;
+    xyz:name "DRK Beratungs- und Interventionsstelle Miß-Mut";
+    xyz:streetAddress "Bruchstraße 1";
+    xyz:postalCode "39576";
+    xyz:addressLocality "Stendal";
+    xyz:telephone "03931210221";
+    xyz:url "https://www.drk-stendal.de/angebote/beratungs-und-interventionsstelle-miss-mut/ueber-uns.html";
+    xyz:email "miss-mut@drk-stendal.de".
+cdp:maennergewaltschutz-9194 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "9194";
+    xyz:angebotstyp "geschlechtsunabhängige Schutzwohnungen";
+    xyz:description "Schutzplatz für Erwachsene aller Geschlechter mit bis zu 4 Kindern verfügbar.";
+    xyz:name "Schutzwohnung des KJFH Rügen e.V.";
+    xyz:streetAddress "Goedeke-Micheel-Hof 1";
+    xyz:postalCode "18528";
+    xyz:addressLocality "Bergen auf Rügen";
+    xyz:telephone "03838201793";
+    xyz:url "https://www.jugendhilfe-ruegen.de/ankerlicht";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-kinder%20jugend%20und%20familienhilfe%20ruegen>;
+    xyz:email "nachricht@kjfh-ruegen.de".
+cdp:maennergewaltschutz-9438 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "9438";
+    xyz:angebotstyp "geschlechtsunabhängige Schutzwohnungen";
+    xyz:description "Schutzwohnungen für von häuslicher Gewalt betroffene Personen.";
+    xyz:name "Geschütztes Wohnen";
+    xyz:streetAddress "Prinz-Wilhelm-Straße 3 im 4. OG";
+    xyz:postalCode "76646";
+    xyz:addressLocality "Bruchsal";
+    xyz:telephone "072517130324";
+    xyz:url "https://www.sophie-ggmbh.de/schutzh%C3%A4user/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sophie%20ggmbh>;
+    xyz:email "geschuetztes-wohnen@sophie-ggmbh.de".
+cdp:maennergewaltschutz-9547 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9547";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Jungen und Männerberatung u.a. auch bei eigenen (häuslichen) Gewalterfahrungen.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste>;
+    xyz:name "Jungen- und Männerberatung Trier";
+    xyz:streetAddress "Röntgenstraße 4";
+    xyz:postalCode "54292";
+    xyz:addressLocality "Trier";
+    xyz:telephone "06511478819";
+    xyz:url "http://skm-trier.de/jungen-und-maennerberatung/";
+    xyz:email "machetanz@skm-trier.de".
+cdp:maennergewaltschutz-9576 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9576";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsstelle für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20warendorf>;
+    xyz:name "Beratungsstelle für Betroffene von häuslicher Gewalt";
+    xyz:streetAddress "Kirchstraße 5";
+    xyz:postalCode "48231";
+    xyz:addressLocality "Warendorf";
+    xyz:telephone "025819410116";
+    xyz:url "https://skm-warendorf.de/fachbereiche/krisen-und-gewaltberatung/betroffene-von-haeuslicher-gewalt/";
+    xyz:email "mail@skm-warendorf.de".
+cdp:maennergewaltschutz-9577 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9577";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratungsstelle für Betroffene von häuslicher Gewalt.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20warendorf>;
+    xyz:name "Beratungsstelle für Betroffene von häuslicher Gewalt";
+    xyz:streetAddress "Wibbeltstraße 2";
+    xyz:postalCode "59302";
+    xyz:addressLocality "Oelde";
+    xyz:telephone "0252283434720";
+    xyz:url "https://skm-warendorf.de/fachbereiche/krisen-und-gewaltberatung/betroffene-von-haeuslicher-gewalt/";
+    xyz:email "mail@skm-warendorf.de".
+cdp:maennergewaltschutz-9725 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "9725";
+    xyz:angebotstyp "Männerschutzwohnung";
+    xyz:description "Männerschutzwohnung Chemnitz";
+    xyz:name "Stadtmission Chemnitz";
+    xyz:streetAddress "Rembrandtstraße 13b";
+    xyz:postalCode "09111";
+    xyz:addressLocality "Chemnitz";
+    xyz:telephone "+493716004858";
+    xyz:url "https://www.stadtmission-chemnitz.de/unsere-angebote/angebote-fuer-menschen-in-notlagen/maennerschutz";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-stadtmission%20chemnitz>;
+    xyz:email "mse@stadtmission-chemnitz.de".
+cdp:maennergewaltschutz-9774 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:angebotSchema;
+    xyz:id "9774";
+    xyz:angebotstyp "geschlechtsunabhängige Schutzwohnungen";
+    xyz:description "Die LSBTIQ*-Schutzwohnung bietet eine anonyme, temporäre Unterkunft für volljährige Personen, die von Gewalt aufgrund ihrer sexuellen und/oder geschlechtlichen Identität bedroht sind, z.B. häusliche Gewalt und Zwangsverheiratung.";
+    xyz:name "LSBTI*-Krisenwohnung";
+    xyz:streetAddress "Rigaer Straße 55b";
+    xyz:postalCode "10247";
+    xyz:addressLocality "Berlin";
+    xyz:telephone "017616048496";
+    xyz:url "https://awo-schutzwohnung.de/";
+    cdp:providedBy <https://civic-data.de/pipeline#maennergewaltschutz-traeger-arbeiterwohlfahrt%20kreisverband%20berlin%20spree%20wuhle>;
+    xyz:email "erstkontakt@queere-schutzwohnung.de".
+cdp:maennergewaltschutz-9823 cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:beratungsstelleSchema;
+    xyz:id "9823";
+    xyz:angebotstyp "Beratungsstelle";
+    xyz:description "Beratung für von häuslicher Gewalt betroffene Männer.";
+    cdp:hasParent <https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialberatung%20stuttgart>;
+    xyz:name "Gewaltschutz für Männer";
+    xyz:streetAddress "Olgastraße 19";
+    xyz:postalCode "70182";
+    xyz:addressLocality "Stuttgart";
+    xyz:telephone "071133508784";
+    xyz:url "https://www.sozialberatung-stuttgart.de/seite/394985/gewaltschutz-f%C3%BCr-m%C3%A4nner-bei-h%C3%A4uslicher-gewalt.html";
+    xyz:email "gewaltschutz@sozialberatung-stuttgart.de".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-alexianer%20st%20josefs%20krankenhaus%20potsdam> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "alexianer st josefs krankenhaus potsdam";
+    xyz:name "Alexianer St. Josefs-Krankenhaus Potsdam".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-arbeiterwohlfahrt%20kreisverband%20berlin%20spree%20wuhle> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "arbeiterwohlfahrt kreisverband berlin spree wuhle";
+    xyz:name "Arbeiterwohlfahrt Kreisverband Berlin Spree-Wuhle e. V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-arche%20fuer%20frau%20und%20familie> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "arche fuer frau und familie";
+    xyz:name "Arche e.V. - für Frau und Familie".
+cdp:maennergewaltschutz-traeger-aufschrei cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "aufschrei";
+    xyz:name "Aufschrei e. V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20augsburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo augsburg";
+    xyz:name "AWO Augsburg".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20erzgebirge%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo erzgebirge ggmbh";
+    xyz:name "AWO Erzgebirge gGmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20ludwigslust> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo kreisverband ludwigslust";
+    xyz:name "AWO Kreisverband Ludwigslust e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20kreisverband%20schwerin%20parchim> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo kreisverband schwerin parchim";
+    xyz:name "AWO Kreisverband Schwerin-Parchim e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20landesverband%20sachsen%20anhalt> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo landesverband sachsen anhalt";
+    xyz:name "AWO Landesverband Sachsen-Anhalt e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20regionalverband%20halle%20merseburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo regionalverband halle merseburg";
+    xyz:name "AWO Regionalverband Halle-Merseburg e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20spi%20soziale%20stadt%20und%20land%20entwicklungsgesellschaft%20mbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo spi soziale stadt und land entwicklungsgesellschaft mbh";
+    xyz:name "AWO SPI Soziale Stadt und Land Entwicklungsgesellschaft mbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-awo%20werra%20meissner> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "awo werra meissner";
+    xyz:name "AWO Werra-Meißner e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-basis%20woge> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "basis woge";
+    xyz:name "basis & woge e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-beratung%20und%20praevention> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "beratung und praevention";
+    xyz:name "Beratung und Prävention e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-beratungsstelle%20hafen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "beratungsstelle hafen";
+    xyz:name "Beratungsstelle Hafen e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20geldern%20kevelaer> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas geldern kevelaer";
+    xyz:name "Caritas Geldern-Kevelaer".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-caritas%20nuernberg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "caritas nuernberg";
+    xyz:name "Caritas Nürnberg e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutscher%20kinderschutzbund%20ortsverband%20zittau> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "deutscher kinderschutzbund ortsverband zittau";
+    xyz:name "Deutscher Kinderschutzbund Ortsverband Zittau e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutscher%20kinderschutzbund%20ov%20torgau> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "deutscher kinderschutzbund ov torgau";
+    xyz:name "Deutscher Kinderschutzbund OV Torgau e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-deutsches%20rotes%20kreuz%20kreisverband%20uecker%20randow> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "deutsches rotes kreuz kreisverband uecker randow";
+    xyz:name "Deutsches Rotes Kreuz Kreisverband Uecker-Randow e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonie%20mecklenburgische%20seenplatte%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "diakonie mecklenburgische seenplatte ggmbh";
+    xyz:name "Diakonie Mecklenburgische Seenplatte gGmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonieverband%20reutlingen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "diakonieverband reutlingen";
+    xyz:name "Diakonieverband Reutlingen".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-diakonisches%20werk%20hamburg%20west%20suedholstein> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "diakonisches werk hamburg west suedholstein";
+    xyz:name "Diakonisches Werk Hamburg-West/Südholstein".
+cdp:maennergewaltschutz-traeger-dialog cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "dialog";
+    xyz:name "Dialog e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-dioezese%20rottenburg%20stuttgart> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "dioezese rottenburg stuttgart";
+    xyz:name "Diözese Rottenburg-Stuttgart".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-drk%20kreisverband%20oestliche%20altmark> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "drk kreisverband oestliche altmark";
+    xyz:name "DRK-Kreisverband Östliche Altmark e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-drk%20kreisverband%20pirna> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "drk kreisverband pirna";
+    xyz:name "DRK Kreisverband Pirna e. V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-fair%20gewaltfrei%20und%20selbstbestimmt> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "fair gewaltfrei und selbstbestimmt";
+    xyz:name "fair - gewaltfrei und selbstbestimmt e. V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-fairmann%20gug> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "fairmann gug";
+    xyz:name "fairmann gUG".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-flexible%20jugendhilfe> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "flexible jugendhilfe";
+    xyz:name "Flexible Jugendhilfe e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauen%20fuer%20frauen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "frauen fuer frauen";
+    xyz:name "Frauen für Frauen e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauen%20und%20kinderschutzhaus%20freiburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "frauen und kinderschutzhaus freiburg";
+    xyz:name "Frauen- und Kinderschutzhaus Freiburg e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenhilfe%20chemnitz> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "frauenhilfe chemnitz";
+    xyz:name "Frauenhilfe Chemnitz e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenhilfe%20muenchen%20gemeinnuetzige%20gmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "frauenhilfe muenchen gemeinnuetzige gmbh";
+    xyz:name "Frauenhilfe München gemeinnützige GmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauennotruf%20kiel> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "frauennotruf kiel";
+    xyz:name "Frauennotruf Kiel e. V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenschutzhaus%20bautzen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "frauenschutzhaus bautzen";
+    xyz:name "Frauenschutzhaus Bautzen e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-frauenschutzhaus%20dresden> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "frauenschutzhaus dresden";
+    xyz:name "Frauenschutzhaus Dresden e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-hanauer%20hilfe> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "hanauer hilfe";
+    xyz:name "HANAUER HILFE e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-hilfe%20fuer%20jungs> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "hilfe fuer jungs";
+    xyz:name "HILFE-FÜR-JUNGS e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-institut%20fuer%20soziale%20und%20kulturelle%20arbeit%20iska%20gemeinnuetzige%20gmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "institut fuer soziale und kulturelle arbeit iska gemeinnuetzige gmbh";
+    xyz:name "Institut für Soziale und Kulturelle Arbeit (ISKA) gemeinnützige GmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-interkulturelle%20begegnungsstaette> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "interkulturelle begegnungsstaette";
+    xyz:name "Interkulturelle Begegnungsstätte e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-katholischen%20gesamtkirchengemeinde%20freiburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "katholischen gesamtkirchengemeinde freiburg";
+    xyz:name "Katholischen Gesamtkirchengemeinde Freiburg".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-kinder%20jugend%20und%20familienhilfe%20ruegen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "kinder jugend und familienhilfe ruegen";
+    xyz:name "Kinder-, Jugend- und Familienhilfe Rügen e.V.", "Kinder,- Jugend- und Familienhilfe Rügen e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-klinikum%20bremen%20mitte> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "klinikum bremen mitte";
+    xyz:name "Klinikum Bremen-Mitte".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-kreisdiakonisches%20werk%20greifswald> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "kreisdiakonisches werk greifswald";
+    xyz:name "Kreisdiakonisches Werk Greifswald e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-kv%20toleranz%20inklusion%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "kv toleranz inklusion ggmbh";
+    xyz:name "KV Toleranz & Inklusion gGmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-lawaetz%20wohnen%20leben%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "lawaetz wohnen leben ggmbh";
+    xyz:name "Lawaetz wohnen&leben gGmbH".
+cdp:maennergewaltschutz-traeger-lemann cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "lemann";
+    xyz:name "LEMANN e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-lemann%20leipzig> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "lemann leipzig";
+    xyz:name "lemann e.V. Leipzig".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-maenner%20wohn%20hilfe> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "maenner wohn hilfe";
+    xyz:name "Männer-Wohn-Hilfe e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerbuero%20hannover> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "maennerbuero hannover";
+    xyz:name "Männerbüro Hannover e. V.", "Männerbüro Hannover e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennernetzwerk%20dresden> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "maennernetzwerk dresden";
+    xyz:name "Männernetzwerk Dresden e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-maennerwohnhilfe%20oldenburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "maennerwohnhilfe oldenburg";
+    xyz:name "Männerwohnhilfe e.V. Oldenburg".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-magnus%20hirschfeld%20zentrum> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "magnus hirschfeld zentrum";
+    xyz:name "Magnus Hirschfeld Zentrum".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-mann%20o%20meter> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "mann o meter";
+    xyz:name "Mann-O-Meter e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-muenchner%20informationszentrum%20fuer%20maenner> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "muenchner informationszentrum fuer maenner";
+    xyz:name "Münchner Informationszentrum für Männer e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-netz%20gegen%20sexuelle%20gewalt> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "netz gegen sexuelle gewalt";
+    xyz:name "Netz gegen sexuelle Gewalt e. V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-oekumenisches%20frauenhaus%20und%20fachstelle%20gegen%20haeusliche%20gewalt%20pforzheim%20enzkreis%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "oekumenisches frauenhaus und fachstelle gegen haeusliche gewalt pforzheim enzkreis ggmbh";
+    xyz:name "Ökumenisches Frauenhaus und Fachstelle gegen häusliche Gewalt Pforzheim / Enzkreis gGmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-opfer%20taeterhilfe> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "opfer taeterhilfe";
+    xyz:name "Opfer-Täterhilfe e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20berlin> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "opferhilfe berlin";
+    xyz:name "Opferhilfe Berlin e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20hamburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "opferhilfe hamburg";
+    xyz:name "Opferhilfe Hamburg e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20land%20brandenburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "opferhilfe land brandenburg";
+    xyz:name "Opferhilfe Land Brandenburg e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20sachsen%20bautzen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "opferhilfe sachsen bautzen";
+    xyz:name "Opferhilfe Sachsen e.V. Bautzen".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-opferhilfe%20sachsen%20leipzig> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "opferhilfe sachsen leipzig";
+    xyz:name "Opferhilfe Sachsen e.V. Leipzig".
+cdp:maennergewaltschutz-traeger-pfunzkerle cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "pfunzkerle";
+    xyz:name "Pfunzkerle e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-pro%20familia%20flensburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "pro familia flensburg";
+    xyz:name "pro familia Flensburg".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-pro%20familia%20waiblingen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "pro familia waiblingen";
+    xyz:name "pro familia Waiblingen e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-quo%20vadis> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "quo vadis";
+    xyz:name "Quo vadis e.V.".
+cdp:maennergewaltschutz-traeger-rauhreif cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "rauhreif";
+    xyz:name "Rauhreif e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-reisende%20werkschule%20scholen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "reisende werkschule scholen";
+    xyz:name "reisende werkschule scholen e.V.".
+cdp:maennergewaltschutz-traeger-schlupfwinkel cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "schlupfwinkel";
+    xyz:name "Schlupfwinkel e.V.".
+cdp:maennergewaltschutz-traeger-schutzhoehle cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "schutzhoehle";
+    xyz:name "Schutzhöhle e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-shia%20wolgast> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "shia wolgast";
+    xyz:name "SHIA e.V. Wolgast".
+cdp:maennergewaltschutz-traeger-skf cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skf";
+    xyz:name "SkF e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skf%20giessen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skf giessen";
+    xyz:name "SkF e.V. Gießen".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skf%20muenster> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skf muenster";
+    xyz:name "SkF Münster".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20augsburg> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm augsburg";
+    xyz:name "SKM Augsburg e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm ggmbh";
+    xyz:name "SKM gGmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20ggmbh%20duesseldorf> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm ggmbh duesseldorf";
+    xyz:name "SKM gGmbH Düsseldorf".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20herford> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm herford";
+    xyz:name "SKM Herford e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20katholischer%20verein%20fuer%20soziale%20dienste> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm katholischer verein fuer soziale dienste";
+    xyz:name "SKM- Katholischer Verein für soziale Dienste e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20koeln> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm koeln";
+    xyz:name "SKM Köln e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20krefeld> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm krefeld";
+    xyz:name "SKM Krefeld".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20landkreis%20sigmaringen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm landkreis sigmaringen";
+    xyz:name "SKM Landkreis Sigmaringen".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20neuss> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm neuss";
+    xyz:name "SKM Neuss e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20osnabrueck> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm osnabrueck";
+    xyz:name "SKM Osnabrück e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rhein%20sieg%20kreis> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm rhein sieg kreis";
+    xyz:name "SKM Rhein-Sieg-Kreis e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20rheydt> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm rheydt";
+    xyz:name "SKM Rheydt e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-skm%20warendorf> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "skm warendorf";
+    xyz:name "SKM Warendorf e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-sophie%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "sophie ggmbh";
+    xyz:name "SopHiE gGmbH".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialberatung%20stuttgart> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "sozialberatung stuttgart";
+    xyz:name "Sozialberatung Stuttgart e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialdienst%20katholischer%20frauen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "sozialdienst katholischer frauen";
+    xyz:name "Sozialdienst katholischer Frauen e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-sozialdienst%20katholischer%20frauen%20saarland> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "sozialdienst katholischer frauen saarland";
+    xyz:name "Sozialdienst katholischer Frauen Saarland e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-stadtmission%20chemnitz> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "stadtmission chemnitz";
+    xyz:name "Stadtmission Chemnitz e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-stark%20machen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "stark machen";
+    xyz:name "STARK MACHEN e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-stiftung%20opferhilfe%20niedersachsen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "stiftung opferhilfe niedersachsen";
+    xyz:name "Stiftung Opferhilfe Niedersachsen".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-taeter%20opfer%20ausgleich%20bremen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "taeter opfer ausgleich bremen";
+    xyz:name "Täter-Opfer-Ausgleich Bremen e. V.".
+cdp:maennergewaltschutz-traeger-tauwetter cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "tauwetter";
+    xyz:name "Tauwetter e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-verein%20gegen%20sexualisierte%20gewalt%20kassel> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "verein gegen sexualisierte gewalt kassel";
+    xyz:name "Verein gegen sexualisierte Gewalt Kassel e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-vereint%20gegen%20gewalt> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "vereint gegen gewalt";
+    xyz:name "Vereint gegen Gewalt e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-verikom%20ggmbh> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "verikom ggmbh";
+    xyz:name "verikom gGmbH".
+cdp:maennergewaltschutz-traeger-vsgb cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "vsgb";
+    xyz:name "VSGB e.V.".
+cdp:maennergewaltschutz-traeger-wegweiser cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "wegweiser";
+    xyz:name "Wegweiser e.V.".
+cdp:maennergewaltschutz-traeger-weissenberg cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "weissenberg";
+    xyz:name "Weissenberg e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-weisser%20ring> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "weisser ring";
+    xyz:name "Weisser Ring e.V.".
+cdp:maennergewaltschutz-traeger-wendepunkt cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "wendepunkt";
+    xyz:name "Wendepunkt e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20chemnitz%20erzgebirge%20und%20umland> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "wildwasser chemnitz erzgebirge und umland";
+    xyz:name "WILDWASSER Chemnitz, Erzgebirge und Umland e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20giessen> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "wildwasser giessen";
+    xyz:name "Wildwasser Gießen e.V.".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-wildwasser%20zwickauer%20land> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "wildwasser zwickauer land";
+    xyz:name "Wildwasser ZWICKAUer Land e.V".
+<https://civic-data.de/pipeline#maennergewaltschutz-traeger-zartbitter%20muenster> cdp:fromSource cdp:maennergewaltschutzSource;
+    cdp:targetSchema cdp:traegerSchema;
+    cdp:matchString "zartbitter muenster";
+    xyz:name "Zartbitter Münster e.V.".

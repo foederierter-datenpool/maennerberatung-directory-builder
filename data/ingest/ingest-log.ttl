@@ -1,0 +1,19 @@
+@prefix :      <https://civic-data.de/pipeline#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+:fetchMaennerberatungsnetz a :Fetch, p-plan:Step ; :fromSource :maennerberatungsnetzSource .
+:fetchMaennergewaltschutz a :Fetch, p-plan:Step ; :fromSource :maennergewaltschutzSource .
+:fetchEchteMaennerReden a :Fetch, p-plan:Step ; :fromSource :echteMaennerRedenSource .
+:liftMaennerberatungsnetz a :Lift, p-plan:Step ; :fromSource :maennerberatungsnetzSource ; p-plan:isPrecededBy :fetchMaennerberatungsnetz .
+:liftMaennergewaltschutz a :Lift, p-plan:Step ; :fromSource :maennergewaltschutzSource ; p-plan:isPrecededBy :fetchMaennergewaltschutz .
+:liftEchteMaennerReden a :Lift, p-plan:Step ; :fromSource :echteMaennerRedenSource ; p-plan:isPrecededBy :fetchEchteMaennerReden .
+
+:run20260824124748 a :IngestRun ;
+    prov:startedAtTime "2026-08-24T12:47:48.162Z"^^xsd:dateTime ;
+    prov:endedAtTime   "2026-08-24T12:48:48.294Z"^^xsd:dateTime ;
+    :harvested
+        [ :ofSource :maennerberatungsnetzSource ; prov:atTime "2026-08-24T12:47:48.166Z"^^xsd:dateTime ; :staticCommittedAt "2026-06-30T13:10:18+02:00"^^xsd:dateTime ] ,
+        [ :ofSource :maennergewaltschutzSource ; prov:atTime "2026-08-24T12:47:52.116Z"^^xsd:dateTime ] ,
+        [ :ofSource :echteMaennerRedenSource ; prov:atTime "2026-08-24T12:48:40.474Z"^^xsd:dateTime ] .

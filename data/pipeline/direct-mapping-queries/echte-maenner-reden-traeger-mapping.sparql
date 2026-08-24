@@ -1,0 +1,30 @@
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX cdf: <https://civic-data.de/federated-directory#>
+PREFIX schema: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?entity a schema:Organization ; cdp:fromSource cdp:echteMaennerRedenSource .
+        ?entity schema:name ?org .
+        ?entity schema:streetAddress ?street .
+        ?entity schema:postalCode ?postalCode .
+        ?entity schema:addressLocality ?locality .
+        ?entity schema:telephone ?phone .
+        ?entity foaf:homepage ?website .
+    }
+} WHERE {
+    GRAPH <urn:source:echteMaennerReden> {
+        ?entity cdp:fromSource cdp:echteMaennerRedenSource .
+        OPTIONAL { ?entity cdp:targetSchema ?_ts }
+        FILTER(!bound(?_ts) || ?_ts = cdp:traegerSchema)
+        OPTIONAL { ?entity xyz:org ?org . FILTER(isLiteral(?org) && REPLACE(STR(?org), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:street ?street . FILTER(isLiteral(?street) && REPLACE(STR(?street), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:postalCode ?postalCode . FILTER(isLiteral(?postalCode) && REPLACE(STR(?postalCode), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:locality ?locality . FILTER(isLiteral(?locality) && REPLACE(STR(?locality), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:phone ?phone . FILTER(isLiteral(?phone) && REPLACE(STR(?phone), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:website ?website . FILTER(isLiteral(?website) && REPLACE(STR(?website), "\\s+", "") != "") }
+    }
+}
